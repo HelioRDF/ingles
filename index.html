@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo de controle de velocidade personalizado para elemento audio</title>
+    <link rel="stylesheet" type="text/css" href="estillo.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <audio id="my-audio" src="audio.mp3"></audio>
+    <div>
+        <label for="speed">Velocidade:</label>
+        <select id="speed" onchange="changeSpeed()">
+            <option value="1">Normal</option>
+            <option value="0.7" selected>0.7x</option>
+            <option value="0.5">0.5x</option>
+            <option value="1.5">1.5x</option>
+            <option value="2">2x</option>
+        </select>
+    </div>
+    </br>
+    <label for="audio">Hello:</label>
+    <button onclick="playAudio()" class="play-button">
+        <i class="fas fa-play"></i>
+    </button>
+    </div>
+
+    <script>
+        const audio = document.getElementById('my-audio');
+        const speedControl = document.getElementById('speed');
+
+        function playAudio() {
+            audio.play();
+        }
+
+        function pauseAudio() {
+            audio.pause();
+        }
+
+        function changeSpeed() {
+            audio.playbackRate = speedControl.value;
+        }
+    </script>
+</body>
+
+</html>

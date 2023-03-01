@@ -1,0 +1,43 @@
+button {
+    background-color: #4CAF50; /* cor de fundo */
+    border: none; /* sem borda */
+    color: white; /* cor do texto */
+    padding: 10px 22px; /* espaçamento interno */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* sem sublinhado */
+    display: inline-block; /* exibição inline */
+    font-size: 12px; /* tamanho da fonte */
+    margin: 4px 2px; /* margem */
+    cursor: pointer; /* cursor */
+    border-radius: 8px; /* borda arredondada */
+    transition-duration: 0.4s; /* duração da transição */
+  }
+  
+  button:hover {
+    background-color: #008CBA; /* cor de fundo ao passar o mouse */
+    color: white; /* cor do texto ao passar o mouse */
+  }
+  
+  label {
+    font-size: 16px; /* tamanho da fonte */
+    color: #333; /* cor do texto */
+    display: inline-block; /* exibir em linha */
+    margin-bottom: 10px; /* margem inferior */
+  }
+  
+  select {
+    font-size: 16px; /* tamanho da fonte */
+    padding: 8px; /* espaçamento interno */
+    border: 1px solid #ccc; /* borda */
+    border-radius: 4px; /* borda arredondada */
+    background-color: #fff; /* cor de fundo */
+    color: #333; /* cor do texto */
+    width: 200px; /* largura */
+  }
+  
+  select:focus {
+    outline: none; /* remover contorno ao focar */
+    border-color: #f1c40f; /* cor da borda ao focar */
+    box-shadow: 0 0 5px #f1c40f; /* sombra ao focar */
+  }
+  
