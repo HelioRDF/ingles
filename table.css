@@ -1,0 +1,39 @@
+thead tr th {
+    font-size: 20px;
+    color: #bb1a1a;
+}
+
+td,
+th,
+caption {
+    border: 1px dotted black;
+    padding: 16px;
+}
+
+th {
+    font-size: 14px;
+    /* tamanho da fonte */
+}
+
+td {
+    font-size: 24px;
+    /* tamanho da fonte */
+}
+
+caption {
+    background-color: #1a1a1ae0;
+    color: white;
+    font-size: 20px;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#myTable th,
+#myTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}

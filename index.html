@@ -3,8 +3,10 @@
 
 <head>
     <title>Inglês</title>
+
     <link rel="stylesheet" type="text/css" href="estilo.css" />
     <link rel="stylesheet" type="text/css" href="cabecalho.css" />
+    <link rel="stylesheet" type="text/css" href="table.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 
@@ -13,31 +15,32 @@
         <div class="logo">
             <a href="#">English Review</a>
         </div>
+
+        <div>
+            <label for="speed">Velocidade:</label>
+            <select id="speed" onchange="changeSpeed()">
+                <option value="0.5">0.5x</option>
+                <option value="0.6">0.6x</option>
+                <option value="0.7" selected>0.7x</option>
+                <option value="0.8">0.8x</option>
+                <option value="0.9">0.9x</option>
+                <option value="1">Normal</option>
+                <option value="1.5">1.5x</option>
+            </select>
+        </div>
+
         <nav>
             <ul>
                 <li><a href="#">Alfabeto</a></li>
                 <li><a href="#">Verbo</a></li>
                 <li><a href="#">Gramatica</a></li>
-                </ul>
+            </ul>
         </nav>
     </header>
 
     <div id="audio">
         <!-- Adicionar audio de forma dinamica -->
         <audio id="to" class="play" src="./audio/to.mp3"></audio>
-    </div>
-    <div>
-        <br />
-        <label for="speed">Velocidade:</label>
-        <select id="speed" onchange="changeSpeed()">
-            <option value="0.5">0.5x</option>
-            <option value="0.6" >0.6x</option>
-            <option value="0.7" selected>0.7x</option>
-            <option value="0.8" >0.8x</option>
-            <option value="0.9" >0.9x</option>
-            <option value="1">Normal</option>
-            <option value="1.5">1.5x</option>
-        </select>
     </div>
 
     <label>Para o Verbo Puro é necessário usar o </label>
@@ -54,25 +57,12 @@
                 <th scope="col">Ilustração</th>
             </tr>
         </thead>
-        <!-- Inclusão dinamica via config.js -->
+        <tbody>
+            <!-- Inclusão dinamica via config.js -->
+        </tbody>
     </table>
 
     <script>
-        const speedControl = document.getElementById('speed');
-
-
-        function playAudio(id) {
-            const audio = document.getElementById(id);
-            audio.play();
-        }
-
-        function changeSpeed() {
-            let audioControl = document.getElementsByClassName("play")
-            for (i = 0; i < audioControl.length; i++) {
-                audioControl[i].playbackRate = speedControl.value;
-                console.log(audioControl[i])
-            }
-        }
     </script>
 </body>
 

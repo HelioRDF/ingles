@@ -1,50 +1,48 @@
-
-
 $(() => {
-
     grupoA.forEach(element => {
-        console.log(element)
         addTableVerbo(element)
     });
-    
-
     let audioControl = document.getElementsByClassName("play")
     for (i = 0; i < audioControl.length; i++) {
         audioControl[i].playbackRate = speedControl.value;
-        console.log(audioControl[i])
     }
 })
 
+function playAudio(id) {
+    const audio = document.getElementById(id);
+    audio.play();
+}
+
+const speedControl = document.getElementById('speed');
+function changeSpeed() {
+    let audioControl = document.getElementsByClassName("play")
+    for (i = 0; i < audioControl.length; i++) {
+        audioControl[i].playbackRate = speedControl.value;
+    }
+}
 
 function addTableVerbo(palavras) {
-
     let id = palavras.id;
     let palavraIngles = palavras.palavraIngles;
     let palavraPortugues = palavras.palavraPortugues;
-
     let divAudio = $("#audio")
     let audio = $("<audio>").attr("id", palavraIngles).attr("class", "play").attr("src", `./audio/${palavraIngles}.mp3`)
     divAudio.append(audio)
-
     let trTable = $("<tr>");
     let thTableId = $("<th>").attr("scope", "row").text(id);
     let iconePlay = $("<i>").attr("class", "fas fa-play material-icons")
     let button = $("<button>").attr("type", "button").attr("class", "play-button").attr("onclick", `playAudio('${palavraIngles}')`).append(iconePlay);;
     let tdTableButton = $("<td>").attr("scope", "row").append(button);
     let tdTablePalavra = $("<td>").attr("scope", "row").text(palavraIngles);
-
     let imagem = $("<img>").attr("src", `./imagem/${palavraIngles}.png`).attr("alt", palavraPortugues).attr("title", palavraPortugues).attr("width", 55).attr("class", 'ilustracao');
     let tdTableImagem = $("<td>").attr("scope", "row").append(imagem);
-
     trTable.append(thTableId);
     trTable.append(tdTableButton);
     trTable.append(tdTablePalavra);
     trTable.append(tdTableImagem);
-
-    table = $("#myTable");
+    table = $("tbody");
     table.append(trTable);
 }
-
 
 const grupoA =
     [{
@@ -123,13 +121,11 @@ const grupoA =
         id: 15,
         palavraIngles: "burn",
         palavraPortugues: "queimar",
-    },  
+    },
     {
         id: 16,
         palavraIngles: "buy",
         palavraPortugues: "comprar",
     },
-
-
     ]
 
