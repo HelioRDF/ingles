@@ -164,6 +164,36 @@ const grupoA =
         palavraIngles: "cry",
         palavraPortugues: "chorar",
     },
+    {
+        id: 24,
+        palavraIngles: "dance",
+        palavraPortugues: "dançar",
+    },
+    {
+        id: 25,
+        palavraIngles: "date",
+        palavraPortugues: "namorar",
+    },
+    {
+        id: 26,
+        palavraIngles: "do",
+        palavraPortugues: "fazer",
+    },
+    {
+        id: 27,
+        palavraIngles: "dream",
+        palavraPortugues: "sonhar",
+    },
+    {
+        id: 28,
+        palavraIngles: "drink",
+        palavraPortugues: "beber",
+    },
+    {
+        id: 29,
+        palavraIngles: "drive",
+        palavraPortugues: "dirigir",
+    },
 
 
     ]
