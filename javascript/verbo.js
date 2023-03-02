@@ -33,8 +33,8 @@ function addTableVerbo(palavras) {
     let iconePlay = $("<i>").attr("class", "fas fa-play material-icons")
     let button = $("<button>").attr("type", "button").attr("class", "play-button").attr("onclick", `playAudio('${palavraIngles}')`).append(iconePlay);;
     let tdTableButton = $("<td>").attr("scope", "row").append(button);
-    let tdTablePalavra = $("<td>").attr("scope", "row").text(palavraIngles);
-    let imagem = $("<img>").attr("src", `./imagem/${palavraIngles}.png`).attr("alt", palavraPortugues).attr("title", palavraPortugues).attr("width", 55).attr("class", 'ilustracao');
+    let tdTablePalavra = $("<td>").attr("scope", "row").text(palavraIngles.toUpperCase());
+    let imagem = $("<img>").attr("src", `./imagem/${palavraIngles}.png`).attr("alt", palavraPortugues).attr("title", palavraPortugues).attr("width", 64).attr("class", 'ilustracao');
     let tdTableImagem = $("<td>").attr("scope", "row").append(imagem);
     trTable.append(thTableId);
     trTable.append(tdTableButton);
@@ -127,5 +127,42 @@ const grupoA =
         palavraIngles: "buy",
         palavraPortugues: "comprar",
     },
+    {
+        id: 17,
+        palavraIngles: "call",
+        palavraPortugues: "chamar",
+    },
+    {
+        id: 18,
+        palavraIngles: "clean",
+        palavraPortugues: "limpar",
+    },
+    {
+        id: 19,
+        palavraIngles: "comb",
+        palavraPortugues: "pentear",
+    },
+    {
+        id: 20,
+        palavraIngles: "come",
+        palavraPortugues: "vir",
+    },
+    {
+        id: 21,
+        palavraIngles: "come back",
+        palavraPortugues: "voltar",
+    },
+    {
+        id: 22,
+        palavraIngles: "cook",
+        palavraPortugues: "cozinhar",
+    },
+    {
+        id: 23,
+        palavraIngles: "cry",
+        palavraPortugues: "chorar",
+    },
+
+
     ]
 

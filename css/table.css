@@ -1,5 +1,5 @@
 thead tr th {
-    font-size: 20px;
+    font-size: 22px;
     color: #bb1a1a;
 }
 
@@ -23,7 +23,7 @@ td {
 caption {
     background-color: #1a1a1ae0;
     color: white;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 #myTable {

@@ -9,7 +9,7 @@ button {
   /* sem borda */
   color: white;
   /* cor do texto */
-  padding: 12px 10px 10px 16px;
+  padding: 14px 14px 12px 18px;
   /* espaçamento interno */
   text-align: center;
   /* alinhamento do texto */
@@ -17,7 +17,7 @@ button {
   /* sem sublinhado */
   display: inline-block;
   /* exibição inline */
-  font-size: 8px;
+  font-size: 12px;
   /* tamanho da fonte */
   margin: 4px 2px;
   /* margem */
