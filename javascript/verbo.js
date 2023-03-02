@@ -50,7 +50,8 @@ function addTableVerbo(palavras, id) {
         "row").text(palavraPortugues.toUpperCase());
     let imagem = $("<img>").attr("src", `./imagem/${palavraIngles
         }.png`).attr("alt", palavraPortugues).attr("title", palavraPortugues).attr("width",
-            64).attr("class", 'ilustracao');
+            64).attr("class", 'ilustracao').attr("onerror","this.src='./imagem/em-breve.png'");
+            
     let tdTableImagem = $("<td>").attr("scope",
         "row").append(imagem);
     trTable.append(thTableId);
@@ -358,7 +359,7 @@ const grupoA =
         },
         {
             palavraIngles: "look for",
-            palavraPortugues: "esquecer",
+            palavraPortugues: "procurar",
         },
         {
             palavraIngles: "lose",
