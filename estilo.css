@@ -1,3 +1,12 @@
+body{
+  margin: 5%;
+}
+
+thead tr th {
+  font-size: 18px;
+  color: #bb1a1a;
+}
+
 button {
   background-color: #008CBA;
   /* cor de fundo */
@@ -5,7 +14,7 @@ button {
   /* sem borda */
   color: white;
   /* cor do texto */
-  padding: 10px 8px 8px 14px;
+  padding: 12px 10px 10px 16px;
   /* espaçamento interno */
   text-align: center;
   /* alinhamento do texto */
@@ -31,6 +40,14 @@ button:hover {
   /* cor de fundo ao passar o mouse */
   color: white;
   /* cor do texto ao passar o mouse */
+}
+
+#button-to {
+  font-size: 12px;
+  padding: 10px 12px 8px 14px;
+  background-color: #1a1a1ae0;
+
+
 }
 
 .material-icons {
@@ -93,11 +110,16 @@ th {
 }
 
 td {
-  font-size: 18px;
+  font-size: 24px;
   /* tamanho da fonte */
 }
 
 caption {
   background-color: #1a1a1ae0;
-  color: white
+  color: white;
+  font-size:20px;
+}
+
+.ilustracao {
+  padding: 10px;
 }
