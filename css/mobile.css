@@ -1,0 +1,33 @@
+/* Estilo para telas menores */
+@media screen and (max-width: 600px) {
+    /* Esconder cabeçalho da tabela */
+    thead {
+      display: none;
+    }
+    /* Exibir células como blocos empilhados */
+    tr {
+      display: block;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+    }
+    /* Estilo das células de dados */
+    td {
+      display: block;
+      text-align: right;
+      font-size: 13px;
+      border-bottom: none;
+    }
+    /* Estilo das células de cabeçalho */
+    td:before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  Este código define estilos básicos para a tabela e, em seguida, usa uma regra de mídia query para alterar o estilo para telas menores. Quando a largura da tela for menor ou igual a 600 pixels, a tabela será transformada em uma série de blocos empilhados com as células de dados exibidas em colunas. O cabeçalho da tabela será ocultado e as células de dados terão um estilo diferente, incluindo o uso do pseudo-elemento ":before" para exibir o texto do cabeçalho da célula como uma etiqueta. Você pode ajustar as propriedades CSS para atender às suas necessidades de design.
+  
+  
+  
+  
+  
