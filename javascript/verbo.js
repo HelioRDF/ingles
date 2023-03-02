@@ -34,11 +34,13 @@ function addTableVerbo(palavras) {
     let button = $("<button>").attr("type", "button").attr("class", "play-button").attr("onclick", `playAudio('${palavraIngles}')`).append(iconePlay);;
     let tdTableButton = $("<td>").attr("scope", "row").append(button);
     let tdTablePalavra = $("<td>").attr("scope", "row").text(palavraIngles.toUpperCase());
+    let tdTabletTraducao = $("<td>").attr("scope", "row").text(palavraPortugues.toUpperCase());
     let imagem = $("<img>").attr("src", `./imagem/${palavraIngles}.png`).attr("alt", palavraPortugues).attr("title", palavraPortugues).attr("width", 64).attr("class", 'ilustracao');
     let tdTableImagem = $("<td>").attr("scope", "row").append(imagem);
     trTable.append(thTableId);
     trTable.append(tdTableButton);
     trTable.append(tdTablePalavra);
+    trTable.append(tdTabletTraducao);
     trTable.append(tdTableImagem);
     table = $("tbody");
     table.append(trTable);
