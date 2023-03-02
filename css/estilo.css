@@ -52,7 +52,7 @@ button:hover {
 }
 
 label {
-  font-size: 18px;
+  font-size: 22px;
   /* tamanho da fonte */
   color: #333;
   /* cor do texto */
@@ -65,7 +65,7 @@ label {
 }
 
 select {
-  font-size: 12px;
+  font-size: 20px;
   /* tamanho da fonte */
   padding: 6px;
   /* espaçamento interno */
