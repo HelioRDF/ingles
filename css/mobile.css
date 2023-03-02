@@ -1,5 +1,9 @@
 /* Estilo para telas menores */
 @media screen and (max-width: 600px) {
+
+    label, select{
+        font-size: 20px;
+    }
     /* Esconder cabeçalho da tabela */
     thead {
       display: none;
