@@ -590,7 +590,7 @@ const grupoA =
             palavraPortugues: "ligar",
         },
         {
-            palavraIngles: " understand",
+            palavraIngles: "understand",
             palavraPortugues: "entender",
         },
         {
