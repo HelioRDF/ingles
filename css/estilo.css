@@ -1,5 +1,5 @@
 body{
-  margin: 5%;
+  margin: 6%;
 }
 
 button {
@@ -60,6 +60,8 @@ label {
   /* exibir em linha */
   margin-bottom: 10px;
   /* margem inferior */
+  margin-top: 10px;
+   /* margem superior */
 }
 
 select {
