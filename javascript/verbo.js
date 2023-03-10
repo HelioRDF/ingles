@@ -56,9 +56,9 @@ function addTableVerbo(palavras, id) {
         "row").append(imagem);
     trTable.append(thTableId);
     trTable.append(tdTableButton);
+    trTable.append(tdTableImagem);
     trTable.append(tdTablePalavra);
     trTable.append(tdTabletTraducao);
-    trTable.append(tdTableImagem);
     table = $("tbody");
     table.append(trTable);
 }
