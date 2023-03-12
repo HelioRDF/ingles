@@ -95,5 +95,81 @@ const numero =
             palavraIngles: "ten",
             palavraPortugues: "10",
         },
+        {
+            palavraIngles: "eleven",
+            palavraPortugues: "11",
+        },
+        {
+            palavraIngles: "twelve",
+            palavraPortugues: "12",
+        },
+        {
+            palavraIngles: "thirteen",
+            palavraPortugues: "13",
+        },
+        {
+            palavraIngles: "fourteen",
+            palavraPortugues: "14",
+        },
+        {
+            palavraIngles: "fifteen",
+            palavraPortugues: "15",
+        },
+        {
+            palavraIngles: "sixteen",
+            palavraPortugues: "16",
+        },
+        {
+            palavraIngles: "seventeen",
+            palavraPortugues: "17",
+        },
+        {
+            palavraIngles: "eighteen",
+            palavraPortugues: "18",
+        },
+        {
+            palavraIngles: "nineteen",
+            palavraPortugues: "19",
+        },
+        {
+            palavraIngles: "twenty",
+            palavraPortugues: "20",
+        },
+        {
+            palavraIngles: "twenty one",
+            palavraPortugues: "21",
+        },
+        {
+            palavraIngles: "twenty two",
+            palavraPortugues: "22",
+        },
+        {
+            palavraIngles: "twenty three",
+            palavraPortugues: "23",
+        },
+        {
+            palavraIngles: "twenty four",
+            palavraPortugues: "24",
+        },
+        {
+            palavraIngles: "twenty five",
+            palavraPortugues: "25",
+        },
+        {
+            palavraIngles: "twenty six",
+            palavraPortugues: "26",
+        },
+        {
+            palavraIngles: "twenty seven",
+            palavraPortugues: "27",
+        },
+        {
+            palavraIngles: "twenty eight",
+            palavraPortugues: "28",
+        },
+        {
+            palavraIngles: "twenty nine",
+            palavraPortugues: "29",
+        },
     ]
 
