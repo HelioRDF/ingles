@@ -34,7 +34,7 @@ function addTable(palavras, id, table) {
     let palavraPortugues = palavras.palavraPortugues;
     let divAudio = $("#audio")
     let audio = $("<audio>").attr("id", palavraIngles).attr("class",
-        "play").attr("src", `./audio/${palavraIngles
+        "play").attr("src", `./audio/alfabeto/${palavraIngles
             }.mp3`)
     divAudio.append(audio)
     let trTable = $("<tr>");
@@ -52,15 +52,15 @@ function addTable(palavras, id, table) {
         "row").text(palavraIngles.toUpperCase());
     let tdTabletTraducao = $("<td>").attr("scope",
         "row").text(palavraPortugues.toUpperCase());
-  
+
 
 
     trTable.append(thTableId);
     trTable.append(tdTableButton);
-   
+
     trTable.append(tdTablePalavra);
     trTable.append(tdTabletTraducao);
-    table = $("#"+table);
+    table = $("#" + table);
     table.append(trTable);
 }
 
@@ -75,7 +75,7 @@ const vogal =
             palavraPortugues: "I",
         }, {
             palavraIngles: "I",
-            palavraPortugues: "Ai",
+            palavraPortugues: "Ái",
         }, {
             palavraIngles: "O",
             palavraPortugues: "OU",
@@ -85,7 +85,7 @@ const vogal =
         },
     ]
 
-    const alfabeto =
+const alfabeto =
     [
         {
             palavraIngles: "A",
@@ -95,10 +95,108 @@ const vogal =
             palavraIngles: "B",
             palavraPortugues: "BI",
         }, {
-            palavraIngles: "CI",
-            palavraPortugues: "Ai",
+            palavraIngles: "C",
+            palavraPortugues: "CI",
         }, {
-            palavraIngles: "DI",
+            palavraIngles: "D",
+            palavraPortugues: "DI",
+        },
+        {
+            palavraIngles: "E",
+            palavraPortugues: "I",
+        },
+        {
+            palavraIngles: "F",
+            palavraPortugues: "ÉF",
+        },
+        {
+            palavraIngles: "G",
+            palavraPortugues: "GI",
+        },
+        {
+            palavraIngles: "H",
+            palavraPortugues: "EICH",
+        },
+        {
+            palavraIngles: "I",
+            palavraPortugues: "ÁI",
+        },
+
+        {
+            palavraIngles: "J",
+            palavraPortugues: "JEI",
+        },
+
+        {
+            palavraIngles: "K",
+            palavraPortugues: "KEI",
+        },
+
+        {
+            palavraIngles: "L",
+            palavraPortugues: "ÉL",
+        },
+
+        {
+            palavraIngles: "M",
+            palavraPortugues: "EM",
+        },
+
+        {
+            palavraIngles: "N",
+            palavraPortugues: "EN",
+        },
+
+        {
+            palavraIngles: "O",
             palavraPortugues: "OU",
         },
+
+        {
+            palavraIngles: "P",
+            palavraPortugues: "PI",
+        },
+
+        {
+            palavraIngles: "Q",
+            palavraPortugues: "KIU",
+        },
+
+        {
+            palavraIngles: "R",
+            palavraPortugues: "AR",
+        },
+        {
+            palavraIngles: "S",
+            palavraPortugues: "ÉS",
+        },
+        {
+            palavraIngles: "T",
+            palavraPortugues: "TI",
+        },
+        {
+            palavraIngles: "U",
+            palavraPortugues: "YU",
+        },
+        {
+            palavraIngles: "V",
+            palavraPortugues: "VI",
+        },
+        {
+            palavraIngles: "W",
+            palavraPortugues: "DOBIU",
+        },
+        {
+            palavraIngles: "X",
+            palavraPortugues: "ECS",
+        },
+        {
+            palavraIngles: "Y",
+            palavraPortugues: "UAI",
+        },
+        {
+            palavraIngles: "Z",
+            palavraPortugues: "ZI",
+        },
+
     ]
