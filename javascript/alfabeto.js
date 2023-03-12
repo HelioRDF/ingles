@@ -153,7 +153,7 @@ const alfabeto =
         },
 
         {
-            palavraIngles: "P",
+            palavraIngles: "p",
             palavraPortugues: "PI",
         },
 
