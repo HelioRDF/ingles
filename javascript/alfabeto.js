@@ -88,67 +88,67 @@ const vogal =
 const alfabeto =
     [
         {
-            palavraIngles: "A",
+            palavraIngles: "a",
             palavraPortugues: "Ei",
         },
         {
-            palavraIngles: "B",
+            palavraIngles: "b",
             palavraPortugues: "BI",
         }, {
-            palavraIngles: "C",
+            palavraIngles: "c",
             palavraPortugues: "CI",
         }, {
             palavraIngles: "D",
             palavraPortugues: "DI",
         },
         {
-            palavraIngles: "E",
+            palavraIngles: "e",
             palavraPortugues: "I",
         },
         {
-            palavraIngles: "F",
+            palavraIngles: "f",
             palavraPortugues: "ÉF",
         },
         {
-            palavraIngles: "G",
+            palavraIngles: "g",
             palavraPortugues: "GI",
         },
         {
-            palavraIngles: "H",
+            palavraIngles: "h",
             palavraPortugues: "EICH",
         },
         {
-            palavraIngles: "I",
+            palavraIngles: "i",
             palavraPortugues: "ÁI",
         },
 
         {
-            palavraIngles: "J",
+            palavraIngles: "j",
             palavraPortugues: "JEI",
         },
 
         {
-            palavraIngles: "K",
+            palavraIngles: "k",
             palavraPortugues: "KEI",
         },
 
         {
-            palavraIngles: "L",
+            palavraIngles: "l",
             palavraPortugues: "ÉL",
         },
 
         {
-            palavraIngles: "M",
+            palavraIngles: "m",
             palavraPortugues: "EM",
         },
 
         {
-            palavraIngles: "N",
+            palavraIngles: "n",
             palavraPortugues: "EN",
         },
 
         {
-            palavraIngles: "O",
+            palavraIngles: "o",
             palavraPortugues: "OU",
         },
 
@@ -158,44 +158,44 @@ const alfabeto =
         },
 
         {
-            palavraIngles: "Q",
+            palavraIngles: "q",
             palavraPortugues: "KIU",
         },
 
         {
-            palavraIngles: "R",
+            palavraIngles: "r",
             palavraPortugues: "AR",
         },
         {
-            palavraIngles: "S",
+            palavraIngles: "s",
             palavraPortugues: "ÉS",
         },
         {
-            palavraIngles: "T",
+            palavraIngles: "t",
             palavraPortugues: "TI",
         },
         {
-            palavraIngles: "U",
+            palavraIngles: "u",
             palavraPortugues: "YU",
         },
         {
-            palavraIngles: "V",
+            palavraIngles: "v",
             palavraPortugues: "VI",
         },
         {
-            palavraIngles: "W",
+            palavraIngles: "w",
             palavraPortugues: "DOBIU",
         },
         {
-            palavraIngles: "X",
+            palavraIngles: "x",
             palavraPortugues: "ECS",
         },
         {
-            palavraIngles: "Y",
+            palavraIngles: "y",
             palavraPortugues: "UAI",
         },
         {
-            palavraIngles: "Z",
+            palavraIngles: "z",
             palavraPortugues: "ZI",
         },
 
