@@ -55,7 +55,7 @@ function addTable(palavras, id, table) {
 
 
 
-    trTable.append(thTableId);
+    //  trTable.append(thTableId);
     trTable.append(tdTableButton);
 
     trTable.append(tdTablePalavra);

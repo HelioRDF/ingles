@@ -52,7 +52,7 @@ function addTable(palavras, id, table) {
 
 
 
-    trTable.append(thTableId);
+   // trTable.append(thTableId);
     trTable.append(tdTableButton);
 
     trTable.append(tdTablePalavra);
@@ -201,7 +201,7 @@ const numero =
         },
         {
             palavraIngles: "one hundred",
-            palavraPortugues: "50",
+            palavraPortugues: "100",
         },
     ]
 
