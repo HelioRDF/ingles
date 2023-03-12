@@ -171,5 +171,37 @@ const numero =
             palavraIngles: "twenty nine",
             palavraPortugues: "29",
         },
+        {
+            palavraIngles: "thirty",
+            palavraPortugues: "30",
+        },
+        {
+            palavraIngles: "forty",
+            palavraPortugues: "40",
+        },
+        {
+            palavraIngles: "fifty",
+            palavraPortugues: "50",
+        },
+        {
+            palavraIngles: "sixty",
+            palavraPortugues: "60",
+        },
+        {
+            palavraIngles: "seventy",
+            palavraPortugues: "70",
+        },
+        {
+            palavraIngles: "eighty",
+            palavraPortugues: "80",
+        },
+        {
+            palavraIngles: "ninety",
+            palavraPortugues: "90",
+        },
+        {
+            palavraIngles: "one hundred",
+            palavraPortugues: "50",
+        },
     ]
 
