@@ -98,7 +98,7 @@ const alfabeto =
             palavraIngles: "c",
             palavraPortugues: "CI",
         }, {
-            palavraIngles: "D",
+            palavraIngles: "d",
             palavraPortugues: "DI",
         },
         {
