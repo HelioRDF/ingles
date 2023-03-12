@@ -1,7 +1,7 @@
 $(() => {
     let id = 1
     grupoA.forEach(element => {
-        addTableVerbo(element, id)
+        addTable(element, id)
         id++;
     });
     let audioControl = document.getElementsByClassName("play")
@@ -25,7 +25,7 @@ function changeSpeed() {
     }
 }
 
-function addTableVerbo(palavras, id) {
+function addTable(palavras, id) {
     let palavraIngles = palavras.palavraIngles;
     let palavraPortugues = palavras.palavraPortugues;
     let divAudio = $("#audio")

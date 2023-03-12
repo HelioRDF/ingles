@@ -26,13 +26,13 @@ caption {
     font-size: 28px;
 }
 
-#myTable {
+.myTable {
     border-collapse: collapse;
     width: 100%;
 }
 
-#myTable th,
-#myTable td {
+.myTable th,
+.myTable td {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
