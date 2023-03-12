@@ -79,6 +79,21 @@ const numero =
         }, {
             palavraIngles: "five",
             palavraPortugues: "5",
+        }, {
+            palavraIngles: "six",
+            palavraPortugues: "6",
+        }, {
+            palavraIngles: "seven",
+            palavraPortugues: "7",
+        }, {
+            palavraIngles: "eight",
+            palavraPortugues: "8",
+        }, {
+            palavraIngles: "nine",
+            palavraPortugues: "9",
+        }, {
+            palavraIngles: "ten",
+            palavraPortugues: "10",
         },
     ]
 
