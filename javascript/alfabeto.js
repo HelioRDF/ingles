@@ -67,20 +67,20 @@ function addTable(palavras, id, table) {
 const vogal =
     [
         {
-            palavraIngles: "A",
+            palavraIngles: "a",
             palavraPortugues: "Ei",
         },
         {
-            palavraIngles: "E",
+            palavraIngles: "e",
             palavraPortugues: "I",
         }, {
-            palavraIngles: "I",
+            palavraIngles: "i",
             palavraPortugues: "Ái",
         }, {
-            palavraIngles: "O",
+            palavraIngles: "o",
             palavraPortugues: "OU",
         }, {
-            palavraIngles: "U",
+            palavraIngles: "u",
             palavraPortugues: "YU",
         },
     ]
