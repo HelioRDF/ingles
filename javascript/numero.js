@@ -27,11 +27,11 @@ function changeSpeed() {
 }
 
 function addTable(palavras, id, table) {
-    let palavraIngles = palavras.palavraIngles;
-    let palavraPortugues = palavras.palavraPortugues;
+    let ingles = palavras.ingles;
+    let portugues = palavras.portugues;
     let divAudio = $("#audio")
-    let audio = $("<audio>").attr("id", palavraIngles).attr("class",
-        "play").attr("src", `./audio/numero/${palavraIngles
+    let audio = $("<audio>").attr("id", ingles).attr("class",
+        "play").attr("src", `./audio/numero/${ingles
             }.mp3`)
     divAudio.append(audio)
     let trTable = $("<tr>");
@@ -41,14 +41,14 @@ function addTable(palavras, id, table) {
         "fas fa-play material-icons")
     let button = $("<button>").attr("type",
         "button").attr("class",
-            "play-button").attr("onclick", `playAudio('${palavraIngles
+            "play-button").attr("onclick", `playAudio('${ingles
                 }')`).append(iconePlay);;
     let tdTableButton = $("<td>").attr("scope",
         "row").append(button);
     let tdTablePalavra = $("<td>").attr("scope",
-        "row").text(palavraIngles.toUpperCase());
+        "row").text(ingles.toUpperCase());
     let tdTabletTraducao = $("<td>").attr("scope",
-        "row").text(palavraPortugues.toUpperCase());
+        "row").text(portugues.toUpperCase());
 
 
 
@@ -64,144 +64,144 @@ function addTable(palavras, id, table) {
 const numero =
     [
         {
-            palavraIngles: "one",
-            palavraPortugues: "1",
+            ingles: "one",
+            portugues: "1",
         },
         {
-            palavraIngles: "two",
-            palavraPortugues: "2",
+            ingles: "two",
+            portugues: "2",
         }, {
-            palavraIngles: "three",
-            palavraPortugues: "3",
+            ingles: "three",
+            portugues: "3",
         }, {
-            palavraIngles: "four",
-            palavraPortugues: "4",
+            ingles: "four",
+            portugues: "4",
         }, {
-            palavraIngles: "five",
-            palavraPortugues: "5",
+            ingles: "five",
+            portugues: "5",
         }, {
-            palavraIngles: "six",
-            palavraPortugues: "6",
+            ingles: "six",
+            portugues: "6",
         }, {
-            palavraIngles: "seven",
-            palavraPortugues: "7",
+            ingles: "seven",
+            portugues: "7",
         }, {
-            palavraIngles: "eight",
-            palavraPortugues: "8",
+            ingles: "eight",
+            portugues: "8",
         }, {
-            palavraIngles: "nine",
-            palavraPortugues: "9",
+            ingles: "nine",
+            portugues: "9",
         }, {
-            palavraIngles: "ten",
-            palavraPortugues: "10",
+            ingles: "ten",
+            portugues: "10",
         },
         {
-            palavraIngles: "eleven",
-            palavraPortugues: "11",
+            ingles: "eleven",
+            portugues: "11",
         },
         {
-            palavraIngles: "twelve",
-            palavraPortugues: "12",
+            ingles: "twelve",
+            portugues: "12",
         },
         {
-            palavraIngles: "thirteen",
-            palavraPortugues: "13",
+            ingles: "thirteen",
+            portugues: "13",
         },
         {
-            palavraIngles: "fourteen",
-            palavraPortugues: "14",
+            ingles: "fourteen",
+            portugues: "14",
         },
         {
-            palavraIngles: "fifteen",
-            palavraPortugues: "15",
+            ingles: "fifteen",
+            portugues: "15",
         },
         {
-            palavraIngles: "sixteen",
-            palavraPortugues: "16",
+            ingles: "sixteen",
+            portugues: "16",
         },
         {
-            palavraIngles: "seventeen",
-            palavraPortugues: "17",
+            ingles: "seventeen",
+            portugues: "17",
         },
         {
-            palavraIngles: "eighteen",
-            palavraPortugues: "18",
+            ingles: "eighteen",
+            portugues: "18",
         },
         {
-            palavraIngles: "nineteen",
-            palavraPortugues: "19",
+            ingles: "nineteen",
+            portugues: "19",
         },
         {
-            palavraIngles: "twenty",
-            palavraPortugues: "20",
+            ingles: "twenty",
+            portugues: "20",
         },
         {
-            palavraIngles: "twenty one",
-            palavraPortugues: "21",
+            ingles: "twenty one",
+            portugues: "21",
         },
         {
-            palavraIngles: "twenty two",
-            palavraPortugues: "22",
+            ingles: "twenty two",
+            portugues: "22",
         },
         {
-            palavraIngles: "twenty three",
-            palavraPortugues: "23",
+            ingles: "twenty three",
+            portugues: "23",
         },
         {
-            palavraIngles: "twenty four",
-            palavraPortugues: "24",
+            ingles: "twenty four",
+            portugues: "24",
         },
         {
-            palavraIngles: "twenty five",
-            palavraPortugues: "25",
+            ingles: "twenty five",
+            portugues: "25",
         },
         {
-            palavraIngles: "twenty six",
-            palavraPortugues: "26",
+            ingles: "twenty six",
+            portugues: "26",
         },
         {
-            palavraIngles: "twenty seven",
-            palavraPortugues: "27",
+            ingles: "twenty seven",
+            portugues: "27",
         },
         {
-            palavraIngles: "twenty eight",
-            palavraPortugues: "28",
+            ingles: "twenty eight",
+            portugues: "28",
         },
         {
-            palavraIngles: "twenty nine",
-            palavraPortugues: "29",
+            ingles: "twenty nine",
+            portugues: "29",
         },
         {
-            palavraIngles: "thirty",
-            palavraPortugues: "30",
+            ingles: "thirty",
+            portugues: "30",
         },
         {
-            palavraIngles: "forty",
-            palavraPortugues: "40",
+            ingles: "forty",
+            portugues: "40",
         },
         {
-            palavraIngles: "fifty",
-            palavraPortugues: "50",
+            ingles: "fifty",
+            portugues: "50",
         },
         {
-            palavraIngles: "sixty",
-            palavraPortugues: "60",
+            ingles: "sixty",
+            portugues: "60",
         },
         {
-            palavraIngles: "seventy",
-            palavraPortugues: "70",
+            ingles: "seventy",
+            portugues: "70",
         },
         {
-            palavraIngles: "eighty",
-            palavraPortugues: "80",
+            ingles: "eighty",
+            portugues: "80",
         },
         {
-            palavraIngles: "ninety",
-            palavraPortugues: "90",
+            ingles: "ninety",
+            portugues: "90",
         },
         {
-            palavraIngles: "one hundred",
-            palavraPortugues: "100",
+            ingles: "one hundred",
+            portugues: "100",
         },
     ]
 
