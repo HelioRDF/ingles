@@ -30,8 +30,7 @@ function addTable(palavras, id) {
     let palavraPortugues = palavras.palavraPortugues;
     let divAudio = $("#audio")
     let audio = $("<audio>").attr("id", palavraIngles).attr("class",
-        "play").attr("src", `./audio/verbo/${palavraIngles
-            }.mp3`)
+        "play").attr("src", `./audio/verbo/${palavraIngles}.mp3`)
     divAudio.append(audio)
     let trTable = $("<tr>");
     let thTableId = $("<th>").attr("scope",

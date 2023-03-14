@@ -52,7 +52,7 @@ function addTable(palavras, id, table) {
 
 
 
-   // trTable.append(thTableId);
+    // trTable.append(thTableId);
     trTable.append(tdTableButton);
 
     trTable.append(tdTablePalavra);
@@ -203,5 +203,15 @@ const numero =
             ingles: "one hundred",
             portugues: "100",
         },
+        {
+            ingles: "thousand",
+            portugues: "1000",
+        }, 
+        {
+            ingles: "two thousands",
+            portugues: "2000",
+        },
+
+        
     ]
 

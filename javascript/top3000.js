@@ -1,15 +1,17 @@
 $(() => {
-    let id = 1
+    let idAprender = 1
+    let idAprendida = 1
 
     topPalavras.forEach(element => {
         if (element.visibilidade) {
-            addTable(element, id, "top3000filtro")
-            id++;
+            addTable(element, idAprender, "top3000filtro")
+            idAprender++;
         }
     });
     topPalavras.forEach(element => {
-        addTable(element, id, "top3000")
-        id++;
+        if (!element.visibilidade) {
+        addTable(element, idAprendida, "top3000")
+        idAprendida++;}
     });
 
     let audioControl = document.getElementsByClassName("play")
@@ -23,10 +25,6 @@ $(() => {
         $(this).closest("tr").remove(); // Remove a linha correspondente da tabela
     });
 })
-
-
-
-
 
 function playAudio(id) {
     const audio = document.getElementById(id);
@@ -67,8 +65,7 @@ function addTable(palavra, id, table) {
     let portugues = palavra.portugues;
     let divAudio = $("#audio")
     let audio = $("<audio>").attr("id", ingles).attr("class",
-        "play").attr("src", `./audio/top3000/${ingles
-            }.mp3`)
+        "play").attr("src", `./audio/top3000/${ingles}.mp3`)
     divAudio.append(audio)
     let trTable = $("<tr>");
     let thTableId = $("<th>").attr("scope",
@@ -77,7 +74,7 @@ function addTable(palavra, id, table) {
         "fas fa-play material-icons")
     let button = $("<button>").attr("type",
         "button").attr("class",
-            "play-button").attr("onclick", `playAudio('${ingles
+            "play").attr("onclick", `playAudio('${ingles
                 }')`).append(iconePlay);
     let tdTableButton = $("<td>").attr("scope",
         "row").append(button);
@@ -107,15 +104,27 @@ function addTable(palavra, id, table) {
 }
 
 const topPalavras = [
-    { "ingles": "a", "portugues": "um/uma", "visibilidade": true },
-    { "ingles": "abandon", "portugues": "abandonar", "visibilidade": true },
-    { "ingles": "ability", "portugues": "habilidade", "visibilidade": true },
-    { "ingles": "able", "portugues": "capaz", "visibilidade": true },
-    { "ingles": "abortion", "portugues": "aborto", "visibilidade": true },
-    { "ingles": "about", "portugues": "sobre", "visibilidade": true },
-    { "ingles": "above", "portugues": "acima", "visibilidade": true },
-    { "ingles": "abroad", "portugues": "no exterior", "visibilidade": true },
-    { "ingles": "absence", "portugues": "ausência", "visibilidade": true },
-    { "ingles": "absolute", "portugues": "absoluto", "visibilidade": true },
+    {"ingles":"a","portugues":"um/uma","visibilidade":false},
+    {"ingles":"abandon","portugues":"abandonar","visibilidade":false},
+    {"ingles":"ability","portugues":"habilidade","visibilidade":false},
+    {"ingles":"able","portugues":"capaz","visibilidade":true},
+    {"ingles":"abortion","portugues":"aborto","visibilidade":false},
+    {"ingles":"about","portugues":"sobre","visibilidade":false},
+    {"ingles":"above","portugues":"acima","visibilidade":true},
+    {"ingles":"abroad","portugues":"no exterior","visibilidade":true},
+    {"ingles":"absence","portugues":"ausência","visibilidade":true},
+    {"ingles":"absolute","portugues":"absoluto","visibilidade":false},
+    {"ingles":"absolutely","portugues":"absolutamente","visibilidade":false},
+    {"ingles":"absorb","portugues":"absorver","visibilidade":false},
+    {"ingles":"abuse","portugues":"abuso","visibilidade":false},
+    {"ingles":"academic","portugues":"acadêmico","visibilidade":false},
+    {"ingles":"accept","portugues":"aceitar","visibilidade":false},
+    {"ingles":"access","portugues":"acesso","visibilidade":false},
+    {"ingles":"accident","portugues":"acidente","visibilidade":false},
+    {"ingles":"accompany","portugues":"acompanhar","visibilidade":true},
+    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
+    {"ingles":"according","portugues":"de acordo com","visibilidade":true},
+
+
 
 ]
