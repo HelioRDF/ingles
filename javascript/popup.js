@@ -76,7 +76,9 @@ botaoProximo.addEventListener('click', proximaPergunta);
 
 // Evento de clique do botão "Próximo"
 botaoTraduzir.addEventListener('click', () => {
-    mensagemTraduzir.textContent = topPalavras[indicePergunta].portugues
+  //  mensagemTraduzir.textContent = topPalavras[indicePergunta].portugues
+
+    pergunta.textContent = topPalavras[indicePergunta].ingles +" ("+  topPalavras[indicePergunta].portugues+")"
 });
 
 // Exibir a primeira pergunta ao carregar a página
