@@ -10,8 +10,9 @@ $(() => {
     });
     topPalavras.forEach(element => {
         if (!element.visibilidade) {
-        addTable(element, idAprendida, "top3000")
-        idAprendida++;}
+            addTable(element, idAprendida, "top3000")
+            idAprendida++;
+        }
     });
 
     let audioControl = document.getElementsByClassName("play")
@@ -103,27 +104,50 @@ function addTable(palavra, id, table) {
     table.append(trTable);
 }
 
-const topPalavras = [
-    {"ingles":"a","portugues":"um/uma","visibilidade":false},
-    {"ingles":"abandon","portugues":"abandonar","visibilidade":false},
-    {"ingles":"ability","portugues":"habilidade","visibilidade":false},
-    {"ingles":"able","portugues":"capaz","visibilidade":true},
-    {"ingles":"abortion","portugues":"aborto","visibilidade":false},
-    {"ingles":"about","portugues":"sobre","visibilidade":false},
-    {"ingles":"above","portugues":"acima","visibilidade":true},
-    {"ingles":"abroad","portugues":"no exterior","visibilidade":true},
-    {"ingles":"absence","portugues":"ausência","visibilidade":true},
-    {"ingles":"absolute","portugues":"absoluto","visibilidade":false},
-    {"ingles":"absolutely","portugues":"absolutamente","visibilidade":false},
-    {"ingles":"absorb","portugues":"absorver","visibilidade":false},
-    {"ingles":"abuse","portugues":"abuso","visibilidade":false},
-    {"ingles":"academic","portugues":"acadêmico","visibilidade":false},
-    {"ingles":"accept","portugues":"aceitar","visibilidade":false},
-    {"ingles":"access","portugues":"acesso","visibilidade":false},
-    {"ingles":"accident","portugues":"acidente","visibilidade":false},
-    {"ingles":"accompany","portugues":"acompanhar","visibilidade":true},
-    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
-    {"ingles":"according","portugues":"de acordo com","visibilidade":true},
+const topPalavras = [{ "ingles": "a", "portugues": "um/uma", "visibilidade": false },
+{ "ingles": "abandon", "portugues": "abandonar", "visibilidade": false },
+{ "ingles": "ability", "portugues": "habilidade", "visibilidade": false },
+{ "ingles": "able", "portugues": "capaz", "visibilidade": false },
+{ "ingles": "abortion", "portugues": "aborto", "visibilidade": false },
+{ "ingles": "about", "portugues": "sobre", "visibilidade": false },
+{ "ingles": "above", "portugues": "acima", "visibilidade": false },
+{ "ingles": "abroad", "portugues": "no exterior", "visibilidade": true },
+{ "ingles": "absence", "portugues": "ausência", "visibilidade": true },
+{ "ingles": "absolute", "portugues": "absoluto", "visibilidade": false },
+{ "ingles": "absolutely", "portugues": "absolutamente", "visibilidade": false },
+{ "ingles": "absorb", "portugues": "absorver", "visibilidade": false },
+{ "ingles": "abuse", "portugues": "abuso", "visibilidade": false },
+{ "ingles": "academic", "portugues": "acadêmico", "visibilidade": false },
+{ "ingles": "accept", "portugues": "aceitar", "visibilidade": false },
+{ "ingles": "access", "portugues": "acesso", "visibilidade": false },
+{ "ingles": "accident", "portugues": "acidente", "visibilidade": false },
+{ "ingles": "accompany", "portugues": "acompanhar", "visibilidade": true },
+{ "ingles": "accomplish", "portugues": "realizar", "visibilidade": true },
+{ "ingles": "according", "portugues": "de acordo com", "visibilidade": false },
+{ "ingles": "account", "portugues": "conta", "visibilidade": false },
+{ "ingles": "accurate", "portugues": "preciso", "visibilidade": true },
+{ "ingles": "accuse", "portugues": "acusar", "visibilidade": true },
+{ "ingles": "achieve", "portugues": "alcançar", "visibilidade": true },
+{ "ingles": "achievement", "portugues": "realização", "visibilidade": true },
+{ "ingles": "acid", "portugues": "ácido", "visibilidade": false },
+{ "ingles": "acknowledge", "portugues": "reconhecer", "visibilidade": true },
+{ "ingles": "acquire", "portugues": "adquirir", "visibilidade": true },
+{ "ingles": "across", "portugues": "através", "visibilidade": true },
+{ "ingles": "act", "portugues": "agir", "visibilidade": true },
+{ "ingles": "action", "portugues": "ação", "visibilidade": false },
+{ "ingles": "active", "portugues": "ativo", "visibilidade": true },
+{ "ingles": "activist", "portugues": "ativista", "visibilidade": true },
+{ "ingles": "activity", "portugues": "atividade", "visibilidade": true },
+{ "ingles": "actor", "portugues": "ator", "visibilidade": false },
+{ "ingles": "actress", "portugues": "atriz", "visibilidade": false },
+{ "ingles": "actual", "portugues": "real", "visibilidade": true },
+{ "ingles": "actually", "portugues": "na verdade", "visibilidade": true },
+{ "ingles": "ad", "portugues": "anúncio", "visibilidade": true },
+{ "ingles": "adapt", "portugues": "adaptar", "visibilidade": true },
+{ "ingles": "add", "portugues": "adicionar", "visibilidade": true },
+{ "ingles": "addition", "portugues": "adição", "visibilidade": true },
+{ "ingles": "additional", "portugues": "adicional", "visibilidade": true }
+
 
 
 

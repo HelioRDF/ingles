@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Popup</title>
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+  </head>
+  <body>
+    <button class="botao-abrir-popup">Quiz</button>
 
-<head>
-    <title>Inglês</title>
+    <div class="popup-fundo">
+      <div class="popup">
+        <h2 class="pergunta"></h2>
+        <input type="text" class="resposta">
+        <button class="botao-responder">Responder</button>
+        <button class="botao-proximo">Próximo</button>
+        <button class="botao-traduzir">Traduzir</button>
+        <div class="mensagem-acerto"></div>
+        <div class="mensagem-erro"></div>
+        <div class="mensagem-traduzir"></div>
+      </div>
 
-    <link rel="stylesheet" type="text/css" href="./css/index.css" />
 
-</head>
+    </div>
 
-<body>
-    <ul>
-        <li><a href="./verbo.html">Verbos</a></li>
-        <li><a href="./verbo.html">Verbos</a></li>
-    </ul>
-
-</body>
-
+    <script src="javascript/popup.js"></script>
+  </body>
 </html>
