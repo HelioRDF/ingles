@@ -1,4 +1,12 @@
 
+$(()=>{
+    let audioControl = document.getElementsByClassName("play")
+    for (i = 0; i < audioControl.length; i++) {
+        console.log(audioControl[i])
+        audioControl[i].playbackRate = speedControl.value;
+    }
+})
+
 const topPalavras = [
     { "ingles": "abroad", "portugues": "no exterior", "visibilidade": true },
     { "ingles": "absence", "portugues": "ausência", "visibilidade": true },
@@ -56,7 +64,6 @@ function exibirPergunta() {
 }
 
 function estruturaAudio() {
-
     let divAudio = $("#audioQuiz")
     let iconePlay = $("<i>").attr("class",
         "fas fa-play material-icons")
@@ -169,6 +176,13 @@ function validarObjeto() {
 // Evento de clique do botão "Próximo"
 botaoProximo.addEventListener('click', proximaPergunta);
 
-
+const speedControl = document.getElementById('speed');
+function changeSpeed() {
+    let audioControl = document.getElementsByClassName("play")
+    for (i = 0; i < audioControl.length; i++) {
+        audioControl[i
+        ].playbackRate = speedControl.value;
+    }
+}
 
 
