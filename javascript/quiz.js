@@ -1,30 +1,16 @@
 
 const topPalavras = [
-    { "ingles": "abroad", "portugues": "no exterior", "visibilidade": true },
-    { "ingles": "absence", "portugues": "ausência", "visibilidade": true },
-    { "ingles": "accompany", "portugues": "acompanhar", "visibilidade": true },
-    { "ingles": "accomplish", "portugues": "realizar", "visibilidade": true },
-    { "ingles": "accurate", "portugues": "preciso", "visibilidade": true },
-    { "ingles": "accuse", "portugues": "acusar", "visibilidade": true },
-    { "ingles": "achieve", "portugues": "alcançar", "visibilidade": true },
-    { "ingles": "achievement", "portugues": "realização", "visibilidade": true },
-    { "ingles": "acknowledge", "portugues": "reconhecer", "visibilidade": true },
-    { "ingles": "acquire", "portugues": "adquirir", "visibilidade": true },
-    { "ingles": "across", "portugues": "através", "visibilidade": true },
-    { "ingles": "act", "portugues": "agir", "visibilidade": true },
-    { "ingles": "active", "portugues": "ativo", "visibilidade": true },
-    { "ingles": "activist", "portugues": "ativista", "visibilidade": true },
-    { "ingles": "activity", "portugues": "atividade", "visibilidade": true },
-    { "ingles": "actual", "portugues": "real", "visibilidade": true },
-    { "ingles": "actually", "portugues": "na verdade", "visibilidade": true },
-    { "ingles": "ad", "portugues": "anúncio", "visibilidade": true },
-    { "ingles": "adapt", "portugues": "adaptar", "visibilidade": true },
-    { "ingles": "add", "portugues": "adicionar", "visibilidade": true },
-    { "ingles": "addition", "portugues": "adição", "visibilidade": true },
-    { "ingles": "additional", "portugues": "adicional", "visibilidade": true },
-    { "ingles": "address", "portugues": "endereço", "visibilidade": true },
-    { "ingles": "adequate", "portugues": "adequado", "visibilidade": true },
-    { "ingles": "adjust", "portugues": "ajustar", "visibilidade": true },
+    {"ingles":"abroad","portugues":"no exterior","visibilidade":true},
+    {"ingles":"absence","portugues":"ausência","visibilidade":true},
+    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
+    {"ingles":"accurate","portugues":"preciso","visibilidade":true},
+    {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
+    {"ingles":"achievement","portugues":"realização","visibilidade":true},
+    {"ingles":"acknowledge","portugues":"reconhecer","visibilidade":true},
+    {"ingles":"act","portugues":"agir","visibilidade":true},
+    {"ingles":"activist","portugues":"ativista","visibilidade":true},
+    {"ingles":"actual","portugues":"real","visibilidade":true},
+    {"ingles":"actually","portugues":"na verdade","visibilidade":true},
 
 
 ]
@@ -162,6 +148,9 @@ function desativarBt() {
 
 function validarObjeto() {
     console.log(topPalavras)
+    if (indicePergunta == topPalavras.length) {
+        indicePergunta = 0;
+    }
     if (topPalavras.length < 1) {
         desativarBt();
         pergunta.textContent = "Parabéns, você concluiu a lista de palavras"
