@@ -1,3 +1,4 @@
+
 const topPalavras = [
     { "ingles": "abroad", "portugues": "no exterior", "visibilidade": true },
     { "ingles": "absence", "portugues": "ausência", "visibilidade": true },
@@ -21,6 +22,11 @@ const topPalavras = [
     { "ingles": "add", "portugues": "adicionar", "visibilidade": true },
     { "ingles": "addition", "portugues": "adição", "visibilidade": true },
     { "ingles": "additional", "portugues": "adicional", "visibilidade": true },
+    { "ingles": "address", "portugues": "endereço", "visibilidade": true },
+    { "ingles": "adequate", "portugues": "adequado", "visibilidade": true },
+    { "ingles": "adjust", "portugues": "ajustar", "visibilidade": true },
+
+
 ]
 
 // Elementos HTML
@@ -38,11 +44,16 @@ const mensagemTraduzir = document.querySelector('.mensagem-traduzir');
 // Variável para controlar o índice da pergunta atual
 let indicePergunta = 0;
 
+// Evento de clique do botão "Abrir popup"
+botaoAbrirPopup.addEventListener('click', exibirPopup);
+
 // Função para exibir a popup
 function exibirPopup() {
     popupFundo.style.display = 'flex';
     resposta.value = '';
     resposta.focus();
+    // Exibir a primeira pergunta ao carregar a página
+    exibirPergunta();
 }
 
 // Função para fechar a popup
@@ -50,12 +61,13 @@ function fecharPopup() {
     popupFundo.style.display = 'none';
 }
 
+
 // Função para exibir a pergunta atual
 function exibirPergunta() {
     estruturaAudio()
     pergunta.textContent = topPalavras[indicePergunta].ingles;
+    playAudio(topPalavras[indicePergunta].ingles)
 }
-
 
 function estruturaAudio() {
 
@@ -84,8 +96,6 @@ function playAudio(id) {
 
 
 
-// Evento de clique do botão "Abrir popup"
-botaoAbrirPopup.addEventListener('click', exibirPopup);
 
 // Evento de clique do botão "Fechar popup"
 popupFundo.addEventListener('click', function (event) {
@@ -101,7 +111,10 @@ botaoResponder.addEventListener('click', function () {
     mensagemTraduzir.textContent = '';
     if (resposta.value.toLowerCase().trim() === topPalavras[indicePergunta].portugues) {
         mensagemAcerto.textContent = 'Resposta correta!';
-        topPalavras.splice(topPalavras[indicePergunta], 1);
+        console.log("Apagar", topPalavras[indicePergunta].ingles + " - " + topPalavras[indicePergunta].ingles + " - " + indicePergunta)
+        topPalavras.splice(indicePergunta, 1);
+        $(".botao-responder").attr("disabled", true);
+        $(".botao-traduzir").attr("disabled", true);
         validarObjeto()
     } else {
         mensagemErro.textContent = 'Resposta incorreta!';
@@ -115,6 +128,8 @@ function proximaPergunta() {
     mensagemErro.textContent = '';
     mensagemAcerto.textContent = '';
     mensagemTraduzir.textContent = '';
+    $(".botao-responder").attr("disabled", false);
+    $(".botao-traduzir").attr("disabled", false);
     if (indicePergunta == topPalavras.length) {
         indicePergunta = 0;
     }
@@ -129,12 +144,26 @@ botaoTraduzir.addEventListener('click', () => {
         pergunta.textContent = topPalavras[indicePergunta].ingles + " (" + topPalavras[indicePergunta].portugues + ")"
 });
 
+function ativarBt() {
+    $(".botao-responder").attr("disabled", false);
+    $(".botao-traduzir").attr("disabled", false);
+    $(".botao-proximo").attr("disabled", false);
+    $(".play-button").attr("disabled", false);
+}
+
+function desativarBt() {
+    $(".botao-responder").attr("disabled", true);
+    $(".botao-traduzir").attr("disabled", true);
+    $(".botao-proximo").attr("disabled", true);
+    $(".play-button").attr("disabled", true);
+}
+
+
+
 function validarObjeto() {
+    console.log(topPalavras)
     if (topPalavras.length < 1) {
-        $(".botao-responder").attr("disabled", true);
-        $(".botao-traduzir").attr("disabled", true);
-        $(".botao-proximo").attr("disabled", true);
-        $(".play-button").attr("disabled", true);
+        desativarBt();
         pergunta.textContent = "Parabéns, você concluiu a lista de palavras"
         return false
     } else {
@@ -146,8 +175,5 @@ function validarObjeto() {
 botaoProximo.addEventListener('click', proximaPergunta);
 
 
-
-// Exibir a primeira pergunta ao carregar a página
-exibirPergunta();
 
 

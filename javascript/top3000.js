@@ -158,8 +158,10 @@ const topPalavras = [{ "ingles": "a", "portugues": "um/uma", "visibilidade": fal
 { "ingles": "adapt", "portugues": "adaptar", "visibilidade": true },
 { "ingles": "add", "portugues": "adicionar", "visibilidade": true },
 { "ingles": "addition", "portugues": "adição", "visibilidade": true },
-{ "ingles": "additional", "portugues": "adicional", "visibilidade": true }
-
+{ "ingles": "additional", "portugues": "adicional", "visibilidade": true },
+{ "ingles": "address", "portugues": "endereço", "visibilidade": true },
+{ "ingles": "adequate", "portugues": "adequado", "visibilidade": true },
+{ "ingles": "adjust", "portugues": "ajustar", "visibilidade": true },
 
 
 
