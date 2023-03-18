@@ -40,7 +40,7 @@ function addTable(palavras, id) {
     let button = $("<button>").attr("type",
         "button").attr("class",
             "play-button").attr("onclick", `playAudio('${palavraIngles
-                }')`).append(iconePlay);;
+                }')`).append(iconePlay);
     let tdTableButton = $("<td>").attr("scope",
         "row").append(button);
     let tdTablePalavra = $("<td>").attr("scope",

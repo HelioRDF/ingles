@@ -54,7 +54,19 @@ function list() {
     //  console.log(JSON.stringify(topPalavras))
     let text = ""
     topPalavras.forEach((obj) => {
+     
         text += "\n" + JSON.stringify(obj) + ",";
+    });
+    console.log(text)
+}
+
+function listTrue() {
+    //  console.log(JSON.stringify(topPalavras))
+    let text = ""
+    topPalavras.forEach((obj) => {
+       if(obj.visibilidade==true){
+            text += "\n" + JSON.stringify(obj) + ",";
+        }
     });
     console.log(text)
 }
