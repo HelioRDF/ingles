@@ -1,16 +1,16 @@
 
 const topPalavras = [
-    {"ingles":"abroad","portugues":"no exterior","visibilidade":true},
-    {"ingles":"absence","portugues":"ausência","visibilidade":true},
-    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
-    {"ingles":"accurate","portugues":"preciso","visibilidade":true},
-    {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
-    {"ingles":"achievement","portugues":"realização","visibilidade":true},
-    {"ingles":"acknowledge","portugues":"reconhecer","visibilidade":true},
-    {"ingles":"act","portugues":"agir","visibilidade":true},
-    {"ingles":"activist","portugues":"ativista","visibilidade":true},
-    {"ingles":"actual","portugues":"real","visibilidade":true},
-    {"ingles":"actually","portugues":"na verdade","visibilidade":true},
+    { "ingles": "abroad", "portugues": "no exterior", "visibilidade": true },
+    { "ingles": "absence", "portugues": "ausência", "visibilidade": true },
+    { "ingles": "accomplish", "portugues": "realizar", "visibilidade": true },
+    { "ingles": "accurate", "portugues": "preciso", "visibilidade": true },
+    { "ingles": "achieve", "portugues": "alcançar", "visibilidade": true },
+    { "ingles": "achievement", "portugues": "realização", "visibilidade": true },
+    { "ingles": "acknowledge", "portugues": "reconhecer", "visibilidade": true },
+    { "ingles": "act", "portugues": "agir", "visibilidade": true },
+    { "ingles": "activist", "portugues": "ativista", "visibilidade": true },
+    { "ingles": "actual", "portugues": "real", "visibilidade": true },
+    { "ingles": "actually", "portugues": "na verdade", "visibilidade": true },
 
 
 ]
@@ -97,7 +97,8 @@ botaoResponder.addEventListener('click', function () {
     mensagemTraduzir.textContent = '';
     if (resposta.value.toLowerCase().trim() === topPalavras[indicePergunta].portugues) {
         mensagemAcerto.textContent = 'Resposta correta!';
-        console.log("Apagar", topPalavras[indicePergunta].ingles + " - " + topPalavras[indicePergunta].ingles + " - " + indicePergunta)
+        console.log("\nApagar =>", topPalavras[indicePergunta].ingles + " | " + topPalavras[indicePergunta].portugues + " | " + indicePergunta)
+
         topPalavras.splice(indicePergunta, 1);
         $(".botao-responder").attr("disabled", true);
         $(".botao-traduzir").attr("disabled", true);
@@ -147,7 +148,12 @@ function desativarBt() {
 
 
 function validarObjeto() {
-    console.log(topPalavras)
+    let log="";
+    topPalavras.forEach(element => {
+        log += "\n" + JSON.stringify(element)
+    });
+    console.log(log)
+
     if (indicePergunta == topPalavras.length) {
         indicePergunta = 0;
     }
