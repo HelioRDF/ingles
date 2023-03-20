@@ -1,36 +1,12 @@
-import { nome } from './teste.js';
-$(()=>{
+$(() => {
 
-console.log(nome); // Output: 5
     console.log(topPalavras);
     let audioControl = document.getElementsByClassName("play")
     for (i = 0; i < audioControl.length; i++) {
-        console.log(audioControl[i])
-        audioControl[i].playbackRate = speedControl.value;
+          audioControl[i].playbackRate = speedControl.value;
     }
 })
 
-const topPalavras = [
-    { "ingles": "abroad", "portugues": "no exterior", "visibilidade": true },
-    { "ingles": "absence", "portugues": "ausência", "visibilidade": true },
-    { "ingles": "accomplish", "portugues": "realizar", "visibilidade": true },
-    { "ingles": "accurate", "portugues": "preciso", "visibilidade": true },
-    { "ingles": "achieve", "portugues": "alcançar", "visibilidade": true },
-    { "ingles": "achievement", "portugues": "realização", "visibilidade": true },
-    { "ingles": "acknowledge", "portugues": "reconhecer", "visibilidade": true },
-    { "ingles": "act", "portugues": "agir", "visibilidade": true },
-    { "ingles": "activist", "portugues": "ativista", "visibilidade": true },
-    { "ingles": "actual", "portugues": "real", "visibilidade": true },
-    { "ingles": "actually", "portugues": "na verdade", "visibilidade": true },
-    {"ingles": "adjustment", "portugues": "ajuste", "visibilidade": true},
-    {"ingles": "administration", "portugues": "administração", "visibilidade": true},
-    {"ingles": "administrator", "portugues": "administrador", "visibilidade": true},
-    {"ingles": "admire", "portugues": "admirar", "visibilidade": true},
-    {"ingles": "admission", "portugues": "admissão", "visibilidade": true},
-    {"ingles": "admit", "portugues": "admitir", "visibilidade": true}
-
-
-]
 
 // Elementos HTML
 const botaoAbrirPopup = document.querySelector('.botao-abrir-popup');
@@ -164,7 +140,7 @@ function desativarBt() {
 
 
 function validarObjeto() {
-    let log="";
+    let log = "";
     topPalavras.forEach(element => {
         log += "\n" + JSON.stringify(element)
     });
@@ -195,3 +171,17 @@ function changeSpeed() {
 }
 
 
+
+
+const topPalavras = [
+    {"ingles":"abroad","portugues":"no exterior","visibilidade":true},
+    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
+    {"ingles":"accurate","portugues":"preciso","visibilidade":true},
+    {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
+    {"ingles":"achievement","portugues":"realização","visibilidade":true},
+    {"ingles":"actual","portugues":"real","visibilidade":true},
+    {"ingles":"actually","portugues":"na verdade","visibilidade":true},
+    {"ingles":"admire","portugues":"admirar","visibilidade":true},
+
+
+]
