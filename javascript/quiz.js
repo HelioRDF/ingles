@@ -1,5 +1,8 @@
-
+import { nome } from './teste.js';
 $(()=>{
+
+console.log(nome); // Output: 5
+    console.log(topPalavras);
     let audioControl = document.getElementsByClassName("play")
     for (i = 0; i < audioControl.length; i++) {
         console.log(audioControl[i])
@@ -19,6 +22,12 @@ const topPalavras = [
     { "ingles": "activist", "portugues": "ativista", "visibilidade": true },
     { "ingles": "actual", "portugues": "real", "visibilidade": true },
     { "ingles": "actually", "portugues": "na verdade", "visibilidade": true },
+    {"ingles": "adjustment", "portugues": "ajuste", "visibilidade": true},
+    {"ingles": "administration", "portugues": "administração", "visibilidade": true},
+    {"ingles": "administrator", "portugues": "administrador", "visibilidade": true},
+    {"ingles": "admire", "portugues": "admirar", "visibilidade": true},
+    {"ingles": "admission", "portugues": "admissão", "visibilidade": true},
+    {"ingles": "admit", "portugues": "admitir", "visibilidade": true}
 
 
 ]
