@@ -3,7 +3,7 @@ $(() => {
     console.log(topPalavras);
     let audioControl = document.getElementsByClassName("play")
     for (i = 0; i < audioControl.length; i++) {
-          audioControl[i].playbackRate = speedControl.value;
+        audioControl[i].playbackRate = speedControl.value;
     }
 })
 
@@ -109,6 +109,8 @@ function proximaPergunta() {
     mensagemTraduzir.textContent = '';
     $(".botao-responder").attr("disabled", false);
     $(".botao-traduzir").attr("disabled", false);
+    $(".resposta").val('')
+    $(".resposta").focus();
     if (indicePergunta == topPalavras.length) {
         indicePergunta = 0;
     }
@@ -170,18 +172,66 @@ function changeSpeed() {
     }
 }
 
+resposta.addEventListener("keyup", function (event) {
+    // verifica se a tecla pressionada foi a tecla Enter
+    if (event.keyCode === 13) {
+        // executa a mesma ação que o botão HTML
+        botaoResponder.click();
+    }
+});
+
+// adiciona um evento de escuta ao input
+resposta.addEventListener("keyup", function (event) {
+    // verifica se a tecla pressionada foi a tecla de seta para a direita
+    if (event.keyCode === 39) {
+        // executa a mesma ação que o botão HTML
+        botaoProximo.click();
+    }
+});
 
 
 
 const topPalavras = [
-    {"ingles":"abroad","portugues":"no exterior","visibilidade":true},
-    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
-    {"ingles":"accurate","portugues":"preciso","visibilidade":true},
-    {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
-    {"ingles":"achievement","portugues":"realização","visibilidade":true},
-    {"ingles":"actual","portugues":"real","visibilidade":true},
-    {"ingles":"actually","portugues":"na verdade","visibilidade":true},
-    {"ingles":"admire","portugues":"admirar","visibilidade":true},
+
+    { "ingles": "accomplish", "portugues": "realizar", "visibilidade": true },
+    { "ingles": "accurate", "portugues": "preciso", "visibilidade": true },
+    { "ingles": "achieve", "portugues": "alcançar", "visibilidade": true },
+    { "ingles": "achievement", "portugues": "realização", "visibilidade": true },
+    { "ingles": "actual", "portugues": "real", "visibilidade": true },
+    { "ingles": "actually", "portugues": "na verdade", "visibilidade": true },
+    { "ingles": "admire", "portugues": "admirar", "visibilidade": true },
+
+    {
+        "ingles": "adolescent",
+        "portugues": "adolescente",
+        "visibilidade": true
+    },
+    {
+        "ingles": "adopt",
+        "portugues": "adotar",
+        "visibilidade": true
+    },
+    {
+        "ingles": "adult",
+        "portugues": "adulto",
+        "visibilidade": true
+    },
+    {
+        "ingles": "advance",
+        "portugues": "avançar",
+        "visibilidade": true
+    },
+    {
+        "ingles": "advanced",
+        "portugues": "avançado",
+        "visibilidade": true
+    },
+    {
+        "ingles": "advantage",
+        "portugues": "vantagem",
+        "visibilidade": true
+    }
+
 
 
 ]
