@@ -192,45 +192,17 @@ resposta.addEventListener("keyup", function (event) {
 
 
 const topPalavras = [
-
-    { "ingles": "accomplish", "portugues": "realizar", "visibilidade": true },
-    { "ingles": "accurate", "portugues": "preciso", "visibilidade": true },
-    { "ingles": "achieve", "portugues": "alcançar", "visibilidade": true },
-    { "ingles": "achievement", "portugues": "realização", "visibilidade": true },
-    { "ingles": "actual", "portugues": "real", "visibilidade": true },
-    { "ingles": "actually", "portugues": "na verdade", "visibilidade": true },
-    { "ingles": "admire", "portugues": "admirar", "visibilidade": true },
-
-    {
-        "ingles": "adolescent",
-        "portugues": "adolescente",
-        "visibilidade": true
-    },
-    {
-        "ingles": "adopt",
-        "portugues": "adotar",
-        "visibilidade": true
-    },
-    {
-        "ingles": "adult",
-        "portugues": "adulto",
-        "visibilidade": true
-    },
-    {
-        "ingles": "advance",
-        "portugues": "avançar",
-        "visibilidade": true
-    },
-    {
-        "ingles": "advanced",
-        "portugues": "avançado",
-        "visibilidade": true
-    },
-    {
-        "ingles": "advantage",
-        "portugues": "vantagem",
-        "visibilidade": true
-    }
+    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
+    {"ingles":"accurate","portugues":"preciso","visibilidade":true},
+    {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
+    {"ingles":"achievement","portugues":"realização","visibilidade":true},
+    {"ingles":"actual","portugues":"real","visibilidade":true},
+    {"ingles":"actually","portugues":"na verdade","visibilidade":true},
+    {"ingles":"advertising","portugues":"publicidade","visibilidade":true},
+    {"ingles":"advice","portugues":"conselho","visibilidade":true},
+    {"ingles":"advise","portugues":"aconselhar","visibilidade":true},
+    {"ingles":"adviser","portugues":"consultor","visibilidade":true},
+    {"ingles":"advocate","portugues":"defensor","visibilidade":true},
 
 
 

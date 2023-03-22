@@ -166,41 +166,19 @@ const topPalavras = [
     { "ingles": "adjustment", "portugues": "ajuste", "visibilidade": false },
     { "ingles": "administration", "portugues": "administração", "visibilidade": false },
     { "ingles": "administrator", "portugues": "administrador", "visibilidade": false },
-    { "ingles": "admire", "portugues": "admirar", "visibilidade": true },
+    { "ingles": "admire", "portugues": "admirar", "visibilidade": false },
     { "ingles": "admission", "portugues": "admissão", "visibilidade": false },
     { "ingles": "admit", "portugues": "admitir", "visibilidade": false },
-    {
-        "ingles": "adolescent",
-        "portugues": "adolescente",
-        "visibilidade": true
-    },
-    {
-        "ingles": "adopt",
-        "portugues": "adotar",
-        "visibilidade": true
-    },
-    {
-        "ingles": "adult",
-        "portugues": "adulto",
-        "visibilidade": true
-    },
-    {
-        "ingles": "advance",
-        "portugues": "avançar",
-        "visibilidade": true
-    },
-    {
-        "ingles": "advanced",
-        "portugues": "avançado",
-        "visibilidade": true
-    },
-    {
-        "ingles": "advantage",
-        "portugues": "vantagem",
-        "visibilidade": true
-    }
-
-
-
-
+    { "ingles": "adolescent", "portugues": "adolescente", "visibilidade": false },
+    { "ingles": "adopt", "portugues": "adotar", "visibilidade": false },
+    { "ingles": "adult", "portugues": "adulto", "visibilidade": false },
+    { "ingles": "advance", "portugues": "avançar", "visibilidade": false },
+    { "ingles": "advanced", "portugues": "avançado", "visibilidade": false },
+    { "ingles": "advantage", "portugues": "vantagem", "visibilidade": false },
+    { "ingles": "adventure", "portugues": "aventura", "visibilidade": false },
+    { "ingles": "advertising", "portugues": "publicidade", "visibilidade": true },
+    { "ingles": "advice", "portugues": "conselho", "visibilidade": true },
+    { "ingles": "advise", "portugues": "aconselhar", "visibilidade": true },
+    { "ingles": "adviser", "portugues": "consultor", "visibilidade": true },
+    { "ingles": "advocate", "portugues": "defensor", "visibilidade": true },
 ]
