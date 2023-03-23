@@ -181,4 +181,12 @@ const topPalavras = [
     { "ingles": "advise", "portugues": "aconselhar", "visibilidade": true },
     { "ingles": "adviser", "portugues": "consultor", "visibilidade": true },
     { "ingles": "advocate", "portugues": "defensor", "visibilidade": true },
+    { "ingles": "affair", "portugues": "assunto/caso", "visibilidade": true },
+    { "ingles": "affect", "portugues": "afetar", "visibilidade": true },
+    { "ingles": "afford", "portugues": "permitir/arcar", "visibilidade": true },
+    { "ingles": "afraid", "portugues": "com medo", "visibilidade": true },
+    { "ingles": "African", "portugues": "africano", "visibilidade": true },
+    { "ingles": "African-American", "portugues": "afro-americano", "visibilidade": true }
+
+
 ]

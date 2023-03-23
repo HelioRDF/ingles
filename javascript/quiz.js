@@ -192,18 +192,22 @@ resposta.addEventListener("keyup", function (event) {
 
 
 const topPalavras = [
-    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
-    {"ingles":"accurate","portugues":"preciso","visibilidade":true},
-    {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
-    {"ingles":"achievement","portugues":"realização","visibilidade":true},
-    {"ingles":"actual","portugues":"real","visibilidade":true},
-    {"ingles":"actually","portugues":"na verdade","visibilidade":true},
-    {"ingles":"advertising","portugues":"publicidade","visibilidade":true},
-    {"ingles":"advice","portugues":"conselho","visibilidade":true},
-    {"ingles":"advise","portugues":"aconselhar","visibilidade":true},
-    {"ingles":"adviser","portugues":"consultor","visibilidade":true},
-    {"ingles":"advocate","portugues":"defensor","visibilidade":true},
-
-
+    { "ingles": "accomplish", "portugues": "realizar", "visibilidade": true },
+    { "ingles": "accurate", "portugues": "preciso", "visibilidade": true },
+    { "ingles": "achieve", "portugues": "alcançar", "visibilidade": true },
+    { "ingles": "achievement", "portugues": "realização", "visibilidade": true },
+    { "ingles": "actual", "portugues": "real", "visibilidade": true },
+    { "ingles": "actually", "portugues": "na verdade", "visibilidade": true },
+    { "ingles": "advertising", "portugues": "publicidade", "visibilidade": true },
+    { "ingles": "advice", "portugues": "conselho", "visibilidade": true },
+    { "ingles": "advise", "portugues": "aconselhar", "visibilidade": true },
+    { "ingles": "adviser", "portugues": "consultor", "visibilidade": true },
+    { "ingles": "advocate", "portugues": "defensor", "visibilidade": true },
+    { "ingles": "affair", "portugues": "assunto/caso", "visibilidade": true },
+    { "ingles": "affect", "portugues": "afetar", "visibilidade": true },
+    { "ingles": "afford", "portugues": "permitir/arcar", "visibilidade": true },
+    { "ingles": "afraid", "portugues": "com medo", "visibilidade": true },
+    { "ingles": "African", "portugues": "africano", "visibilidade": true },
+    { "ingles": "African-American", "portugues": "afro-americano", "visibilidade": true }
 
 ]
