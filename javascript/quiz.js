@@ -7,7 +7,6 @@ $(() => {
     }
 })
 
-
 // Elementos HTML
 const botaoAbrirPopup = document.querySelector('.botao-abrir-popup');
 const popupFundo = document.querySelector('.popup-fundo');
@@ -71,9 +70,6 @@ function playAudio(id) {
     const audio = document.getElementById(id);
     audio.play();
 }
-
-
-
 
 // Evento de clique do botão "Fechar popup"
 popupFundo.addEventListener('click', function (event) {
@@ -139,8 +135,6 @@ function desativarBt() {
     $(".play-button").attr("disabled", true);
 }
 
-
-
 function validarObjeto() {
     let log = "";
     topPalavras.forEach(element => {
@@ -189,25 +183,18 @@ resposta.addEventListener("keyup", function (event) {
     }
 });
 
-
-
 const topPalavras = [
-    { "ingles": "accomplish", "portugues": "realizar", "visibilidade": true },
-    { "ingles": "accurate", "portugues": "preciso", "visibilidade": true },
-    { "ingles": "achieve", "portugues": "alcançar", "visibilidade": true },
-    { "ingles": "achievement", "portugues": "realização", "visibilidade": true },
-    { "ingles": "actual", "portugues": "real", "visibilidade": true },
-    { "ingles": "actually", "portugues": "na verdade", "visibilidade": true },
-    { "ingles": "advertising", "portugues": "publicidade", "visibilidade": true },
-    { "ingles": "advice", "portugues": "conselho", "visibilidade": true },
-    { "ingles": "advise", "portugues": "aconselhar", "visibilidade": true },
-    { "ingles": "adviser", "portugues": "consultor", "visibilidade": true },
-    { "ingles": "advocate", "portugues": "defensor", "visibilidade": true },
-    { "ingles": "affair", "portugues": "assunto/caso", "visibilidade": true },
-    { "ingles": "affect", "portugues": "afetar", "visibilidade": true },
-    { "ingles": "afford", "portugues": "permitir/arcar", "visibilidade": true },
-    { "ingles": "afraid", "portugues": "com medo", "visibilidade": true },
-    { "ingles": "African", "portugues": "africano", "visibilidade": true },
-    { "ingles": "African-American", "portugues": "afro-americano", "visibilidade": true }
+    
+    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
+    {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
+    {"ingles":"achievement","portugues":"realização","visibilidade":true},
+    {"ingles":"actually","portugues":"na verdade","visibilidade":true},
+    {"ingles":"advice","portugues":"conselho","visibilidade":true},
+    {"ingles":"advise","portugues":"aconselhar","visibilidade":true},
+    {"ingles":"adviser","portugues":"consultor","visibilidade":true},
+    {"ingles":"affair","portugues":"assunto/caso","visibilidade":true},
+    {"ingles":"afford","portugues":"permitir/arcar","visibilidade":true},
+    {"ingles":"afraid","portugues":"com medo","visibilidade":true},
+    {"ingles":"against","portugues":"contra","visibilidade":true},
 
 ]
