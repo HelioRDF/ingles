@@ -21,6 +21,7 @@ const mensagemTraduzir = document.querySelector('.mensagem-traduzir');
 
 // Variável para controlar o índice da pergunta atual
 let indicePergunta = 0;
+let indicePerguntaAnt
 
 // Evento de clique do botão "Abrir popup"
 botaoAbrirPopup.addEventListener('click', exibirPopup);
@@ -83,7 +84,7 @@ botaoResponder.addEventListener('click', function () {
     mensagemErro.textContent = '';
     mensagemAcerto.textContent = '';
     mensagemTraduzir.textContent = '';
-    if (resposta.value.toLowerCase().trim() === topPalavras[indicePergunta].portugues) {
+    if (resposta.value.toLowerCase().trim() === topPalavras[indicePergunta].portugues.toLowerCase().trim()) {
         mensagemAcerto.textContent = 'Resposta correta!';
         console.log("\nApagar =>", topPalavras[indicePergunta].ingles + " | " + topPalavras[indicePergunta].portugues + " | " + indicePergunta)
 
@@ -99,7 +100,13 @@ botaoResponder.addEventListener('click', function () {
 
 // Função para avançar para a próxima pergunta
 function proximaPergunta() {
-    indicePergunta++;
+
+    indicePergunta= Math.floor(Math.random() * topPalavras.length);
+    if(indicePergunta==indicePerguntaAnt){
+        indicePergunta= Math.floor(Math.random() * topPalavras.length);
+        console.log("Ops...")
+    }
+    indicePerguntaAnt=indicePergunta;
     mensagemErro.textContent = '';
     mensagemAcerto.textContent = '';
     mensagemTraduzir.textContent = '';
@@ -189,12 +196,13 @@ const topPalavras = [
     {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
     {"ingles":"achievement","portugues":"realização","visibilidade":true},
     {"ingles":"actually","portugues":"na verdade","visibilidade":true},
-    {"ingles":"advice","portugues":"conselho","visibilidade":true},
-    {"ingles":"advise","portugues":"aconselhar","visibilidade":true},
-    {"ingles":"adviser","portugues":"consultor","visibilidade":true},
     {"ingles":"affair","portugues":"assunto/caso","visibilidade":true},
     {"ingles":"afford","portugues":"permitir/arcar","visibilidade":true},
     {"ingles":"afraid","portugues":"com medo","visibilidade":true},
-    {"ingles":"against","portugues":"contra","visibilidade":true},
+    {"ingles":"ago","portugues":"atrás","visibilidade":true},
+    {"ingles": "ahead", "portugues": "adiante", "visibilidade": true},
+    {"ingles": "aid", "portugues": "ajuda", "visibilidade": true},
+    {"ingles": "aide", "portugues": "ajudante", "visibilidade": true},
+
 
 ]
