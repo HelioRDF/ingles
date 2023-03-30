@@ -101,12 +101,12 @@ botaoResponder.addEventListener('click', function () {
 // Função para avançar para a próxima pergunta
 function proximaPergunta() {
 
-    indicePergunta= Math.floor(Math.random() * topPalavras.length);
-    if(indicePergunta==indicePerguntaAnt){
-        indicePergunta= Math.floor(Math.random() * topPalavras.length);
+    indicePergunta = Math.floor(Math.random() * topPalavras.length);
+    if (indicePergunta == indicePerguntaAnt) {
+        indicePergunta = Math.floor(Math.random() * topPalavras.length);
         console.log("Ops...")
     }
-    indicePerguntaAnt=indicePergunta;
+    indicePerguntaAnt = indicePergunta;
     mensagemErro.textContent = '';
     mensagemAcerto.textContent = '';
     mensagemTraduzir.textContent = '';
@@ -191,16 +191,18 @@ resposta.addEventListener("keyup", function (event) {
 });
 
 const topPalavras = [
-    
-    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
-    {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
-    {"ingles":"achievement","portugues":"realização","visibilidade":true},
-    {"ingles":"actually","portugues":"na verdade","visibilidade":true},
-    {"ingles":"afford","portugues":"permitir/arcar","visibilidade":true},
-    {"ingles":"afraid","portugues":"com medo","visibilidade":true}, 
-    {"ingles": "ahead", "portugues": "adiante", "visibilidade": true},
-    {"ingles": "aid", "portugues": "ajuda", "visibilidade": true},
-    {"ingles": "aide", "portugues": "ajudante", "visibilidade": true},
 
+    { "ingles": "accomplish", "portugues": "realizar", "visibilidade": true },
+    { "ingles": "achieve", "portugues": "alcançar", "visibilidade": true },
+    { "ingles": "achievement", "portugues": "realização", "visibilidade": true },
 
+    { "ingles": "afford", "portugues": "permitir/arcar", "visibilidade": true },
+    { "ingles": "ahead", "portugues": "adiante", "visibilidade": true },
+    { "ingles": "aim", "portugues": "objetivo", "visibilidade": true },
+
+    { "ingles": "alive", "portugues": "vivo", "visibilidade": true },
+
+    {"ingles": "alliance", "portugues": "aliança", "visibilidade": true},
+    {"ingles": "allow", "portugues": "permitir", "visibilidade": true},
+    {"ingles": "ally", "portugues": "aliado", "visibilidade": true}
 ]
