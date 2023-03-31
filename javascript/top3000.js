@@ -203,11 +203,11 @@ const topPalavras = [
     { "ingles": "agreement", "portugues": "acordo", "visibilidade": false },
     { "ingles": "agricultural", "portugues": "agrícola", "visibilidade": false },
     { "ingles": "ah", "portugues": "ah", "visibilidade": false },
-    { "ingles": "ahead", "portugues": "adiante", "visibilidade": true },
+    { "ingles": "ahead", "portugues": "adiante", "visibilidade": false },
     { "ingles": "aid", "portugues": "ajuda", "visibilidade": false },
     { "ingles": "aide", "portugues": "ajudante", "visibilidade": false },
     { "ingles": "AIDS", "portugues": "AIDS", "visibilidade": false },
-    { "ingles": "aim", "portugues": "objetivo", "visibilidade": true },
+    { "ingles": "aim", "portugues": "objetivo", "visibilidade": false },
     { "ingles": "air", "portugues": "ar", "visibilidade": false },
     { "ingles": "aircraft", "portugues": "aeronave", "visibilidade": false },
     { "ingles": "airline", "portugues": "companhia aérea", "visibilidade": false },
@@ -216,7 +216,10 @@ const topPalavras = [
     { "ingles": "alcohol", "portugues": "álcool", "visibilidade": false },
     { "ingles": "alive", "portugues": "vivo", "visibilidade": true },
     { "ingles": "all", "portugues": "todo", "visibilidade": false },
-    {"ingles": "alliance", "portugues": "aliança", "visibilidade": true},
-    {"ingles": "allow", "portugues": "permitir", "visibilidade": true},
-    {"ingles": "ally", "portugues": "aliado", "visibilidade": true}
+    { "ingles": "alliance", "portugues": "aliança", "visibilidade": false },
+    { "ingles": "allow", "portugues": "permitir", "visibilidade": false },
+    { "ingles": "ally", "portugues": "aliado", "visibilidade": true },
+    { "ingles": "almost", "portugues": "quase", "visibilidade": true },
+    { "ingles": "alone", "portugues": "sozinho", "visibilidade": true },
+    { "ingles": "along", "portugues": "ao longo de", "visibilidade": true }
 ]
