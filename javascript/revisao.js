@@ -1,14 +1,18 @@
 $(() => {
 
-    console.log(topPalavras);
-    let audioControl = document.getElementsByClassName("play")
-    for (i = 0; i < audioControl.length; i++) {
-        audioControl[i].playbackRate = speedControl.value;
-    }
+    // let audioControl = document.getElementsByClassName("play")
+   // for (i = 0; i < audioControl.length; i++) {
+ //       audioControl[i].playbackRate = speedControl.value;
+  //  }
 })
+
 
 // Elementos HTML
 const botaoAbrirPopup = document.querySelector('.botao-abrir-popup');
+const botaoAbrirPopupWHDemons = document.querySelector('.botao-abrir-popup-wh-demonstrativos');
+const botaoAbrirPopupDatas = document.querySelector('.botao-abrir-popup-datas');
+const botaoAbrirPopupMaterial = document.querySelector('.botao-abrir-popup-material');
+const botaoAbrirPopupSignos = document.querySelector('.botao-abrir-popup-signos');
 const popupFundo = document.querySelector('.popup-fundo');
 const botaoResponder = document.querySelector('.botao-responder');
 const botaoProximo = document.querySelector('.botao-proximo');
@@ -24,15 +28,53 @@ let indicePergunta = 0;
 let indicePerguntaAnt
 
 // Evento de clique do botão "Abrir popup"
-botaoAbrirPopup.addEventListener('click', exibirPopup);
+botaoAbrirPopup.addEventListener('click', exibirPopupFull);
+botaoAbrirPopupWHDemons.addEventListener('click', exibirPopupWhDemons);
+botaoAbrirPopupDatas.addEventListener('click', exibirPopupDatas);
+botaoAbrirPopupMaterial.addEventListener('click', exibirPopupMaterial);
+botaoAbrirPopupSignos.addEventListener('click', exibirPopupSignos);
 
 // Função para exibir a popup
-function exibirPopup() {
+function exibirPopupFull() {
+    config()
+    topPalavras=full;
+    console.log(full);
+    pergunta.textContent = topPalavras[indicePergunta].portugues;
+   
+}
+// Função para exibir a popup
+function exibirPopupWhDemons() {
+    config()
+    topPalavras=wh_demons;
+    console.log(wh_demons);
+    pergunta.textContent = wh_demons[indicePergunta].portugues;
+}
+// Função para exibir a popup
+function exibirPopupDatas() {
+    config()
+    topPalavras=dates;
+    console.log(dates);
+    pergunta.textContent = dates[indicePergunta].portugues;
+ }
+// Função para exibir a popup
+function exibirPopupMaterial() {
+    config()
+    topPalavras=materias;
+    console.log(materias);
+    pergunta.textContent = materias[indicePergunta].portugues;
+}
+// Função para exibir a popup
+function exibirPopupSignos() {
+    config();
+    topPalavras=signos;
+    console.log(signos);
+    pergunta.textContent = signos[indicePergunta].portugues;
+}
+
+function config(){
     popupFundo.style.display = 'flex';
     resposta.value = '';
     resposta.focus();
-    // Exibir a primeira pergunta ao carregar a página
-    exibirPergunta();
 }
 
 // Função para fechar a popup
@@ -43,9 +85,7 @@ function fecharPopup() {
 
 // Função para exibir a pergunta atual
 function exibirPergunta() {
-    estruturaAudio()
     pergunta.textContent = topPalavras[indicePergunta].portugues;
-    playAudio(topPalavras[indicePergunta].portugues)
 }
 
 function estruturaAudio() {
@@ -67,10 +107,10 @@ function estruturaAudio() {
 
 }
 
-function playAudio(id) {
-    const audio = document.getElementById(id);
-    audio.play();
-}
+//function playAudio(id) {
+  //  const audio = document.getElementById(id);
+  //  audio.play();
+//}
 
 // Evento de clique do botão "Fechar popup"
 popupFundo.addEventListener('click', function (event) {
@@ -191,8 +231,8 @@ botaoResponder.addEventListener('click', function () {
 
 });
 
-
-const topPalavras = [
+let topPalavras="";
+const full = [
 
     { "ingles": "what", "portugues": "qual/o que", "visibilidade": true },
     { "ingles": "where", "portugues": "onde", "visibilidade": true },
@@ -222,7 +262,7 @@ const topPalavras = [
     { "ingles": "November", "portugues": "Novembro", "visibilidade": true },
     { "ingles": "December", "portugues": "Dezembro", "visibilidade": true },
 
-    { "ingles": "this", "portugues": "este/esta", "visibilidade": true },
+    { "ingles": "this", "portugues": "esse/essa", "visibilidade": true },
     { "ingles": "these", "portugues": "estes/estas", "visibilidade": true },
     { "ingles": "that", "portugues": "aquele/aquela", "visibilidade": true },
     { "ingles": "those", "portugues": "aqueles/aquelas", "visibilidade": true },
@@ -252,3 +292,70 @@ const topPalavras = [
     { "ingles": "Pisces", "portugues": "Peixes", "visibilidade": true }
 
 ]
+
+
+const wh_demons = [
+
+    { "ingles": "what", "portugues": "qual/o que", "visibilidade": true },
+    { "ingles": "where", "portugues": "onde", "visibilidade": true },
+    { "ingles": "who", "portugues": "quem", "visibilidade": true },
+    { "ingles": "why", "portugues": "por que", "visibilidade": true },
+    { "ingles": "how", "portugues": "como", "visibilidade": true },
+    { "ingles": "when", "portugues": "quando", "visibilidade": true },
+
+    { "ingles": "this", "portugues": "esse/essa", "visibilidade": true },
+    { "ingles": "these", "portugues": "estes/estas", "visibilidade": true },
+    { "ingles": "that", "portugues": "aquele/aquela", "visibilidade": true },
+    { "ingles": "those", "portugues": "aqueles/aquelas", "visibilidade": true },]
+
+const dates = [
+    { "ingles": "Monday", "portugues": "Segunda-feira" },
+    { "ingles": "Tuesday", "portugues": "Terça-feira" },
+    { "ingles": "Wednesday", "portugues": "Quarta-feira" },
+    { "ingles": "Thursday", "portugues": "Quinta-feira" },
+    { "ingles": "Friday", "portugues": "Sexta-feira" },
+    { "ingles": "Saturday", "portugues": "Sábado" },
+    { "ingles": "Sunday", "portugues": "Domingo" },
+
+    { "ingles": "January", "portugues": "Janeiro", "visibilidade": true },
+    { "ingles": "February", "portugues": "Fevereiro", "visibilidade": true },
+    { "ingles": "March", "portugues": "Março", "visibilidade": true },
+    { "ingles": "April", "portugues": "Abril", "visibilidade": true },
+    { "ingles": "May", "portugues": "Maio", "visibilidade": true },
+    { "ingles": "June", "portugues": "Junho", "visibilidade": true },
+    { "ingles": "July", "portugues": "Julho", "visibilidade": true },
+    { "ingles": "August", "portugues": "Agosto", "visibilidade": true },
+    { "ingles": "September", "portugues": "Setembro", "visibilidade": true },
+    { "ingles": "October", "portugues": "Outubro", "visibilidade": true },
+    { "ingles": "November", "portugues": "Novembro", "visibilidade": true },
+    { "ingles": "December", "portugues": "Dezembro", "visibilidade": true },]
+
+const materias =
+    [
+        { "ingles": "math", "portugues": "matemática", "visibilidade": true },
+        { "ingles": "history", "portugues": "história", "visibilidade": true },
+        { "ingles": "geography", "portugues": "geografia", "visibilidade": true },
+        { "ingles": "biology", "portugues": "biologia", "visibilidade": true },
+        { "ingles": "chemistry", "portugues": "química", "visibilidade": true },
+        { "ingles": "physics", "portugues": "física", "visibilidade": true },
+        { "ingles": "literature", "portugues": "literatura", "visibilidade": true },
+        { "ingles": "art", "portugues": "arte", "visibilidade": true },
+        { "ingles": "music", "portugues": "música", "visibilidade": true },
+        { "ingles": "physical education", "portugues": "educação física", "visibilidade": true },]
+
+
+        const signos =
+        [
+        { "ingles": "Aries", "portugues": "Áries", "visibilidade": true },
+        { "ingles": "Taurus", "portugues": "Touro", "visibilidade": true },
+        { "ingles": "Gemini", "portugues": "Gêmeos", "visibilidade": true },
+        { "ingles": "Cancer", "portugues": "Câncer", "visibilidade": true },
+        { "ingles": "Leo", "portugues": "Leão", "visibilidade": true },
+        { "ingles": "Virgo", "portugues": "Virgem", "visibilidade": true },
+        { "ingles": "Libra", "portugues": "Libra", "visibilidade": true },
+        { "ingles": "Scorpio", "portugues": "Escorpião", "visibilidade": true },
+        { "ingles": "Sagittarius", "portugues": "Sagitário", "visibilidade": true },
+        { "ingles": "Capricorn", "portugues": "Capricórnio", "visibilidade": true },
+        { "ingles": "Aquarius", "portugues": "Aquário", "visibilidade": true },
+        { "ingles": "Pisces", "portugues": "Peixes", "visibilidade": true }
+        ]
