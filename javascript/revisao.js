@@ -268,7 +268,7 @@ const full = [
     { "ingles": "December", "portugues": "Dezembro", "visibilidade": true },
 
     { "ingles": "this", "portugues": "esse/essa", "visibilidade": true },
-    { "ingles": "these", "portugues": "estes/estas", "visibilidade": true },
+    { "ingles": "these", "portugues": "esses/essas", "visibilidade": true },
     { "ingles": "that", "portugues": "aquele/aquela", "visibilidade": true },
     { "ingles": "those", "portugues": "aqueles/aquelas", "visibilidade": true },
 
@@ -282,19 +282,6 @@ const full = [
     { "ingles": "art", "portugues": "arte", "visibilidade": true },
     { "ingles": "music", "portugues": "música", "visibilidade": true },
     { "ingles": "physical education", "portugues": "educação física", "visibilidade": true },
-
-    { "ingles": "Aries", "portugues": "Áries", "visibilidade": true },
-    { "ingles": "Taurus", "portugues": "Touro", "visibilidade": true },
-    { "ingles": "Gemini", "portugues": "Gêmeos", "visibilidade": true },
-    { "ingles": "Cancer", "portugues": "Câncer", "visibilidade": true },
-    { "ingles": "Leo", "portugues": "Leão", "visibilidade": true },
-    { "ingles": "Virgo", "portugues": "Virgem", "visibilidade": true },
-    { "ingles": "Libra", "portugues": "Libra", "visibilidade": true },
-    { "ingles": "Scorpio", "portugues": "Escorpião", "visibilidade": true },
-    { "ingles": "Sagittarius", "portugues": "Sagitário", "visibilidade": true },
-    { "ingles": "Capricorn", "portugues": "Capricórnio", "visibilidade": true },
-    { "ingles": "Aquarius", "portugues": "Aquário", "visibilidade": true },
-    { "ingles": "Pisces", "portugues": "Peixes", "visibilidade": true }
 
 ]
 
