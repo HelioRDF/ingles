@@ -37,6 +37,7 @@ botaoAbrirPopupSignos.addEventListener('click', exibirPopupSignos);
 // Função para exibir a popup
 function exibirPopupFull() {
     config()
+    ativarBt()
     topPalavras=full;
     console.log(full);
     pergunta.textContent = topPalavras[indicePergunta].portugues;
@@ -45,6 +46,7 @@ function exibirPopupFull() {
 // Função para exibir a popup
 function exibirPopupWhDemons() {
     config()
+    ativarBt()
     topPalavras=wh_demons;
     console.log(wh_demons);
     pergunta.textContent = wh_demons[indicePergunta].portugues;
@@ -52,6 +54,7 @@ function exibirPopupWhDemons() {
 // Função para exibir a popup
 function exibirPopupDatas() {
     config()
+    ativarBt()
     topPalavras=dates;
     console.log(dates);
     pergunta.textContent = dates[indicePergunta].portugues;
@@ -59,6 +62,7 @@ function exibirPopupDatas() {
 // Função para exibir a popup
 function exibirPopupMaterial() {
     config()
+    ativarBt()
     topPalavras=materias;
     console.log(materias);
     pergunta.textContent = materias[indicePergunta].portugues;
@@ -66,6 +70,7 @@ function exibirPopupMaterial() {
 // Função para exibir a popup
 function exibirPopupSignos() {
     config();
+    ativarBt()
     topPalavras=signos;
     console.log(signos);
     pergunta.textContent = signos[indicePergunta].portugues;
