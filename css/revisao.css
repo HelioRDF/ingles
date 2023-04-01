@@ -1,0 +1,145 @@
+
+
+body {
+  background-color: #ffffff;
+}
+
+.x {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bt{
+  margin: 10px; /* centraliza o botão horizontalmente */
+  margin-bottom: 1em; /* adiciona espaço abaixo do botão */
+
+  background-color: #2d2d2d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 20px;
+}
+
+.popup-fundo {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 5px;
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+
+.popup h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.popup input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #f5ed00;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+
+
+.botao-proximo {
+  background-color: #78b3c7;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 14px;
+  cursor: pointer;
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 12px;
+}
+
+.botao-responder {
+  width: 48%;
+  background-color: #6f992d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.botao-traduzir {
+  width: 48%;
+  background-color: #151d92;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.mensagem-acerto {
+  color: green;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.mensagem-erro {
+  color: red;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.mensagem-traduzir {
+  color: rgb(47, 0, 255);
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#audioBtQuiz {
+  display: grid;
+}
+
+button:disabled {
+  background-color: #999999;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #999999;
+}
