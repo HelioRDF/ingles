@@ -218,8 +218,11 @@ const topPalavras = [
     { "ingles": "all", "portugues": "todo", "visibilidade": false },
     { "ingles": "alliance", "portugues": "aliança", "visibilidade": false },
     { "ingles": "allow", "portugues": "permitir", "visibilidade": false },
-    { "ingles": "ally", "portugues": "aliado", "visibilidade": true },
+    { "ingles": "ally", "portugues": "aliado", "visibilidade": false },
     { "ingles": "almost", "portugues": "quase", "visibilidade": true },
-    { "ingles": "alone", "portugues": "sozinho", "visibilidade": true },
-    { "ingles": "along", "portugues": "ao longo de", "visibilidade": true }
+    { "ingles": "alone", "portugues": "sozinho", "visibilidade": false },
+    { "ingles": "along", "portugues": "ao longo de", "visibilidade": true },
+    { "ingles": "already", "portugues": "já", "visibilidade": true },
+    { "ingles": "also", "portugues": "também", "visibilidade": true },
+    { "ingles": "alter", "portugues": "alterar", "visibilidade": true }
 ]

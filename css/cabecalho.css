@@ -1,4 +1,4 @@
-header {
+header{
     background-color: #78b3c7;
     padding: 15px;
     display: flex;
@@ -12,6 +12,14 @@ header {
     z-index: 999;
   }
   
+  .speed {
+    position: fixed;
+    top: 10px;
+    left: 44%;
+    right: 48%;
+    z-index: 999;
+  }
+
   .logo a {
     font-size: 1.5em;
     font-weight: 700;

@@ -1,4 +1,5 @@
 $(() => {
+    console.log("verbo")
     let id = 1
     grupoA.forEach(element => {
         addTable(element, id)
@@ -11,11 +12,6 @@ $(() => {
     }
 })
 
-function playAudio(id) {
-    const audio = document.getElementById(id);
-    audio.play();
-}
-
 const speedControl = document.getElementById('speed');
 function changeSpeed() {
     let audioControl = document.getElementsByClassName("play")
@@ -25,6 +21,10 @@ function changeSpeed() {
     }
 }
 
+function playAudio(id) {
+    const audio = document.getElementById(id);
+    audio.play();
+}
 function addTable(palavras, id) {
     let palavraIngles = palavras.palavraIngles;
     let palavraPortugues = palavras.palavraPortugues;
@@ -49,8 +49,8 @@ function addTable(palavras, id) {
         "row").text(palavraPortugues.toUpperCase());
     let imagem = $("<img>").attr("src", `./imagem/${palavraIngles
         }.png`).attr("alt", palavraPortugues).attr("title", palavraPortugues).attr("width",
-            64).attr("class", 'ilustracao').attr("onerror","this.src='./imagem/em-breve.png'");
-            
+            64).attr("class", 'ilustracao').attr("onerror", "this.src='./imagem/em-breve.png'");
+
     let tdTableImagem = $("<td>").attr("scope",
         "row").append(imagem);
     trTable.append(thTableId);
