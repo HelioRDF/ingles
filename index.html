@@ -15,18 +15,22 @@
 
 <body>
     <header class="my-header">
-        <!-- Inclusão via cabeçalho.js-->
+
+        <div class="logo"></div>
+        <div class="speed">
+            <select id="speed" onchange="changeSpeed()">
+                <option value="0.5">0.5x</option>
+                <option value="0.7">0.7x</option>
+                <option value="0.9" selected>0.9x</option>
+                <option value="1">Normal</option>
+                <option value="1.5">1.5</option>
+            </select>
+        </div>
+        <nav class="mynav"></nav>
+
     </header>
 
-    <div class="speed">
-        <select id="speed" onchange="changeSpeed()">
-            <option value="0.5">0.5x</option>
-            <option value="0.7">0.7x</option>
-            <option value="0.9" selected>0.9x</option>
-            <option value="1">Normal</option>
-            <option value="1.5">1.5</option>
-        </select>
-    </div>
+
 
     <div id="audio">
         <!-- Adicionar audio de forma dinamica -->

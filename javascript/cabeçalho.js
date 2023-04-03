@@ -6,13 +6,13 @@ $(() => {
 
 function addheader() {
 
-    let div_logo = $("<div>").attr("class", "logo");
+    let div_logo = $(".logo");
     let link_home = $("<a>").attr("href", "./index.html").text("English Review")
     div_logo.append(link_home);
     let my_header = $(".my-header");
-    my_header.append(div_logo);
+    my_header.prepend(div_logo);
 
-    let nav_logo = $("<nav>")
+    let nav_logo = $(".mynav")
     let ul_logo = $("<ul>")
     let verbo_li = $("<li>")
     let verbo_link = $("<a>").attr("href", "./verbo.html").text("Verbo")
