@@ -4,9 +4,12 @@
   }
 }
 
+
+
 header {
   background-color: #78b3c7;
   padding: 25px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,10 +22,14 @@ header {
 }
 
 .logo a {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #4a7787;
   font-size: 1.8em;
   font-weight: 700;
   color: #FFF;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 nav ul {
@@ -41,8 +48,17 @@ nav a {
   text-decoration: none;
   font-size: 1.2em;
   transition: all 0.3s ease;
+  background-color: #4ca1af;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 nav a:hover {
-  color: #fc5c65;
+  color: #302e2e;
+  background-color: #63cada;
+  
+}
+
+.logo a:hover{
+  background-color: #3f99a7;
 }
