@@ -14,14 +14,13 @@
   width: 100%;
   text-align: initial;
   display: block;
-  padding: 20px;
-  border: 2px solid #10234d;
+  border: 1px solid #10234d;
   background-color: #ffffff;
   text-decoration: none;
   color: #10234d;
   transition: background-color 0.3s ease;
-  font-size: 22px;
-  margin: 2px;
+  font-size: 16px;
+
 }
 
 #lista-conteudo button:hover {
