@@ -1,6 +1,4 @@
 
-  
-  
 #lista-conteudo {
   list-style: none;
   margin: 0;
@@ -12,20 +10,20 @@
 }
 
 #lista-conteudo a {
+  border-radius: 10px;
   display: block;
   padding: 10px;
-  border: 2px solid #10234d;
+  border: 1px solid #10234d;
   background-color: #ffffff;
   text-decoration: none;
   color: #10234d;
-  font-weight: bold;
+ 
   transition: background-color 0.3s ease;
   font-size: 18px;
 }
 
 #lista-conteudo a:hover {
   color: #46aae4;
-  border: 2px solid #4cade6;
-  border: 2px solid #71b3df;
+  border: 1px solid #71b3df;
  
 }

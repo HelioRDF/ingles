@@ -1,34 +1,33 @@
 
 
-body {
-  background-color: #ffffff;
+#lista-conteudo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.x {
-  background-color: #2d2d2d;
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  padding: 15px 30px;
-  font-size: 20px;
-  cursor: pointer;
+#lista-conteudo li {
+  margin: 10px 0;
+}
+
+#lista-conteudo button {
+  width: 100%;
+  text-align: initial;
   display: block;
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 2px solid #10234d;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #10234d;
+  transition: background-color 0.3s ease;
+  font-size: 22px;
+  margin: 2px;
 }
-.bt{
-  margin: 10px; /* centraliza o botão horizontalmente */
-  margin-bottom: 1em; /* adiciona espaço abaixo do botão */
 
-  background-color: #2d2d2d;
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  padding: 15px 30px;
-  font-size: 20px;
+#lista-conteudo button:hover {
+  color: #46aae4;
+  border: 2px solid #71b3df;
+ 
 }
 
 .popup-fundo {
