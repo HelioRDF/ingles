@@ -191,17 +191,12 @@ resposta.addEventListener("keyup", function (event) {
 });
 
 const topPalavras = [
-    { "ingles": "accomplish", "portugues": "realizar", "visibilidade": true },
-    { "ingles": "achieve", "portugues": "alcançar", "visibilidade": true },
-    { "ingles": "achievement", "portugues": "realização", "visibilidade": true },
-    { "ingles": "afford", "portugues": "permitir/arcar", "visibilidade": true },
-    { "ingles": "alive", "portugues": "vivo", "visibilidade": true },
-    { "ingles": "almost", "portugues": "quase", "visibilidade": true },
-    { "ingles": "along", "portugues": "ao longo de", "visibilidade": true },
-    { "ingles": "already", "portugues": "já", "visibilidade": true },
-    { "ingles": "also", "portugues": "também", "visibilidade": true },
-    { "ingles": "alter", "portugues": "alterar", "visibilidade": true },
-    { "ingles": "alternative", "portugues": "alternativa", "visibilidade": true },
-    { "ingles": "although", "portugues": "embora", "visibilidade": true },
-    { "ingles": "always", "portugues": "sempre", "visibilidade": true }
+    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
+    {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
+    {"ingles":"achievement","portugues":"realização","visibilidade":true},
+    {"ingles":"afford","portugues":"permitir/arcar","visibilidade":true},
+    {"ingles":"alive","portugues":"vivo","visibilidade":true},
+    {"ingles":"almost","portugues":"quase","visibilidade":true},
+    {"ingles":"already","portugues":"já","visibilidade":true},
+    {"ingles":"although","portugues":"embora","visibilidade":true},
 ]
