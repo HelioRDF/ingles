@@ -31,7 +31,7 @@ function addheader() {
     top3000_li.append(top3000_link)
     let quiz_li = $("<li>")
     let quiz_link = $("<a>").attr("href", "./quiz.html").text("Quiz")
-    quiz_li.append(quiz_link)
+    //quiz_li.append(quiz_link)
     ul_logo.append(verbo_li)
     ul_logo.append(alfabeto_li)
     ul_logo.append(numero_li)

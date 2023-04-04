@@ -200,5 +200,8 @@ const topPalavras = [
     { "ingles": "along", "portugues": "ao longo de", "visibilidade": true },
     { "ingles": "already", "portugues": "já", "visibilidade": true },
     { "ingles": "also", "portugues": "também", "visibilidade": true },
-    { "ingles": "alter", "portugues": "alterar", "visibilidade": true }
+    { "ingles": "alter", "portugues": "alterar", "visibilidade": true },
+    { "ingles": "alternative", "portugues": "alternativa", "visibilidade": true },
+    { "ingles": "although", "portugues": "embora", "visibilidade": true },
+    { "ingles": "always", "portugues": "sempre", "visibilidade": true }
 ]
