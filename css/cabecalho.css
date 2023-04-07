@@ -19,6 +19,11 @@ header {
   border-radius: 10px;
 }
 
+nav {
+  position: absolute;
+  right: 0;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -43,9 +48,10 @@ nav a {
 nav a:hover {
   color: #302e2e;
   background-color: #63cada;
-  
+
 }
 
-.logo a:hover{
+.logo a:hover {
   background-color: #3f99a7;
 }
+
