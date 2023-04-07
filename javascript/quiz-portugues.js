@@ -192,12 +192,12 @@ resposta.addEventListener("keyup", function (event) {
 });
 
 const topPalavras = [
-    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
-    {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
-    {"ingles":"achievement","portugues":"realização","visibilidade":true},
-    {"ingles":"afford","portugues":"permitir/arcar","visibilidade":true},
-    {"ingles":"alive","portugues":"vivo","visibilidade":true},
     {"ingles":"almost","portugues":"quase","visibilidade":true},
-    {"ingles":"already","portugues":"já","visibilidade":true},
     {"ingles":"although","portugues":"embora","visibilidade":true},
+    {"ingles":"among","portugues":"entre","visibilidade":true},
+    {"ingles":"amount","portugues":"quantidade","visibilidade":true},
+    {"ingles":"analysis","portugues":"análise","visibilidade":true},
+    {"ingles":"analyst","portugues":"analista","visibilidade":true},
+    {"ingles":"analyze","portugues":"analisar","visibilidade":true},
+    {"ingles":"ancient","portugues":"antigo","visibilidade":true},
 ]

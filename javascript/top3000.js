@@ -231,4 +231,11 @@ const topPalavras = [
     { "ingles": "AM", "portugues": "AM", "visibilidade": false },
     { "ingles": "amazing", "portugues": "incrível", "visibilidade": false },
     { "ingles": "American", "portugues": "americano", "visibilidade": false },
+    { "ingles": "among", "portugues": "entre", "visibilidade": true },
+    { "ingles": "amount", "portugues": "quantidade", "visibilidade": true },
+    { "ingles": "analysis", "portugues": "análise", "visibilidade": true },
+    { "ingles": "analyst", "portugues": "analista", "visibilidade": true },
+    { "ingles": "analyze", "portugues": "analisar", "visibilidade": true },
+    { "ingles": "ancient", "portugues": "antigo", "visibilidade": true }, 
+
 ]
