@@ -195,8 +195,5 @@ const topPalavras = [
     {"ingles":"although","portugues":"embora","visibilidade":true},
     {"ingles":"among","portugues":"entre","visibilidade":true},
     {"ingles":"amount","portugues":"quantidade","visibilidade":true},
-    {"ingles":"analysis","portugues":"análise","visibilidade":true},
-    {"ingles":"analyst","portugues":"analista","visibilidade":true},
-    {"ingles":"analyze","portugues":"analisar","visibilidade":true},
     {"ingles":"ancient","portugues":"antigo","visibilidade":true},
 ]
