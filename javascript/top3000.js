@@ -231,4 +231,12 @@ const topPalavras = [
     { "ingles": "AM", "portugues": "AM", "visibilidade": false },
     { "ingles": "amazing", "portugues": "incrível", "visibilidade": false },
     { "ingles": "American", "portugues": "americano", "visibilidade": false },
+    {"ingles": "and", "portugues": "e", "visibilidade": true},
+    {"ingles": "anger", "portugues": "raiva", "visibilidade": true},
+    {"ingles": "angle", "portugues": "ângulo", "visibilidade": true},
+    {"ingles": "angry", "portugues": "irritado", "visibilidade": true},
+    {"ingles": "animal", "portugues": "animal", "visibilidade": true},
+    {"ingles": "anniversary", "portugues": "aniversário", "visibilidade": true}
+  
+
 ]

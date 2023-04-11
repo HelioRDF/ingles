@@ -200,4 +200,11 @@ const topPalavras = [
     {"ingles":"almost","portugues":"quase","visibilidade":true},
     {"ingles":"already","portugues":"já","visibilidade":true},
     {"ingles":"although","portugues":"embora","visibilidade":true},
+    {"ingles": "and", "portugues": "e", "visibilidade": true},
+    {"ingles": "anger", "portugues": "raiva", "visibilidade": true},
+    {"ingles": "angle", "portugues": "ângulo", "visibilidade": true},
+    {"ingles": "angry", "portugues": "irritado", "visibilidade": true},
+    {"ingles": "animal", "portugues": "animal", "visibilidade": true},
+    {"ingles": "anniversary", "portugues": "aniversário", "visibilidade": true},
+  
 ]
