@@ -137,13 +137,13 @@ const topPalavras = [
     { "ingles": "access", "portugues": "acesso", "visibilidade": false },
     { "ingles": "accident", "portugues": "acidente", "visibilidade": false },
     { "ingles": "accompany", "portugues": "acompanhar", "visibilidade": false },
-    { "ingles": "accomplish", "portugues": "realizar", "visibilidade": true },
+    { "ingles": "accomplish", "portugues": "realizar", "visibilidade": false },
     { "ingles": "according", "portugues": "de acordo com", "visibilidade": false },
     { "ingles": "account", "portugues": "conta", "visibilidade": false },
     { "ingles": "accurate", "portugues": "preciso", "visibilidade": false },
     { "ingles": "accuse", "portugues": "acusar", "visibilidade": false },
-    { "ingles": "achieve", "portugues": "alcançar", "visibilidade": true },
-    { "ingles": "achievement", "portugues": "realização", "visibilidade": true },
+    { "ingles": "achieve", "portugues": "alcançar", "visibilidade": false },
+    { "ingles": "achievement", "portugues": "realização", "visibilidade": false },
     { "ingles": "acid", "portugues": "ácido", "visibilidade": false },
     { "ingles": "acknowledge", "portugues": "reconhecer", "visibilidade": false },
     { "ingles": "acquire", "portugues": "adquirir", "visibilidade": false },
@@ -185,7 +185,7 @@ const topPalavras = [
     { "ingles": "advocate", "portugues": "defensor", "visibilidade": false },
     { "ingles": "affair", "portugues": "assunto/caso", "visibilidade": false },
     { "ingles": "affect", "portugues": "afetar", "visibilidade": false },
-    { "ingles": "afford", "portugues": "permitir/arcar", "visibilidade": true },
+    { "ingles": "afford", "portugues": "permitir/arcar", "visibilidade": false },
     { "ingles": "afraid", "portugues": "com medo", "visibilidade": false },
     { "ingles": "African", "portugues": "africano", "visibilidade": false },
     { "ingles": "African-American", "portugues": "afro-americano", "visibilidade": false },
@@ -214,7 +214,7 @@ const topPalavras = [
     { "ingles": "airport", "portugues": "aeroporto", "visibilidade": false },
     { "ingles": "album", "portugues": "álbum", "visibilidade": false },
     { "ingles": "alcohol", "portugues": "álcool", "visibilidade": false },
-    { "ingles": "alive", "portugues": "vivo", "visibilidade": true },
+    { "ingles": "alive", "portugues": "vivo", "visibilidade": false },
     { "ingles": "all", "portugues": "todo", "visibilidade": false },
     { "ingles": "alliance", "portugues": "aliança", "visibilidade": false },
     { "ingles": "allow", "portugues": "permitir", "visibilidade": false },
@@ -222,7 +222,7 @@ const topPalavras = [
     { "ingles": "almost", "portugues": "quase", "visibilidade": true },
     { "ingles": "alone", "portugues": "sozinho", "visibilidade": false },
     { "ingles": "along", "portugues": "ao longo de", "visibilidade": false },
-    { "ingles": "already", "portugues": "já", "visibilidade": true },
+    { "ingles": "already", "portugues": "já", "visibilidade": false },
     { "ingles": "also", "portugues": "também", "visibilidade": false },
     { "ingles": "alter", "portugues": "alterar", "visibilidade": false },
     { "ingles": "alternative", "portugues": "alternativa", "visibilidade": false },
@@ -231,6 +231,7 @@ const topPalavras = [
     { "ingles": "AM", "portugues": "AM", "visibilidade": false },
     { "ingles": "amazing", "portugues": "incrível", "visibilidade": false },
     { "ingles": "American", "portugues": "americano", "visibilidade": false },
+<<<<<<< HEAD
     {"ingles": "and", "portugues": "e", "visibilidade": true},
     {"ingles": "anger", "portugues": "raiva", "visibilidade": true},
     {"ingles": "angle", "portugues": "ângulo", "visibilidade": true},
@@ -238,5 +239,13 @@ const topPalavras = [
     {"ingles": "animal", "portugues": "animal", "visibilidade": true},
     {"ingles": "anniversary", "portugues": "aniversário", "visibilidade": true}
   
+=======
+    { "ingles": "among", "portugues": "entre", "visibilidade": true },
+    { "ingles": "amount", "portugues": "quantidade", "visibilidade": true },
+    { "ingles": "analysis", "portugues": "análise", "visibilidade": false },
+    { "ingles": "analyst", "portugues": "analista", "visibilidade": false },
+    { "ingles": "analyze", "portugues": "analisar", "visibilidade": false },
+    { "ingles": "ancient", "portugues": "antigo", "visibilidade": true }, 
+>>>>>>> f3df6b4b7fa22871a41dba14ff50889cbbb6a4f4
 
 ]

@@ -1,27 +1,27 @@
 header {
   background-color: #78b3c7;
   padding: 25px;
-
-  display: flex;
+  display: -webkit-box;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
+
 }
 
 .logo a {
   padding: 10px 20px;
-  margin: 5px;
-  background-color: #4a7787;
+  margin: 5px 15px auto 0px;
+  background-color: #6295a7;
   font-size: 1.8em;
   font-weight: 700;
   color: #FFF;
   text-decoration: none;
   border-radius: 10px;
+}
+
+nav {
+  position: absolute;
+  right: 0;
 }
 
 nav ul {
@@ -48,9 +48,10 @@ nav a {
 nav a:hover {
   color: #302e2e;
   background-color: #63cada;
-  
+
 }
 
-.logo a:hover{
+.logo a:hover {
   background-color: #3f99a7;
 }
+

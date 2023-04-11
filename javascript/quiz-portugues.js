@@ -192,14 +192,9 @@ resposta.addEventListener("keyup", function (event) {
 });
 
 const topPalavras = [
-    {"ingles":"accomplish","portugues":"realizar","visibilidade":true},
-    {"ingles":"achieve","portugues":"alcançar","visibilidade":true},
-    {"ingles":"achievement","portugues":"realização","visibilidade":true},
-    {"ingles":"afford","portugues":"permitir/arcar","visibilidade":true},
-    {"ingles":"alive","portugues":"vivo","visibilidade":true},
     {"ingles":"almost","portugues":"quase","visibilidade":true},
-    {"ingles":"already","portugues":"já","visibilidade":true},
     {"ingles":"although","portugues":"embora","visibilidade":true},
+<<<<<<< HEAD
     {"ingles": "and", "portugues": "e", "visibilidade": true},
     {"ingles": "anger", "portugues": "raiva", "visibilidade": true},
     {"ingles": "angle", "portugues": "ângulo", "visibilidade": true},
@@ -207,4 +202,9 @@ const topPalavras = [
     {"ingles": "animal", "portugues": "animal", "visibilidade": true},
     {"ingles": "anniversary", "portugues": "aniversário", "visibilidade": true},
   
+=======
+    {"ingles":"among","portugues":"entre","visibilidade":true},
+    {"ingles":"amount","portugues":"quantidade","visibilidade":true},
+    {"ingles":"ancient","portugues":"antigo","visibilidade":true},
+>>>>>>> f3df6b4b7fa22871a41dba14ff50889cbbb6a4f4
 ]
