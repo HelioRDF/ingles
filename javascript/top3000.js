@@ -2,6 +2,7 @@ $(() => {
     let idAprender = 1
     let idAprendida = 1
 
+
     topPalavras.forEach(element => {
         if (element.visibilidade) {
             addTable(element, idAprender, "top3000filtro")
@@ -25,7 +26,15 @@ $(() => {
     $("#top3000filtro").on("click", ".bt_visibilidade", function () {
         $(this).closest("tr").remove(); // Remove a linha correspondente da tabela
     });
+
+
+    $('#tabela-dados').DataTable({
+        "pageLength": 25, // Define a quantidade de linhas por página
+        "lengthMenu": [[25, 50, 100, 200, 300], [25, 50, 100, 200, 300]]
+    });
 })
+
+
 
 function playAudio(id) {
     const audio = document.getElementById(id);
@@ -231,21 +240,17 @@ const topPalavras = [
     { "ingles": "AM", "portugues": "AM", "visibilidade": false },
     { "ingles": "amazing", "portugues": "incrível", "visibilidade": false },
     { "ingles": "American", "portugues": "americano", "visibilidade": false },
-<<<<<<< HEAD
-    {"ingles": "and", "portugues": "e", "visibilidade": true},
-    {"ingles": "anger", "portugues": "raiva", "visibilidade": true},
-    {"ingles": "angle", "portugues": "ângulo", "visibilidade": true},
-    {"ingles": "angry", "portugues": "irritado", "visibilidade": true},
-    {"ingles": "animal", "portugues": "animal", "visibilidade": true},
-    {"ingles": "anniversary", "portugues": "aniversário", "visibilidade": true}
-  
-=======
     { "ingles": "among", "portugues": "entre", "visibilidade": true },
     { "ingles": "amount", "portugues": "quantidade", "visibilidade": true },
     { "ingles": "analysis", "portugues": "análise", "visibilidade": false },
     { "ingles": "analyst", "portugues": "analista", "visibilidade": false },
     { "ingles": "analyze", "portugues": "analisar", "visibilidade": false },
-    { "ingles": "ancient", "portugues": "antigo", "visibilidade": true }, 
->>>>>>> f3df6b4b7fa22871a41dba14ff50889cbbb6a4f4
+    { "ingles": "ancient", "portugues": "antigo", "visibilidade": true },
+    { "ingles": "and", "portugues": "e", "visibilidade": false },
+    { "ingles": "anger", "portugues": "raiva", "visibilidade": true },
+    { "ingles": "angle", "portugues": "ângulo", "visibilidade": true },
+    { "ingles": "angry", "portugues": "irritado", "visibilidade": true },
+    { "ingles": "animal", "portugues": "animal", "visibilidade": false },
+    { "ingles": "anniversary", "portugues": "aniversário", "visibilidade": false }
 
 ]

@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="./css/table.css" />
     <link rel="stylesheet" type="text/css" href="./css/mobile.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+
 </head>
 
 <body>
@@ -64,8 +66,10 @@
         </tbody>
     </table>
     <br />
-    <table class="myTable">
-        <caption>Top 3000 - Aprendida  </caption>
+    <br />
+    <br />
+    <table class="myTable" id="tabela-dados">
+        <caption>Top 3000 - Aprendida </caption>
         <thead>
             <tr>
                 <th scope="col">ID</th>
@@ -80,8 +84,9 @@
         </tbody>
     </table>
 
-    <script>
-    </script>
+  <br/>
+  <br/>
+  <br/>
 </body>
 
 <!--scripts Js-->
@@ -89,5 +94,7 @@
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="./javascript/top3000.js"></script>
 <script src="./javascript/cabecalho.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
 
 </html>
