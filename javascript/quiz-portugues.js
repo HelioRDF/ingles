@@ -1,6 +1,6 @@
 $(() => {
 
-    console.log(topPalavras);
+    console.log(palavras_aprendendo);
     let audioControl = document.getElementsByClassName("play")
     for (i = 0; i < audioControl.length; i++) {
         audioControl[i].playbackRate = speedControl.value;
@@ -44,7 +44,7 @@ function fecharPopup() {
 // Função para exibir a pergunta atual
 function exibirPergunta() {
     estruturaAudio()
-    pergunta.textContent = topPalavras[indicePergunta].portugues;
+    pergunta.textContent = palavras_aprendendo[indicePergunta].portugues;
 }
 
 function estruturaAudio() {
@@ -52,12 +52,12 @@ function estruturaAudio() {
     let iconePlay = $("<i>").attr("class",
         "fas fa-play material-icons")
     let divBtAudio = $("#audioBtQuiz")
-    let audio = $("<audio>").attr("id", topPalavras[indicePergunta].ingles).attr("class",
-        "play").attr("src", `./audio/top3000/${topPalavras[indicePergunta].ingles}.mp3`)
+    let audio = $("<audio>").attr("id", palavras_aprendendo[indicePergunta].ingles).attr("class",
+        "play").attr("src", `./audio/top3000/${palavras_aprendendo[indicePergunta].ingles}.mp3`)
     divAudio.append(audio)
     let button = $("<button>").attr("type",
         "button").attr("class",
-            "play-button").attr("onclick", `playAudio('${topPalavras[indicePergunta].ingles
+            "play-button").attr("onclick", `playAudio('${palavras_aprendendo[indicePergunta].ingles
                 }')`).append(iconePlay).append("Escutar");
     divAudio.empty();
     divBtAudio.empty();
@@ -83,11 +83,11 @@ botaoResponder.addEventListener('click', function () {
     mensagemErro.textContent = '';
     mensagemAcerto.textContent = '';
     mensagemTraduzir.textContent = '';
-    if (resposta.value.toLowerCase().trim() === topPalavras[indicePergunta].ingles.toLowerCase().trim()) {
+    if (resposta.value.toLowerCase().trim() === palavras_aprendendo[indicePergunta].ingles.toLowerCase().trim()) {
         mensagemAcerto.textContent = 'Resposta correta!';
-        console.log("\nApagar =>", topPalavras[indicePergunta].ingles + " | " + topPalavras[indicePergunta].portugues + " | " + indicePergunta)
+        console.log("\nApagar =>", palavras_aprendendo[indicePergunta].ingles + " | " + palavras_aprendendo[indicePergunta].portugues + " | " + indicePergunta)
 
-        topPalavras.splice(indicePergunta, 1);
+        palavras_aprendendo.splice(indicePergunta, 1);
         $(".botao-responder").attr("disabled", true);
         $(".botao-traduzir").attr("disabled", true);
         validarObjeto()
@@ -100,9 +100,9 @@ botaoResponder.addEventListener('click', function () {
 // Função para avançar para a próxima pergunta
 function proximaPergunta() {
 
-    indicePergunta = Math.floor(Math.random() * topPalavras.length);
+    indicePergunta = Math.floor(Math.random() * palavras_aprendendo.length);
     if (indicePergunta == indicePerguntaAnt) {
-        indicePergunta = Math.floor(Math.random() * topPalavras.length);
+        indicePergunta = Math.floor(Math.random() * palavras_aprendendo.length);
         console.log("Ops...")
     }
     indicePerguntaAnt = indicePergunta;
@@ -113,7 +113,7 @@ function proximaPergunta() {
     $(".botao-traduzir").attr("disabled", false);
     $(".resposta").val('')
     $(".resposta").focus();
-    if (indicePergunta == topPalavras.length) {
+    if (indicePergunta == palavras_aprendendo.length) {
         indicePergunta = 0;
     }
     exibirPergunta();
@@ -121,11 +121,11 @@ function proximaPergunta() {
 
 // Evento de clique do botão "Próximo"
 botaoTraduzir.addEventListener('click', () => {
-    if (topPalavras.length < 1) {
+    if (palavras_aprendendo.length < 1) {
         $(".botao-traduzir").attr("class", 'ocultarBotao')
     } else {
-        playAudio(topPalavras[indicePergunta].ingles);
-        pergunta.textContent = topPalavras[indicePergunta].portugues + " (" + topPalavras[indicePergunta].ingles + ")"
+        playAudio(palavras_aprendendo[indicePergunta].ingles);
+        pergunta.textContent = palavras_aprendendo[indicePergunta].portugues + " (" + palavras_aprendendo[indicePergunta].ingles + ")"
     }
 });
 
@@ -145,15 +145,15 @@ function desativarBt() {
 
 function validarObjeto() {
     let log = "";
-    topPalavras.forEach(element => {
+    palavras_aprendendo.forEach(element => {
         log += "\n" + JSON.stringify(element)
     });
     console.log(log)
 
-    if (indicePergunta == topPalavras.length) {
+    if (indicePergunta == palavras_aprendendo.length) {
         indicePergunta = 0;
     }
-    if (topPalavras.length < 1) {
+    if (palavras_aprendendo.length < 1) {
         desativarBt();
         pergunta.textContent = "Parabéns, você concluiu a lista de palavras"
         return false
@@ -191,7 +191,7 @@ resposta.addEventListener("keyup", function (event) {
     }
 });
 
-const topPalavras = [
+const palavras_aprendendo = [
     { "ingles": "announce", "portugues": "anunciar", "visibilidade": true },
     { "ingles": "annual", "portugues": "anual", "visibilidade": true },
     { "ingles": "another", "portugues": "outro", "visibilidade": true },
