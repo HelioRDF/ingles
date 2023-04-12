@@ -139,6 +139,7 @@ const palavras_aprendendo = [
     { "ingles": "among", "portugues": "entre", "visibilidade": true },
     { "ingles": "although", "portugues": "embora", "visibilidade": true },
     { "ingles": "amount", "portugues": "quantidade", "visibilidade": true },
+    { "ingles": "almost", "portugues": "quase", "visibilidade": true },
 
 ]
 const palavras_aprendidas = [
@@ -244,7 +245,6 @@ const palavras_aprendidas = [
     { "ingles": "alliance", "portugues": "aliança", "visibilidade": false },
     { "ingles": "allow", "portugues": "permitir", "visibilidade": false },
     { "ingles": "ally", "portugues": "aliado", "visibilidade": false },
-    { "ingles": "almost", "portugues": "quase", "visibilidade": true },
     { "ingles": "alone", "portugues": "sozinho", "visibilidade": false },
     { "ingles": "along", "portugues": "ao longo de", "visibilidade": false },
     { "ingles": "already", "portugues": "já", "visibilidade": false },

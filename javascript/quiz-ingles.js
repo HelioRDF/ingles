@@ -191,13 +191,19 @@ resposta.addEventListener("keyup", function (event) {
 });
 
 const topPalavras = [
-    {"ingles":"almost","portugues":"quase","visibilidade":true},
-    {"ingles":"although","portugues":"embora","visibilidade":true},
-    {"ingles": "anger", "portugues": "raiva", "visibilidade": true},
-    {"ingles": "angle", "portugues": "ângulo", "visibilidade": true},
-    {"ingles": "angry", "portugues": "irritado", "visibilidade": true},
-    {"ingles":"among","portugues":"entre","visibilidade":true},
-    {"ingles":"amount","portugues":"quantidade","visibilidade":true},
-    {"ingles":"ancient","portugues":"antigo","visibilidade":true},
+    { "ingles": "announce", "portugues": "anunciar", "visibilidade": true },
+    { "ingles": "annual", "portugues": "anual", "visibilidade": true },
+    { "ingles": "another", "portugues": "outro", "visibilidade": true },
+    { "ingles": "answer", "portugues": "resposta", "visibilidade": true },
+    { "ingles": "anticipate", "portugues": "antecipar", "visibilidade": true },
+    { "ingles": "anxiety", "portugues": "ansiedade", "visibilidade": true },
+    { "ingles": "anger", "portugues": "raiva", "visibilidade": true },
+    { "ingles": "angle", "portugues": "ângulo", "visibilidade": true },
+    { "ingles": "angry", "portugues": "irritado", "visibilidade": true },
+    { "ingles": "ancient", "portugues": "antigo", "visibilidade": true },
+    { "ingles": "among", "portugues": "entre", "visibilidade": true },
+    { "ingles": "although", "portugues": "embora", "visibilidade": true },
+    { "ingles": "amount", "portugues": "quantidade", "visibilidade": true },
+    { "ingles": "almost", "portugues": "quase", "visibilidade": true },
 
 ]
