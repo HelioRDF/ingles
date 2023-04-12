@@ -3,15 +3,15 @@ $(() => {
     let idAprendida = 1
 
 
-    topPalavras.forEach(element => {
+    palavras_aprendendo.forEach(element => {
         if (element.visibilidade) {
-            addTable(element, idAprender, "top3000filtro")
+            addTable(element, idAprender, "tbody-aprender")
             idAprender++;
         }
     });
-    topPalavras.forEach(element => {
+    palavras_aprendidas.forEach(element => {
         if (!element.visibilidade) {
-            addTable(element, idAprendida, "top3000")
+            addTable(element, idAprendida, "tbody-aprendida")
             idAprendida++;
         }
     });
@@ -51,7 +51,7 @@ function changeSpeed() {
 }
 
 function visibilidade(objeto) {
-    topPalavras.forEach(element => {
+    palavras_aprendidas.forEach(element => {
         console.log("antes=", element.visibilidade)
         if (element.ingles === objeto) {
             element.visibilidade = !element.visibilidade;
@@ -62,7 +62,7 @@ function visibilidade(objeto) {
 function list() {
     //  console.log(JSON.stringify(topPalavras))
     let text = ""
-    topPalavras.forEach((obj) => {
+    palavras_aprendidas.forEach((obj) => {
 
         text += "\n" + JSON.stringify(obj) + ",";
     });
@@ -72,7 +72,7 @@ function list() {
 function listTrue() {
     //  console.log(JSON.stringify(topPalavras))
     let text = ""
-    topPalavras.forEach((obj) => {
+    palavras_aprendidas.forEach((obj) => {
         if (obj.visibilidade == true) {
             text += "\n" + JSON.stringify(obj) + ",";
         }
@@ -124,8 +124,24 @@ function addTable(palavra, id, table) {
     table = $("#" + table);
     table.append(trTable);
 }
+const palavras_aprendendo = [
 
-const topPalavras = [
+    { "ingles": "announce", "portugues": "anunciar", "visibilidade": true },
+    { "ingles": "annual", "portugues": "anual", "visibilidade": true },
+    { "ingles": "another", "portugues": "outro", "visibilidade": true },
+    { "ingles": "answer", "portugues": "resposta", "visibilidade": true },
+    { "ingles": "anticipate", "portugues": "antecipar", "visibilidade": true },
+    { "ingles": "anxiety", "portugues": "ansiedade", "visibilidade": true },
+    { "ingles": "anger", "portugues": "raiva", "visibilidade": true },
+    { "ingles": "angle", "portugues": "ângulo", "visibilidade": true },
+    { "ingles": "angry", "portugues": "irritado", "visibilidade": true },
+    { "ingles": "ancient", "portugues": "antigo", "visibilidade": true },
+    { "ingles": "among", "portugues": "entre", "visibilidade": true },
+    { "ingles": "although", "portugues": "embora", "visibilidade": true },
+    { "ingles": "amount", "portugues": "quantidade", "visibilidade": true },
+
+]
+const palavras_aprendidas = [
 
 
     { "ingles": "a", "portugues": "um/uma", "visibilidade": false },
@@ -235,22 +251,15 @@ const topPalavras = [
     { "ingles": "also", "portugues": "também", "visibilidade": false },
     { "ingles": "alter", "portugues": "alterar", "visibilidade": false },
     { "ingles": "alternative", "portugues": "alternativa", "visibilidade": false },
-    { "ingles": "although", "portugues": "embora", "visibilidade": true },
     { "ingles": "always", "portugues": "sempre", "visibilidade": false },
     { "ingles": "AM", "portugues": "AM", "visibilidade": false },
     { "ingles": "amazing", "portugues": "incrível", "visibilidade": false },
     { "ingles": "American", "portugues": "americano", "visibilidade": false },
-    { "ingles": "among", "portugues": "entre", "visibilidade": true },
-    { "ingles": "amount", "portugues": "quantidade", "visibilidade": true },
     { "ingles": "analysis", "portugues": "análise", "visibilidade": false },
     { "ingles": "analyst", "portugues": "analista", "visibilidade": false },
     { "ingles": "analyze", "portugues": "analisar", "visibilidade": false },
-    { "ingles": "ancient", "portugues": "antigo", "visibilidade": true },
     { "ingles": "and", "portugues": "e", "visibilidade": false },
-    { "ingles": "anger", "portugues": "raiva", "visibilidade": true },
-    { "ingles": "angle", "portugues": "ângulo", "visibilidade": true },
-    { "ingles": "angry", "portugues": "irritado", "visibilidade": true },
     { "ingles": "animal", "portugues": "animal", "visibilidade": false },
-    { "ingles": "anniversary", "portugues": "aniversário", "visibilidade": false }
+    { "ingles": "anniversary", "portugues": "aniversário", "visibilidade": false },
 
 ]
