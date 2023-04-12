@@ -127,9 +127,6 @@ function addTable(palavra, id, table) {
 const palavras_aprendendo = [
 
     { "ingles": "announce", "portugues": "anunciar", "visibilidade": true },
-    { "ingles": "annual", "portugues": "anual", "visibilidade": true },
-    { "ingles": "another", "portugues": "outro", "visibilidade": true },
-    { "ingles": "answer", "portugues": "resposta", "visibilidade": true },
     { "ingles": "anticipate", "portugues": "antecipar", "visibilidade": true },
     { "ingles": "anxiety", "portugues": "ansiedade", "visibilidade": true },
     { "ingles": "anger", "portugues": "raiva", "visibilidade": true },
@@ -138,13 +135,15 @@ const palavras_aprendendo = [
     { "ingles": "ancient", "portugues": "antigo", "visibilidade": true },
     { "ingles": "among", "portugues": "entre", "visibilidade": true },
     { "ingles": "although", "portugues": "embora", "visibilidade": true },
-    { "ingles": "amount", "portugues": "quantidade", "visibilidade": true },
     { "ingles": "almost", "portugues": "quase", "visibilidade": true },
-
+    
 ]
 const palavras_aprendidas = [
-
-
+    
+    { "ingles": "amount", "portugues": "quantidade", "visibilidade": true },
+    { "ingles": "answer", "portugues": "resposta", "visibilidade": true },
+    { "ingles": "another", "portugues": "outro", "visibilidade": true },
+    { "ingles": "annual", "portugues": "anual", "visibilidade": true },
     { "ingles": "a", "portugues": "um/uma", "visibilidade": false },
     { "ingles": "abandon", "portugues": "abandonar", "visibilidade": false },
     { "ingles": "ability", "portugues": "habilidade", "visibilidade": false },
