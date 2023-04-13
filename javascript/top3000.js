@@ -125,7 +125,6 @@ function addTable(palavra, id, table) {
     table.append(trTable);
 }
 const palavras_aprendendo = [
-
     { "ingles": "announce", "portugues": "anunciar", "visibilidade": true },
     { "ingles": "anticipate", "portugues": "antecipar", "visibilidade": true },
     { "ingles": "anxiety", "portugues": "ansiedade", "visibilidade": true },
@@ -136,10 +135,12 @@ const palavras_aprendendo = [
     { "ingles": "among", "portugues": "entre", "visibilidade": true },
     { "ingles": "although", "portugues": "embora", "visibilidade": true },
     { "ingles": "almost", "portugues": "quase", "visibilidade": true },
-    
+    { "ingles": "any", "portugues": "qualquer", "visibilidade": true },
+    { "ingles": "anybody", "portugues": "qualquer um", "visibilidade": true },
+    { "ingles": "anymore", "portugues": "não mais", "visibilidade": true },
+
 ]
 const palavras_aprendidas = [
-    
     { "ingles": "amount", "portugues": "quantidade", "visibilidade": true },
     { "ingles": "answer", "portugues": "resposta", "visibilidade": true },
     { "ingles": "another", "portugues": "outro", "visibilidade": true },

@@ -1,6 +1,6 @@
 $(() => {
 
-    console.log( palavras_aprendendo);
+    console.log(palavras_aprendendo);
     let audioControl = document.getElementsByClassName("play")
     for (i = 0; i < audioControl.length; i++) {
         audioControl[i].playbackRate = speedControl.value;
@@ -122,10 +122,10 @@ function proximaPergunta() {
 
 // Evento de clique do botão "Próximo"
 botaoTraduzir.addEventListener('click', () => {
-    if ( palavras_aprendendo.length < 1) {
+    if (palavras_aprendendo.length < 1) {
         $(".botao-traduzir").attr("class", 'ocultarBotao')
     } else
-        pergunta.textContent =  palavras_aprendendo[indicePergunta].ingles + " (" +  palavras_aprendendo[indicePergunta].portugues + ")"
+        pergunta.textContent = palavras_aprendendo[indicePergunta].ingles + " (" + palavras_aprendendo[indicePergunta].portugues + ")"
 });
 
 function ativarBt() {
@@ -190,11 +190,8 @@ resposta.addEventListener("keyup", function (event) {
     }
 });
 
-const   palavras_aprendendo = [
+const palavras_aprendendo = [
     { "ingles": "announce", "portugues": "anunciar", "visibilidade": true },
-    { "ingles": "annual", "portugues": "anual", "visibilidade": true },
-    { "ingles": "another", "portugues": "outro", "visibilidade": true },
-    { "ingles": "answer", "portugues": "resposta", "visibilidade": true },
     { "ingles": "anticipate", "portugues": "antecipar", "visibilidade": true },
     { "ingles": "anxiety", "portugues": "ansiedade", "visibilidade": true },
     { "ingles": "anger", "portugues": "raiva", "visibilidade": true },
@@ -203,7 +200,9 @@ const   palavras_aprendendo = [
     { "ingles": "ancient", "portugues": "antigo", "visibilidade": true },
     { "ingles": "among", "portugues": "entre", "visibilidade": true },
     { "ingles": "although", "portugues": "embora", "visibilidade": true },
-    { "ingles": "amount", "portugues": "quantidade", "visibilidade": true },
     { "ingles": "almost", "portugues": "quase", "visibilidade": true },
+    { "ingles": "any", "portugues": "qualquer", "visibilidade": true },
+    { "ingles": "anybody", "portugues": "qualquer um", "visibilidade": true },
+    { "ingles": "anymore", "portugues": "não mais", "visibilidade": true },
 
 ]
