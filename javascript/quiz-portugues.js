@@ -198,13 +198,12 @@ const palavras_aprendendo = [
     { "ingles": "anger", "portugues": "raiva", "visibilidade": true },
     { "ingles": "angle", "portugues": "ângulo", "visibilidade": true },
     { "ingles": "angry", "portugues": "irritado", "visibilidade": true },
-    { "ingles": "ancient", "portugues": "antigo", "visibilidade": true },
     { "ingles": "among", "portugues": "entre", "visibilidade": true },
     { "ingles": "although", "portugues": "embora", "visibilidade": true },
     { "ingles": "almost", "portugues": "quase", "visibilidade": true },
-    { "ingles": "any", "portugues": "qualquer", "visibilidade": true },
-    { "ingles": "anybody", "portugues": "qualquer um", "visibilidade": true },
-    { "ingles": "anymore", "portugues": "não mais", "visibilidade": true },
+    {"ingles": "anyone", "portugues": "qualquer pessoa", "visibilidade": true},
+    {"ingles": "anything", "portugues": "qualquer coisa", "visibilidade": true},
+    {"ingles": "anyway", "portugues": "de qualquer maneira", "visibilidade": true}
 
 
 ]
