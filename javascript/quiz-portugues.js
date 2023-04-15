@@ -193,14 +193,7 @@ resposta.addEventListener("keyup", function (event) {
 
 const palavras_aprendendo = [
     { "ingles": "anger", "portugues": "raiva", "visibilidade": true },
-    { "ingles": "angry", "portugues": "irritado", "visibilidade": true },
-    { "ingles": "among", "portugues": "entre", "visibilidade": true },
-    { "ingles": "although", "portugues": "embora", "visibilidade": true },
-    { "ingles": "almost", "portugues": "quase", "visibilidade": true },
-    { "ingles": "anyone", "portugues": "qualquer pessoa", "visibilidade": true },
-    { "ingles": "anything", "portugues": "qualquer coisa", "visibilidade": true },
     { "ingles": "anyway", "portugues": "de qualquer maneira", "visibilidade": true },
-    { "ingles": "anywhere", "portugues": "qualquer lugar", "visibilidade": true },
     { "ingles": "apart", "portugues": "separado", "visibilidade": true },
     { "ingles": "apartment", "portugues": "apartamento", "visibilidade": true },
     { "ingles": "apparent", "portugues": "aparente", "visibilidade": true },
