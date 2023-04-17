@@ -128,17 +128,19 @@ const palavras_aprendendo = [
     { "ingles": "anger", "portugues": "raiva", "visibilidade": true },
     { "ingles": "anyway", "portugues": "de qualquer maneira", "visibilidade": true },
     { "ingles": "apart", "portugues": "separado", "visibilidade": true },
-    { "ingles": "apartment", "portugues": "apartamento", "visibilidade": true },
     { "ingles": "apparent", "portugues": "aparente", "visibilidade": true },
     { "ingles": "apparently", "portugues": "aparentemente", "visibilidade": true },
     { "ingles": "appeal", "portugues": "apelar", "visibilidade": true },
     { "ingles": "appear", "portugues": "aparecer", "visibilidade": true },
     { "ingles": "appearance", "portugues": "aparência", "visibilidade": true },
-    
-    
+    { "ingles": "application", "portugues": "aplicação", "visibilidade": true },
+    { "ingles": "apply", "portugues": "aplicar", "visibilidade": true },
+    { "ingles": "appoint", "portugues": "designar", "visibilidade": true },
+
+
 ]
 const palavras_aprendidas = [
-  
+
     { "ingles": "a", "portugues": "um/uma", "visibilidade": false },
     { "ingles": "abandon", "portugues": "abandonar", "visibilidade": false },
     { "ingles": "ability", "portugues": "habilidade", "visibilidade": false },
@@ -255,8 +257,8 @@ const palavras_aprendidas = [
     { "ingles": "and", "portugues": "e", "visibilidade": false },
     { "ingles": "animal", "portugues": "animal", "visibilidade": false },
     { "ingles": "anniversary", "portugues": "aniversário", "visibilidade": false },
-    { "ingles": "anything", "portugues": "qualquer coisa", "visibilidade": true },
-    { "ingles": "anywhere", "portugues": "qualquer lugar", "visibilidade": true },
+    { "ingles": "anything", "portugues": "qualquer coisa", "visibilidade": false },
+    { "ingles": "anywhere", "portugues": "qualquer lugar", "visibilidade": false },
     { "ingles": "although", "portugues": "embora", "visibilidade": false },
     { "ingles": "among", "portugues": "entre", "visibilidade": false },
     { "ingles": "almost", "portugues": "quase", "visibilidade": false },
@@ -275,5 +277,6 @@ const palavras_aprendidas = [
     { "ingles": "answer", "portugues": "resposta", "visibilidade": false },
     { "ingles": "another", "portugues": "outro", "visibilidade": false },
     { "ingles": "annual", "portugues": "anual", "visibilidade": false },
+    { "ingles": "apartment", "portugues": "apartamento", "visibilidade": false },
 
 ]
