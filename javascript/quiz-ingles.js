@@ -191,13 +191,11 @@ resposta.addEventListener("keyup", function (event) {
 });
 
 const palavras_aprendendo = [
-    { "ingles": "anger", "portugues": "raiva", "visibilidade": true },
-    { "ingles": "anyway", "portugues": "de qualquer maneira", "visibilidade": true },
-    { "ingles": "apart", "portugues": "separado", "visibilidade": true },
-    { "ingles": "apartment", "portugues": "apartamento", "visibilidade": true },
+
     { "ingles": "apparent", "portugues": "aparente", "visibilidade": true },
     { "ingles": "apparently", "portugues": "aparentemente", "visibilidade": true },
     { "ingles": "appeal", "portugues": "apelar", "visibilidade": true },
     { "ingles": "appear", "portugues": "aparecer", "visibilidade": true },
     { "ingles": "appearance", "portugues": "aparência", "visibilidade": true },
+    { "ingles": "appoint", "portugues": "designar", "visibilidade": true },
 ]
