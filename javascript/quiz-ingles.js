@@ -198,4 +198,7 @@ const palavras_aprendendo = [
     { "ingles": "appear", "portugues": "aparecer", "visibilidade": true },
     { "ingles": "appearance", "portugues": "aparência", "visibilidade": true },
     { "ingles": "appoint", "portugues": "designar", "visibilidade": true },
+    { "ingles": "appointment", "portugues": "consulta, compromisso", "visibilidade": true },
+    { "ingles": "appreciate", "portugues": "apreciar, valorizar", "visibilidade": true },
+    { "ingles": "approach", "portugues": "abordagem, aproximação", "visibilidade": true },
 ]

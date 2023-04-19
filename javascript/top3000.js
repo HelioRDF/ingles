@@ -125,18 +125,21 @@ function addTable(palavra, id, table) {
     table.append(trTable);
 }
 const palavras_aprendendo = [
-   
+
     { "ingles": "apparent", "portugues": "aparente", "visibilidade": true },
     { "ingles": "apparently", "portugues": "aparentemente", "visibilidade": true },
     { "ingles": "appeal", "portugues": "apelar", "visibilidade": true },
     { "ingles": "appear", "portugues": "aparecer", "visibilidade": true },
     { "ingles": "appearance", "portugues": "aparência", "visibilidade": true },
     { "ingles": "appoint", "portugues": "designar", "visibilidade": true },
-    
-    
+    { "ingles": "appointment", "portugues": "consulta, compromisso", "visibilidade": true },
+    { "ingles": "appreciate", "portugues": "apreciar, valorizar", "visibilidade": true },
+    { "ingles": "approach", "portugues": "abordagem, aproximação", "visibilidade": true },
+
+
 ]
 const palavras_aprendidas = [
-    
+
     { "ingles": "a", "portugues": "um/uma", "visibilidade": false },
     { "ingles": "abandon", "portugues": "abandonar", "visibilidade": false },
     { "ingles": "ability", "portugues": "habilidade", "visibilidade": false },
