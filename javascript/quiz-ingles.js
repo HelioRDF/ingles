@@ -201,4 +201,7 @@ const palavras_aprendendo = [
     { "ingles": "appointment", "portugues": "consulta, compromisso", "visibilidade": true },
     { "ingles": "appreciate", "portugues": "apreciar, valorizar", "visibilidade": true },
     { "ingles": "approach", "portugues": "abordagem, aproximação", "visibilidade": true },
+    { "ingles": "appropriate", "portugues": "apropriado", "visibilidade": true },
+    { "ingles": "approval", "portugues": "aprovação", "visibilidade": true },
+    { "ingles": "approve", "portugues": "aprovar", "visibilidade": true },
 ]
