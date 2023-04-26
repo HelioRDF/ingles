@@ -138,6 +138,20 @@ const palavras_aprendendo = [
     { "ingles": "appropriate", "portugues": "apropriado", "visibilidade": true },
     { "ingles": "approval", "portugues": "aprovação", "visibilidade": true },
     { "ingles": "approve", "portugues": "aprovar", "visibilidade": true },
+    { "ingles": "approximately", "portugues": "aproximadamente", "visibilidade": true },
+    { "ingles": "Arab", "portugues": "árabe", "visibilidade": true },
+    { "ingles": "architect", "portugues": "arquiteto", "visibilidade": true },
+    { "ingles": "area", "portugues": "área", "visibilidade": true },
+    { "ingles": "argue", "portugues": "argumentar", "visibilidade": true },
+    { "ingles": "argument", "portugues": "argumento", "visibilidade": true },
+    { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
+    { "ingles": "arm", "portugues": "braço", "visibilidade": true },
+    { "ingles": "armed", "portugues": "armado", "visibilidade": true },
+    { "ingles": "army", "portugues": "exército", "visibilidade": true },
+    { "ingles": "around", "portugues": "ao redor", "visibilidade": true },
+    { "ingles": "arrange", "portugues": "organizar", "visibilidade": true },
+    { "ingles": "arrangement", "portugues": "arranjo", "visibilidade": true },
+    { "ingles": "arrest", "portugues": "prender", "visibilidade": true },
 
 
 ]
