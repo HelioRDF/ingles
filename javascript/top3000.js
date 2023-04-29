@@ -128,7 +128,6 @@ const palavras_aprendendo = [
 
     { "ingles": "apparent", "portugues": "aparente", "visibilidade": true },
     { "ingles": "apparently", "portugues": "aparentemente", "visibilidade": true },
-    { "ingles": "appeal", "portugues": "apelar", "visibilidade": true },
     { "ingles": "appear", "portugues": "aparecer", "visibilidade": true },
     { "ingles": "appearance", "portugues": "aparência", "visibilidade": true },
     { "ingles": "appoint", "portugues": "designar", "visibilidade": true },
@@ -139,11 +138,7 @@ const palavras_aprendendo = [
     { "ingles": "approval", "portugues": "aprovação", "visibilidade": true },
     { "ingles": "approve", "portugues": "aprovar", "visibilidade": true },
     { "ingles": "approximately", "portugues": "aproximadamente", "visibilidade": true },
-    { "ingles": "Arab", "portugues": "árabe", "visibilidade": true },
-    { "ingles": "architect", "portugues": "arquiteto", "visibilidade": true },
-    { "ingles": "area", "portugues": "área", "visibilidade": true },
     { "ingles": "argue", "portugues": "argumentar", "visibilidade": true },
-    { "ingles": "argument", "portugues": "argumento", "visibilidade": true },
     { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
     { "ingles": "arm", "portugues": "braço", "visibilidade": true },
     { "ingles": "armed", "portugues": "armado", "visibilidade": true },
@@ -152,9 +147,13 @@ const palavras_aprendendo = [
     { "ingles": "arrange", "portugues": "organizar", "visibilidade": true },
     { "ingles": "arrangement", "portugues": "arranjo", "visibilidade": true },
     { "ingles": "arrest", "portugues": "prender", "visibilidade": true },
-
+    { "ingles": "as", "portugues": "como", "visibilidade": true },
+    { "ingles": "aside", "portugues": "à parte", "visibilidade": true },
+    { "ingles": "aspect", "portugues": "aspecto", "visibilidade": true },
 
 ]
+
+
 const palavras_aprendidas = [
 
     { "ingles": "a", "portugues": "um/uma", "visibilidade": false },
@@ -299,4 +298,15 @@ const palavras_aprendidas = [
     { "ingles": "apart", "portugues": "separado", "visibilidade": false },
     { "ingles": "anyway", "portugues": "de qualquer maneira", "visibilidade": false },
     { "ingles": "anger", "portugues": "raiva", "visibilidade": false },
+    { "ingles": "argument", "portugues": "argumento", "visibilidade": false },
+    { "ingles": "area", "portugues": "área", "visibilidade": false },
+    { "ingles": "architect", "portugues": "arquiteto", "visibilidade": false },
+    { "ingles": "artist", "portugues": "artista", "visibilidade": false },
+    { "ingles": "ask", "portugues": "pedir", "visibilidade": true },
+    { "ingles": "assault", "portugues": "assalto", "visibilidade": false },
+    { "ingles": "artistic", "portugues": "artístico", "visibilidade": false },
+    { "ingles": "Arab", "portugues": "árabe", "visibilidade": false },
+    { "ingles": "asleep", "portugues": "adormecido", "visibilidade": false },
+    { "ingles": "appeal", "portugues": "apelar", "visibilidade": false },
+    { "ingles": "Asian", "portugues": "asiático", "visibilidade": false },
 ]

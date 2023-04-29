@@ -206,10 +206,7 @@ const palavras_aprendendo = [
     { "ingles": "approve", "portugues": "aprovar", "visibilidade": true },
     { "ingles": "approximately", "portugues": "aproximadamente", "visibilidade": true },
     { "ingles": "Arab", "portugues": "árabe", "visibilidade": true },
-    { "ingles": "architect", "portugues": "arquiteto", "visibilidade": true },
-    { "ingles": "area", "portugues": "área", "visibilidade": true },
     { "ingles": "argue", "portugues": "argumentar", "visibilidade": true },
-    { "ingles": "argument", "portugues": "argumento", "visibilidade": true },
     { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
     { "ingles": "arm", "portugues": "braço", "visibilidade": true },
     { "ingles": "armed", "portugues": "armado", "visibilidade": true },
@@ -218,6 +215,15 @@ const palavras_aprendendo = [
     { "ingles": "arrange", "portugues": "organizar", "visibilidade": true },
     { "ingles": "arrangement", "portugues": "arranjo", "visibilidade": true },
     { "ingles": "arrest", "portugues": "prender", "visibilidade": true },
+    { "ingles": "artist", "portugues": "artista", "visibilidade": true },
+    { "ingles": "artistic", "portugues": "artístico", "visibilidade": true },
+    { "ingles": "as", "portugues": "como", "visibilidade": true },
+    { "ingles": "Asian", "portugues": "asiático", "visibilidade": true },
+    { "ingles": "aside", "portugues": "à parte", "visibilidade": true },
+    { "ingles": "ask", "portugues": "pedir", "visibilidade": true },
+    { "ingles": "asleep", "portugues": "adormecido", "visibilidade": true },
+    { "ingles": "aspect", "portugues": "aspecto", "visibilidade": true },
+    { "ingles": "assault", "portugues": "assalto", "visibilidade": true },
 
 
 ]
