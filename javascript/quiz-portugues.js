@@ -192,38 +192,19 @@ resposta.addEventListener("keyup", function (event) {
 });
 
 const palavras_aprendendo = [
-    { "ingles": "apparent", "portugues": "aparente", "visibilidade": true },
-    { "ingles": "apparently", "portugues": "aparentemente", "visibilidade": true },
-    { "ingles": "appeal", "portugues": "apelar", "visibilidade": true },
     { "ingles": "appear", "portugues": "aparecer", "visibilidade": true },
     { "ingles": "appearance", "portugues": "aparência", "visibilidade": true },
     { "ingles": "appoint", "portugues": "designar", "visibilidade": true },
     { "ingles": "appointment", "portugues": "consulta, compromisso", "visibilidade": true },
     { "ingles": "appreciate", "portugues": "apreciar, valorizar", "visibilidade": true },
     { "ingles": "approach", "portugues": "abordagem, aproximação", "visibilidade": true },
-    { "ingles": "appropriate", "portugues": "apropriado", "visibilidade": true },
-    { "ingles": "approval", "portugues": "aprovação", "visibilidade": true },
-    { "ingles": "approve", "portugues": "aprovar", "visibilidade": true },
-    { "ingles": "approximately", "portugues": "aproximadamente", "visibilidade": true },
-    { "ingles": "Arab", "portugues": "árabe", "visibilidade": true },
     { "ingles": "argue", "portugues": "argumentar", "visibilidade": true },
     { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
-    { "ingles": "arm", "portugues": "braço", "visibilidade": true },
-    { "ingles": "armed", "portugues": "armado", "visibilidade": true },
-    { "ingles": "army", "portugues": "exército", "visibilidade": true },
-    { "ingles": "around", "portugues": "ao redor", "visibilidade": true },
     { "ingles": "arrange", "portugues": "organizar", "visibilidade": true },
     { "ingles": "arrangement", "portugues": "arranjo", "visibilidade": true },
     { "ingles": "arrest", "portugues": "prender", "visibilidade": true },
-    { "ingles": "artist", "portugues": "artista", "visibilidade": true },
-    { "ingles": "artistic", "portugues": "artístico", "visibilidade": true },
-    { "ingles": "as", "portugues": "como", "visibilidade": true },
-    { "ingles": "Asian", "portugues": "asiático", "visibilidade": true },
     { "ingles": "aside", "portugues": "à parte", "visibilidade": true },
-    { "ingles": "ask", "portugues": "pedir", "visibilidade": true },
-    { "ingles": "asleep", "portugues": "adormecido", "visibilidade": true },
     { "ingles": "aspect", "portugues": "aspecto", "visibilidade": true },
-    { "ingles": "assault", "portugues": "assalto", "visibilidade": true },
 
 
 ]

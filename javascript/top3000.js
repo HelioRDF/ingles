@@ -126,32 +126,22 @@ function addTable(palavra, id, table) {
 }
 const palavras_aprendendo = [
 
-    { "ingles": "apparent", "portugues": "aparente", "visibilidade": true },
-    { "ingles": "apparently", "portugues": "aparentemente", "visibilidade": true },
     { "ingles": "appear", "portugues": "aparecer", "visibilidade": true },
     { "ingles": "appearance", "portugues": "aparência", "visibilidade": true },
     { "ingles": "appoint", "portugues": "designar", "visibilidade": true },
     { "ingles": "appointment", "portugues": "consulta, compromisso", "visibilidade": true },
     { "ingles": "appreciate", "portugues": "apreciar, valorizar", "visibilidade": true },
     { "ingles": "approach", "portugues": "abordagem, aproximação", "visibilidade": true },
-    { "ingles": "appropriate", "portugues": "apropriado", "visibilidade": true },
-    { "ingles": "approval", "portugues": "aprovação", "visibilidade": true },
-    { "ingles": "approve", "portugues": "aprovar", "visibilidade": true },
-    { "ingles": "approximately", "portugues": "aproximadamente", "visibilidade": true },
     { "ingles": "argue", "portugues": "argumentar", "visibilidade": true },
     { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
-    { "ingles": "arm", "portugues": "braço", "visibilidade": true },
-    { "ingles": "armed", "portugues": "armado", "visibilidade": true },
-    { "ingles": "army", "portugues": "exército", "visibilidade": true },
-    { "ingles": "around", "portugues": "ao redor", "visibilidade": true },
     { "ingles": "arrange", "portugues": "organizar", "visibilidade": true },
     { "ingles": "arrangement", "portugues": "arranjo", "visibilidade": true },
     { "ingles": "arrest", "portugues": "prender", "visibilidade": true },
-    { "ingles": "as", "portugues": "como", "visibilidade": true },
     { "ingles": "aside", "portugues": "à parte", "visibilidade": true },
     { "ingles": "aspect", "portugues": "aspecto", "visibilidade": true },
 
 ]
+
 
 
 const palavras_aprendidas = [
@@ -309,4 +299,15 @@ const palavras_aprendidas = [
     { "ingles": "asleep", "portugues": "adormecido", "visibilidade": false },
     { "ingles": "appeal", "portugues": "apelar", "visibilidade": false },
     { "ingles": "Asian", "portugues": "asiático", "visibilidade": false },
+    { "ingles": "armed", "portugues": "armado", "visibilidade": false },
+    { "ingles": "arm", "portugues": "braço", "visibilidade": false },
+    { "ingles": "army", "portugues": "exército", "visibilidade": false },
+    { "ingles": "apparent", "portugues": "aparente", "visibilidade": false },
+    { "ingles": "apparently", "portugues": "aparentemente", "visibilidade": false },
+    { "ingles": "approval", "portugues": "aprovação", "visibilidade": false },
+    { "ingles": "approve", "portugues": "aprovar", "visibilidade": false },
+    { "ingles": "appropriate", "portugues": "apropriado", "visibilidade": false },
+    { "ingles": "approximately", "portugues": "aproximadamente", "visibilidade": false },
+    { "ingles": "around", "portugues": "ao redor", "visibilidade": false },
+    { "ingles": "as", "portugues": "como", "visibilidade": false },
 ]
