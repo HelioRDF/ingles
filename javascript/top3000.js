@@ -124,21 +124,29 @@ function addTable(palavra, id, table) {
     table = $("#" + table);
     table.append(trTable);
 }
-const palavras_aprendendo = [
-
-    { "ingles": "appear", "portugues": "aparecer", "visibilidade": true },
-    { "ingles": "appearance", "portugues": "aparência", "visibilidade": true },
-    { "ingles": "appoint", "portugues": "designar", "visibilidade": true },
+const palavras_aprendendo = [  
     { "ingles": "appointment", "portugues": "consulta, compromisso", "visibilidade": true },
     { "ingles": "appreciate", "portugues": "apreciar, valorizar", "visibilidade": true },
-    { "ingles": "approach", "portugues": "abordagem, aproximação", "visibilidade": true },
-    { "ingles": "argue", "portugues": "argumentar", "visibilidade": true },
     { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
     { "ingles": "arrange", "portugues": "organizar", "visibilidade": true },
     { "ingles": "arrangement", "portugues": "arranjo", "visibilidade": true },
     { "ingles": "arrest", "portugues": "prender", "visibilidade": true },
-    { "ingles": "aside", "portugues": "à parte", "visibilidade": true },
-    { "ingles": "aspect", "portugues": "aspecto", "visibilidade": true },
+    { "ingles": "assert", "portugues": "afirmar", "visibilidade": true },
+    { "ingles": "assess", "portugues": "avaliar", "visibilidade": true },
+    { "ingles": "assessment", "portugues": "avaliação", "visibilidade": true },
+    { "ingles": "asset", "portugues": "ativo", "visibilidade": true },
+    { "ingles": "assign", "portugues": "atribuir", "visibilidade": true },
+    { "ingles": "assignment", "portugues": "tarefa", "visibilidade": true },
+    { "ingles": "assist", "portugues": "ajudar", "visibilidade": true },
+    { "ingles": "associate", "portugues": "associar", "visibilidade": true },
+    { "ingles": "association", "portugues": "associação", "visibilidade": true },
+    { "ingles": "assume", "portugues": "assumir", "visibilidade": true },
+    { "ingles": "assumption", "portugues": "suposição", "visibilidade": true },
+    { "ingles": "assure", "portugues": "assegurar", "visibilidade": true },
+    { "ingles": "at", "portugues": "em", "visibilidade": true }, 
+    { "ingles": "attach", "portugues": "anexar", "visibilidade": true },
+    { "ingles": "attack", "portugues": "ataque", "visibilidade": true },
+    { "ingles": "attempt", "portugues": "tentar", "visibilidade": true }
 
 ]
 
@@ -310,4 +318,16 @@ const palavras_aprendidas = [
     { "ingles": "approximately", "portugues": "aproximadamente", "visibilidade": false },
     { "ingles": "around", "portugues": "ao redor", "visibilidade": false },
     { "ingles": "as", "portugues": "como", "visibilidade": false },
+    { "ingles": "appear", "portugues": "aparecer", "visibilidade": false },
+    { "ingles": "appearance", "portugues": "aparência", "visibilidade": false },
+    { "ingles": "appoint", "portugues": "designar", "visibilidade": false },
+    { "ingles": "approach", "portugues": "abordagem, aproximação", "visibilidade": false },
+    { "ingles": "argue", "portugues": "argumentar", "visibilidade": false },
+    { "ingles": "aspect", "portugues": "aspecto", "visibilidade": false },
+    { "ingles": "assistance", "portugues": "assistência", "visibilidade": false },
+    { "ingles": "assistant", "portugues": "assistente", "visibilidade": false },
+    { "ingles": "athlete", "portugues": "atleta", "visibilidade": false },
+    { "ingles": "athletic", "portugues": "atlético", "visibilidade": false },
+    { "ingles": "aside", "portugues": "à parte", "visibilidade": false },
+    { "ingles": "atmosphere", "portugues": "atmosfera", "visibilidade": false },
 ]
