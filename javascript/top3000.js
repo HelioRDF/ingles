@@ -50,7 +50,7 @@ function changeSpeed() {
     }
 }
 
-function visibilidade(objeto) {
+function visibilidade(objeto, palavratraduzida) {
     palavras_aprendidas.forEach(element => {
         console.log("antes=", element.visibilidade)
         if (element.ingles === objeto) {
@@ -59,6 +59,9 @@ function visibilidade(objeto) {
         }
     });
 }
+
+
+
 function list() {
     //  console.log(JSON.stringify(topPalavras))
     let text = ""
@@ -103,15 +106,15 @@ function addTable(palavra, id, table) {
     let tdTablePalavra = $("<td>").attr("scope",
         "row").text(ingles.toUpperCase());
     let tdTabletTraducao = $("<td>").attr("scope",
-        "row").text(portugues.toUpperCase());
+        "row").attr("id",
+            ingles).text(portugues.toUpperCase()).css('color', 'black');
 
     let iconeAlter = $("<i>").attr("class",
         "fas fa-check material-icons")
 
     let buttonVisibilidade = $("<button>").attr("type",
         "button").attr("class",
-            "bt_visibilidade").attr("onclick", `visibilidade('${palavra.ingles
-                }')`).append(iconeAlter);
+            "bt_visibilidade").attr("onclick", `visibilidade('${ingles}')`).append(iconeAlter);
 
     let tdTableButtonVisibilidade = $("<td>").attr("scope",
         "row").append(buttonVisibilidade);
@@ -124,7 +127,7 @@ function addTable(palavra, id, table) {
     table = $("#" + table);
     table.append(trTable);
 }
-const palavras_aprendendo = [  
+const palavras_aprendendo = [
     { "ingles": "appointment", "portugues": "consulta, compromisso", "visibilidade": true },
     { "ingles": "appreciate", "portugues": "apreciar, valorizar", "visibilidade": true },
     { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
@@ -143,10 +146,19 @@ const palavras_aprendendo = [
     { "ingles": "assume", "portugues": "assumir", "visibilidade": true },
     { "ingles": "assumption", "portugues": "suposição", "visibilidade": true },
     { "ingles": "assure", "portugues": "assegurar", "visibilidade": true },
-    { "ingles": "at", "portugues": "em", "visibilidade": true }, 
+    { "ingles": "at", "portugues": "em", "visibilidade": true },
     { "ingles": "attach", "portugues": "anexar", "visibilidade": true },
     { "ingles": "attack", "portugues": "ataque", "visibilidade": true },
-    { "ingles": "attempt", "portugues": "tentar", "visibilidade": true }
+    { "ingles": "attempt", "portugues": "tentar", "visibilidade": true },
+    { "ingles": "attend", "portugues": "comparecer", "visibilidade": true },
+    { "ingles": "attention", "portugues": "atenção", "visibilidade": true },
+    { "ingles": "attitude", "portugues": "atitude", "visibilidade": true },
+    { "ingles": "attorney", "portugues": "advogado", "visibilidade": true },
+    { "ingles": "attract", "portugues": "atrair", "visibilidade": true },
+    { "ingles": "attractive", "portugues": "atraente", "visibilidade": true },
+    { "ingles": "attribute", "portugues": "atributo", "visibilidade": true },
+    { "ingles": "audience", "portugues": "público", "visibilidade": true },
+    { "ingles": "author", "portugues": "autor", "visibilidade": true }
 
 ]
 
