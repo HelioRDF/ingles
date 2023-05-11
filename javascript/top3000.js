@@ -107,7 +107,7 @@ function addTable(palavra, id, table) {
         "row").text(ingles.toUpperCase());
     let tdTabletTraducao = $("<td>").attr("scope",
         "row").attr("id",
-            ingles).text(portugues.toUpperCase()).css('color', 'black');
+            ingles).text(portugues.toUpperCase()).css('color', 'white');
 
     let iconeAlter = $("<i>").attr("class",
         "fas fa-check material-icons")
@@ -128,8 +128,7 @@ function addTable(palavra, id, table) {
     table.append(trTable);
 }
 const palavras_aprendendo = [
-    { "ingles": "appointment", "portugues": "consulta, compromisso", "visibilidade": true },
-    { "ingles": "appreciate", "portugues": "apreciar, valorizar", "visibilidade": true },
+
     { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
     { "ingles": "arrange", "portugues": "organizar", "visibilidade": true },
     { "ingles": "arrangement", "portugues": "arranjo", "visibilidade": true },
@@ -141,24 +140,22 @@ const palavras_aprendendo = [
     { "ingles": "assign", "portugues": "atribuir", "visibilidade": true },
     { "ingles": "assignment", "portugues": "tarefa", "visibilidade": true },
     { "ingles": "assist", "portugues": "ajudar", "visibilidade": true },
-    { "ingles": "associate", "portugues": "associar", "visibilidade": true },
-    { "ingles": "association", "portugues": "associação", "visibilidade": true },
     { "ingles": "assume", "portugues": "assumir", "visibilidade": true },
     { "ingles": "assumption", "portugues": "suposição", "visibilidade": true },
     { "ingles": "assure", "portugues": "assegurar", "visibilidade": true },
-    { "ingles": "at", "portugues": "em", "visibilidade": true },
-    { "ingles": "attach", "portugues": "anexar", "visibilidade": true },
-    { "ingles": "attack", "portugues": "ataque", "visibilidade": true },
+
     { "ingles": "attempt", "portugues": "tentar", "visibilidade": true },
     { "ingles": "attend", "portugues": "comparecer", "visibilidade": true },
-    { "ingles": "attention", "portugues": "atenção", "visibilidade": true },
-    { "ingles": "attitude", "portugues": "atitude", "visibilidade": true },
     { "ingles": "attorney", "portugues": "advogado", "visibilidade": true },
     { "ingles": "attract", "portugues": "atrair", "visibilidade": true },
     { "ingles": "attractive", "portugues": "atraente", "visibilidade": true },
-    { "ingles": "attribute", "portugues": "atributo", "visibilidade": true },
     { "ingles": "audience", "portugues": "público", "visibilidade": true },
-    { "ingles": "author", "portugues": "autor", "visibilidade": true }
+    {"ingles": "authority", "portugues": "autoridade", "visibilidade": true},
+    {"ingles": "auto", "portugues": "automático", "visibilidade": true},
+    {"ingles": "available", "portugues": "disponível", "visibilidade": true},
+    {"ingles": "average", "portugues": "médio", "visibilidade": true},
+    {"ingles": "avoid", "portugues": "evitar", "visibilidade": true},
+    {"ingles": "award", "portugues": "prêmio", "visibilidade": true},
 
 ]
 
@@ -342,4 +339,15 @@ const palavras_aprendidas = [
     { "ingles": "athletic", "portugues": "atlético", "visibilidade": false },
     { "ingles": "aside", "portugues": "à parte", "visibilidade": false },
     { "ingles": "atmosphere", "portugues": "atmosfera", "visibilidade": false },
+    { "ingles": "author", "portugues": "autor", "visibilidade": false },
+    { "ingles": "associate", "portugues": "associar", "visibilidade": false },
+    { "ingles": "association", "portugues": "associação", "visibilidade": false },
+    { "ingles": "at", "portugues": "em", "visibilidade": false },
+    { "ingles": "attention", "portugues": "atenção", "visibilidade": false },
+    { "ingles": "attitude", "portugues": "atitude", "visibilidade": false },
+    { "ingles": "attribute", "portugues": "atributo", "visibilidade": false },
+    { "ingles": "attach", "portugues": "anexar", "visibilidade": false },
+    { "ingles": "attack", "portugues": "ataque", "visibilidade": false },
+    { "ingles": "appointment", "portugues": "consulta, compromisso", "visibilidade": false },
+    { "ingles": "appreciate", "portugues": "apreciar, valorizar", "visibilidade": false },
 ]
