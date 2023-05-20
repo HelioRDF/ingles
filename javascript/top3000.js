@@ -150,12 +150,16 @@ const palavras_aprendendo = [
     { "ingles": "attract", "portugues": "atrair", "visibilidade": true },
     { "ingles": "attractive", "portugues": "atraente", "visibilidade": true },
     { "ingles": "audience", "portugues": "público", "visibilidade": true },
-    {"ingles": "authority", "portugues": "autoridade", "visibilidade": true},
-    {"ingles": "auto", "portugues": "automático", "visibilidade": true},
-    {"ingles": "available", "portugues": "disponível", "visibilidade": true},
-    {"ingles": "average", "portugues": "médio", "visibilidade": true},
-    {"ingles": "avoid", "portugues": "evitar", "visibilidade": true},
-    {"ingles": "award", "portugues": "prêmio", "visibilidade": true},
+    { "ingles": "authority", "portugues": "autoridade", "visibilidade": true },
+    { "ingles": "auto", "portugues": "automático", "visibilidade": true },
+    { "ingles": "available", "portugues": "disponível", "visibilidade": true },
+    { "ingles": "average", "portugues": "médio", "visibilidade": true },
+    { "ingles": "avoid", "portugues": "evitar", "visibilidade": true },
+    { "ingles": "award", "portugues": "prêmio", "visibilidade": true },
+    { "ingles": "aware", "portugues": "consciente", "visibilidade": true },
+    { "ingles": "awareness", "portugues": "consciência", "visibilidade": true },
+    { "ingles": "away", "portugues": "longe", "visibilidade": true },
+    { "ingles": "awful", "portugues": "terrível", "visibilidade": true }
 
 ]
 
