@@ -143,15 +143,12 @@ const palavras_aprendendo = [
     { "ingles": "assume", "portugues": "assumir", "visibilidade": true },
     { "ingles": "assumption", "portugues": "suposição", "visibilidade": true },
     { "ingles": "assure", "portugues": "assegurar", "visibilidade": true },
-
     { "ingles": "attempt", "portugues": "tentar", "visibilidade": true },
     { "ingles": "attend", "portugues": "comparecer", "visibilidade": true },
     { "ingles": "attorney", "portugues": "advogado", "visibilidade": true },
     { "ingles": "attract", "portugues": "atrair", "visibilidade": true },
     { "ingles": "attractive", "portugues": "atraente", "visibilidade": true },
     { "ingles": "audience", "portugues": "público", "visibilidade": true },
-    { "ingles": "authority", "portugues": "autoridade", "visibilidade": true },
-    { "ingles": "auto", "portugues": "automático", "visibilidade": true },
     { "ingles": "available", "portugues": "disponível", "visibilidade": true },
     { "ingles": "average", "portugues": "médio", "visibilidade": true },
     { "ingles": "avoid", "portugues": "evitar", "visibilidade": true },
@@ -159,14 +156,29 @@ const palavras_aprendendo = [
     { "ingles": "aware", "portugues": "consciente", "visibilidade": true },
     { "ingles": "awareness", "portugues": "consciência", "visibilidade": true },
     { "ingles": "away", "portugues": "longe", "visibilidade": true },
-    { "ingles": "awful", "portugues": "terrível", "visibilidade": true }
-
+    { "ingles": "awful", "portugues": "terrível", "visibilidade": true },  
+    {"ingles": "badly", "portugues": "mal", "visibilidade": true},
+    {"ingles": "balance", "portugues": "equilíbrio", "visibilidade": true},
+    
 ]
 
 
 
 const palavras_aprendidas = [
-
+    
+    {"ingles": "ban", "portugues": "proibir", "visibilidade": false},
+    { "ingles": "authority", "portugues": "autoridade", "visibilidade": false },
+    {"ingles": "ball", "portugues": "bola", "visibilidade": false},
+    {"ingles": "bake", "portugues": "assar", "visibilidade": false},
+    {"ingles": "band", "portugues": "banda", "visibilidade": false},
+    {"ingles": "bag", "portugues": "saco", "visibilidade": false},
+    {"ingles": "background", "portugues": "fundo", "visibilidade": false},
+    {"ingles": "bad", "portugues": "ruim", "visibilidade": false},
+    {"ingles": "bank", "portugues": "banco", "visibilidade": false},
+    {"ingles": "back", "portugues": "voltar", "visibilidade": false},
+    { "ingles": "auto", "portugues": "automático", "visibilidade": false },
+    {"ingles": "baby", "portugues": "bebê", "visibilidade": false},
+    
     { "ingles": "a", "portugues": "um/uma", "visibilidade": false },
     { "ingles": "abandon", "portugues": "abandonar", "visibilidade": false },
     { "ingles": "ability", "portugues": "habilidade", "visibilidade": false },
