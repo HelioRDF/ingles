@@ -160,6 +160,7 @@ const palavras_aprendendo = [
     {"ingles": "badly", "portugues": "mal", "visibilidade": true},
     {"ingles": "balance", "portugues": "equilíbrio", "visibilidade": true},
     
+    
 ]
 
 
