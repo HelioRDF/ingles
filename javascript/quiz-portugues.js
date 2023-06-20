@@ -192,7 +192,6 @@ resposta.addEventListener("keyup", function (event) {
 });
 
 const palavras_aprendendo = [
-  
     { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
     { "ingles": "arrange", "portugues": "organizar", "visibilidade": true },
     { "ingles": "arrangement", "portugues": "arranjo", "visibilidade": true },
@@ -201,41 +200,20 @@ const palavras_aprendendo = [
     { "ingles": "assess", "portugues": "avaliar", "visibilidade": true },
     { "ingles": "assessment", "portugues": "avaliação", "visibilidade": true },
     { "ingles": "asset", "portugues": "ativo", "visibilidade": true },
-    { "ingles": "assign", "portugues": "atribuir", "visibilidade": true },
     { "ingles": "assignment", "portugues": "tarefa", "visibilidade": true },
-    { "ingles": "assist", "portugues": "ajudar", "visibilidade": true },
     { "ingles": "assume", "portugues": "assumir", "visibilidade": true },
     { "ingles": "assumption", "portugues": "suposição", "visibilidade": true },
     { "ingles": "assure", "portugues": "assegurar", "visibilidade": true },
-
     { "ingles": "attempt", "portugues": "tentar", "visibilidade": true },
     { "ingles": "attend", "portugues": "comparecer", "visibilidade": true },
     { "ingles": "attorney", "portugues": "advogado", "visibilidade": true },
     { "ingles": "attract", "portugues": "atrair", "visibilidade": true },
     { "ingles": "attractive", "portugues": "atraente", "visibilidade": true },
     { "ingles": "audience", "portugues": "público", "visibilidade": true },
-    { "ingles": "authority", "portugues": "autoridade", "visibilidade": true },
-    { "ingles": "auto", "portugues": "automático", "visibilidade": true },
     { "ingles": "available", "portugues": "disponível", "visibilidade": true },
-    { "ingles": "average", "portugues": "médio", "visibilidade": true },
     { "ingles": "avoid", "portugues": "evitar", "visibilidade": true },
-    { "ingles": "award", "portugues": "prêmio", "visibilidade": true },
     { "ingles": "aware", "portugues": "consciente", "visibilidade": true },
     { "ingles": "awareness", "portugues": "consciência", "visibilidade": true },
     { "ingles": "away", "portugues": "longe", "visibilidade": true },
-    { "ingles": "awful", "portugues": "terrível", "visibilidade": true },
-
-    {"ingles": "baby", "portugues": "bebê", "visibilidade": true},
-    {"ingles": "back", "portugues": "costas", "visibilidade": true},
-    {"ingles": "background", "portugues": "fundo", "visibilidade": true},
-    {"ingles": "bad", "portugues": "ruim", "visibilidade": true},
-    {"ingles": "badly", "portugues": "mal", "visibilidade": true},
-    {"ingles": "bag", "portugues": "saco", "visibilidade": true},
-    {"ingles": "bake", "portugues": "assar", "visibilidade": true},
-    {"ingles": "balance", "portugues": "equilíbrio", "visibilidade": true},
-    {"ingles": "ball", "portugues": "bola", "visibilidade": true},
-    {"ingles": "ban", "portugues": "proibir", "visibilidade": true},
-    {"ingles": "band", "portugues": "banda", "visibilidade": true},
-    {"ingles": "bank", "portugues": "banco", "visibilidade": true},
 
 ]

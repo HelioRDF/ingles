@@ -107,7 +107,7 @@ function addTable(palavra, id, table) {
         "row").text(ingles.toUpperCase());
     let tdTabletTraducao = $("<td>").attr("scope",
         "row").attr("id",
-            ingles).text(portugues.toUpperCase()).css('color', 'white');
+            ingles).text(portugues.toUpperCase()).css('color', '#ebebeb');
 
     let iconeAlter = $("<i>").attr("class",
         "fas fa-check material-icons")
@@ -137,9 +137,7 @@ const palavras_aprendendo = [
     { "ingles": "assess", "portugues": "avaliar", "visibilidade": true },
     { "ingles": "assessment", "portugues": "avaliação", "visibilidade": true },
     { "ingles": "asset", "portugues": "ativo", "visibilidade": true },
-    { "ingles": "assign", "portugues": "atribuir", "visibilidade": true },
     { "ingles": "assignment", "portugues": "tarefa", "visibilidade": true },
-    { "ingles": "assist", "portugues": "ajudar", "visibilidade": true },
     { "ingles": "assume", "portugues": "assumir", "visibilidade": true },
     { "ingles": "assumption", "portugues": "suposição", "visibilidade": true },
     { "ingles": "assure", "portugues": "assegurar", "visibilidade": true },
@@ -150,23 +148,21 @@ const palavras_aprendendo = [
     { "ingles": "attractive", "portugues": "atraente", "visibilidade": true },
     { "ingles": "audience", "portugues": "público", "visibilidade": true },
     { "ingles": "available", "portugues": "disponível", "visibilidade": true },
-    { "ingles": "average", "portugues": "médio", "visibilidade": true },
     { "ingles": "avoid", "portugues": "evitar", "visibilidade": true },
-    { "ingles": "award", "portugues": "prêmio", "visibilidade": true },
     { "ingles": "aware", "portugues": "consciente", "visibilidade": true },
     { "ingles": "awareness", "portugues": "consciência", "visibilidade": true },
-    { "ingles": "away", "portugues": "longe", "visibilidade": true },
-    { "ingles": "awful", "portugues": "terrível", "visibilidade": true },  
-    {"ingles": "badly", "portugues": "mal", "visibilidade": true},
-    {"ingles": "balance", "portugues": "equilíbrio", "visibilidade": true},
-    
+    { "ingles": "away", "portugues": "longe", "visibilidade": true }, 
     
 ]
 
-
-
 const palavras_aprendidas = [
-    
+    { "ingles": "awful", "portugues": "terrível", "visibilidade": false },  
+    {"ingles": "badly", "portugues": "mal", "visibilidade": false},
+    {"ingles": "balance", "portugues": "equilíbrio", "visibilidade": false},
+    { "ingles": "award", "portugues": "prêmio", "visibilidade": false },
+    { "ingles": "average", "portugues": "médio", "visibilidade": false },
+    { "ingles": "assist", "portugues": "ajudar", "visibilidade": false },
+    { "ingles": "assign", "portugues": "atribuir", "visibilidade": false },
     {"ingles": "ban", "portugues": "proibir", "visibilidade": false},
     { "ingles": "authority", "portugues": "autoridade", "visibilidade": false },
     {"ingles": "ball", "portugues": "bola", "visibilidade": false},
@@ -179,7 +175,6 @@ const palavras_aprendidas = [
     {"ingles": "back", "portugues": "voltar", "visibilidade": false},
     { "ingles": "auto", "portugues": "automático", "visibilidade": false },
     {"ingles": "baby", "portugues": "bebê", "visibilidade": false},
-    
     { "ingles": "a", "portugues": "um/uma", "visibilidade": false },
     { "ingles": "abandon", "portugues": "abandonar", "visibilidade": false },
     { "ingles": "ability", "portugues": "habilidade", "visibilidade": false },
