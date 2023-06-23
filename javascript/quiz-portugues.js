@@ -193,27 +193,12 @@ resposta.addEventListener("keyup", function (event) {
 
 const palavras_aprendendo = [
     { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
-    { "ingles": "arrange", "portugues": "organizar", "visibilidade": true },
-    { "ingles": "arrangement", "portugues": "arranjo", "visibilidade": true },
     { "ingles": "arrest", "portugues": "prender", "visibilidade": true },
-    { "ingles": "assert", "portugues": "afirmar", "visibilidade": true },
-    { "ingles": "assess", "portugues": "avaliar", "visibilidade": true },
-    { "ingles": "assessment", "portugues": "avaliação", "visibilidade": true },
     { "ingles": "asset", "portugues": "ativo", "visibilidade": true },
-    { "ingles": "assignment", "portugues": "tarefa", "visibilidade": true },
     { "ingles": "assume", "portugues": "assumir", "visibilidade": true },
     { "ingles": "assumption", "portugues": "suposição", "visibilidade": true },
     { "ingles": "assure", "portugues": "assegurar", "visibilidade": true },
-    { "ingles": "attempt", "portugues": "tentar", "visibilidade": true },
     { "ingles": "attend", "portugues": "comparecer", "visibilidade": true },
-    { "ingles": "attorney", "portugues": "advogado", "visibilidade": true },
-    { "ingles": "attract", "portugues": "atrair", "visibilidade": true },
-    { "ingles": "attractive", "portugues": "atraente", "visibilidade": true },
-    { "ingles": "audience", "portugues": "público", "visibilidade": true },
-    { "ingles": "available", "portugues": "disponível", "visibilidade": true },
-    { "ingles": "avoid", "portugues": "evitar", "visibilidade": true },
     { "ingles": "aware", "portugues": "consciente", "visibilidade": true },
     { "ingles": "awareness", "portugues": "consciência", "visibilidade": true },
-    { "ingles": "away", "portugues": "longe", "visibilidade": true },
-
 ]
