@@ -194,11 +194,7 @@ resposta.addEventListener("keyup", function (event) {
 const palavras_aprendendo = [
     { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
     { "ingles": "arrest", "portugues": "prender", "visibilidade": true },
-    { "ingles": "asset", "portugues": "ativo", "visibilidade": true },
-    { "ingles": "assume", "portugues": "assumir", "visibilidade": true },
     { "ingles": "assumption", "portugues": "suposição", "visibilidade": true },
-    { "ingles": "assure", "portugues": "assegurar", "visibilidade": true },
     { "ingles": "attend", "portugues": "comparecer", "visibilidade": true },
-    { "ingles": "aware", "portugues": "consciente", "visibilidade": true },
-    { "ingles": "awareness", "portugues": "consciência", "visibilidade": true },
+    { "ingles": "assume", "portugues": "assumir", "visibilidade": true },
 ]

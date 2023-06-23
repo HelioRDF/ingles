@@ -128,15 +128,25 @@ function addTable(palavra, id, table) {
     table.append(trTable);
 }
 const palavras_aprendendo = [
+    
+    {"ingles": "bar", "portugues": "barra", "visibilidade": true},
+    {"ingles": "barely", "portugues": "mal", "visibilidade": true},
+    {"ingles": "barrel", "portugues": "barril", "visibilidade": true},
+    {"ingles": "barrier", "portugues": "barreira", "visibilidade": true},
+    {"ingles": "base", "portugues": "base", "visibilidade": true},
+    {"ingles": "baseball", "portugues": "beisebol", "visibilidade": true},
+    {"ingles": "basic", "portugues": "básico", "visibilidade": true},
+    {"ingles": "basically", "portugues": "basicamente", "visibilidade": true},
+    {"ingles": "basis", "portugues": "base", "visibilidade": true}
 
-    { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
-    { "ingles": "arrest", "portugues": "prender", "visibilidade": true },
-    { "ingles": "assumption", "portugues": "suposição", "visibilidade": true },
-    { "ingles": "attend", "portugues": "comparecer", "visibilidade": true },
-    { "ingles": "assume", "portugues": "assumir", "visibilidade": true },
 ]
 
 const palavras_aprendidas = [
+    { "ingles": "arise", "portugues": "surgir", "visibilidade": false },
+    { "ingles": "arrest", "portugues": "prender", "visibilidade": false },
+    { "ingles": "assumption", "portugues": "suposição", "visibilidade": false },
+    { "ingles": "attend", "portugues": "comparecer", "visibilidade": false },
+    { "ingles": "assume", "portugues": "assumir", "visibilidade": false },
     { "ingles": "assure", "portugues": "assegurar", "visibilidade": false },
     { "ingles": "aware", "portugues": "consciente", "visibilidade": false },
     { "ingles": "awareness", "portugues": "consciência", "visibilidade": false },
