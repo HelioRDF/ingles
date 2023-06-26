@@ -128,20 +128,37 @@ function addTable(palavra, id, table) {
     table.append(trTable);
 }
 const palavras_aprendendo = [
-    
-    {"ingles": "bar", "portugues": "barra", "visibilidade": true},
-    {"ingles": "barely", "portugues": "mal", "visibilidade": true},
-    {"ingles": "barrel", "portugues": "barril", "visibilidade": true},
-    {"ingles": "barrier", "portugues": "barreira", "visibilidade": true},
-    {"ingles": "base", "portugues": "base", "visibilidade": true},
-    {"ingles": "baseball", "portugues": "beisebol", "visibilidade": true},
-    {"ingles": "basic", "portugues": "básico", "visibilidade": true},
-    {"ingles": "basically", "portugues": "basicamente", "visibilidade": true},
-    {"ingles": "basis", "portugues": "base", "visibilidade": true}
 
+    { "ingles": "barely", "portugues": "mal", "visibilidade": true },
+    { "ingles": "barrel", "portugues": "barril", "visibilidade": true },
+    { "ingles": "barrier", "portugues": "barreira", "visibilidade": true },
+    { "ingles": "basis", "portugues": "base", "visibilidade": true },
+    {"ingles": "beat", "portugues": "bater", "visibilidade": true},
+    {"ingles": "beautiful", "portugues": "bonito", "visibilidade": true},
+    {"ingles": "beauty", "portugues": "beleza", "visibilidade": true},
+    {"ingles": "because", "portugues": "porque", "visibilidade": true},
+    {"ingles": "become", "portugues": "tornar-se", "visibilidade": true},
+    {"ingles": "bed", "portugues": "cama", "visibilidade": true},
+    {"ingles": "bedroom", "portugues": "quarto", "visibilidade": true},
+    {"ingles": "beer", "portugues": "cerveja", "visibilidade": true},
+    {"ingles": "before", "portugues": "antes", "visibilidade": true},
 ]
 
 const palavras_aprendidas = [
+    {"ingles": "bear", "portugues": "urso", "visibilidade": false},
+    {"ingles": "bean", "portugues": "feijão", "visibilidade": false},
+    {"ingles": "beach", "portugues": "praia", "visibilidade": false},
+    {"ingles": "be", "portugues": "ser/estar", "visibilidade": false},
+    {"ingles": "battle", "portugues": "batalha", "visibilidade": false},
+    {"ingles": "battery", "portugues": "bateria", "visibilidade": false},
+    {"ingles": "basket", "portugues": "cesta", "visibilidade": false},
+    {"ingles": "basketball", "portugues": "basquete", "visibilidade": false},
+    {"ingles": "bathroom", "portugues": "banheiro", "visibilidade": false},   
+    { "ingles": "basically", "portugues": "basicamente", "visibilidade": false },
+    { "ingles": "basic", "portugues": "básico", "visibilidade": false },
+    { "ingles": "baseball", "portugues": "beisebol", "visibilidade": false },
+    { "ingles": "base", "portugues": "base", "visibilidade": false },
+    { "ingles": "bar", "portugues": "barra", "visibilidade": false },
     { "ingles": "arise", "portugues": "surgir", "visibilidade": false },
     { "ingles": "arrest", "portugues": "prender", "visibilidade": false },
     { "ingles": "assumption", "portugues": "suposição", "visibilidade": false },

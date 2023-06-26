@@ -192,9 +192,17 @@ resposta.addEventListener("keyup", function (event) {
 });
 
 const palavras_aprendendo = [
-    { "ingles": "arise", "portugues": "surgir", "visibilidade": true },
-    { "ingles": "arrest", "portugues": "prender", "visibilidade": true },
-    { "ingles": "assumption", "portugues": "suposição", "visibilidade": true },
-    { "ingles": "attend", "portugues": "comparecer", "visibilidade": true },
-    { "ingles": "assume", "portugues": "assumir", "visibilidade": true },
+    { "ingles": "barely", "portugues": "mal", "visibilidade": true },
+    { "ingles": "barrel", "portugues": "barril", "visibilidade": true },
+    { "ingles": "barrier", "portugues": "barreira", "visibilidade": true },
+    { "ingles": "basis", "portugues": "base", "visibilidade": true },
+    {"ingles": "beat", "portugues": "bater", "visibilidade": true},
+    {"ingles": "beautiful", "portugues": "bonito", "visibilidade": true},
+    {"ingles": "beauty", "portugues": "beleza", "visibilidade": true},
+    {"ingles": "because", "portugues": "porque", "visibilidade": true},
+    {"ingles": "become", "portugues": "tornar-se", "visibilidade": true},
+    {"ingles": "bed", "portugues": "cama", "visibilidade": true},
+    {"ingles": "bedroom", "portugues": "quarto", "visibilidade": true},
+    {"ingles": "beer", "portugues": "cerveja", "visibilidade": true},
+    {"ingles": "before", "portugues": "antes", "visibilidade": true},
 ]
