@@ -205,4 +205,14 @@ const palavras_aprendendo = [
     {"ingles": "bedroom", "portugues": "quarto", "visibilidade": true},
     {"ingles": "beer", "portugues": "cerveja", "visibilidade": true},
     {"ingles": "before", "portugues": "antes", "visibilidade": true},
+    {"ingles": "bear", "portugues": "urso", "visibilidade": true},
+    {"ingles": "begin", "portugues": "começar", "visibilidade": true},
+    {"ingles": "beginning", "portugues": "começo", "visibilidade": true},
+    {"ingles": "behavior", "portugues": "comportamento", "visibilidade": true},
+    {"ingles": "behind", "portugues": "atrás", "visibilidade": true},
+    {"ingles": "being", "portugues": "sendo", "visibilidade": true},
+    {"ingles": "belief", "portugues": "crença", "visibilidade": true},
+    {"ingles": "believe", "portugues": "acreditar", "visibilidade": true},
+    {"ingles": "bell", "portugues": "sino", "visibilidade": true},
+    {"ingles": "belong", "portugues": "pertencer", "visibilidade": true}
 ]
