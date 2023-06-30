@@ -191,6 +191,7 @@ resposta.addEventListener("keyup", function (event) {
 });
 
 const palavras_aprendendo =[
+
     { "ingles": "barely", "portugues": "mal", "visibilidade": true },
     { "ingles": "barrel", "portugues": "barril", "visibilidade": true },
     { "ingles": "barrier", "portugues": "barreira", "visibilidade": true },
@@ -198,5 +199,14 @@ const palavras_aprendendo =[
     { "ingles": "behavior", "portugues": "comportamento", "visibilidade": true },
     { "ingles": "behind", "portugues": "atrás", "visibilidade": true },
     { "ingles": "being", "portugues": "sendo", "visibilidade": true },
-    { "ingles": "belong", "portugues": "pertencer", "visibilidade": true }
+    { "ingles": "belong", "portugues": "pertencer", "visibilidade": true },
+    {"ingles": "below", "portugues": "abaixo", "visibilidade": true},
+    {"ingles": "belt", "portugues": "cinto", "visibilidade": true},
+    {"ingles": "bench", "portugues": "banco", "visibilidade": true},
+    {"ingles": "bend", "portugues": "curva", "visibilidade": true},
+    {"ingles": "beneath", "portugues": "abaixo", "visibilidade": true},
+    {"ingles": "benefit", "portugues": "benefício", "visibilidade": true},
+    {"ingles": "beside", "portugues": "ao lado de", "visibilidade": true},
+    {"ingles": "besides", "portugues": "além de", "visibilidade": true},
+    {"ingles": "best", "portugues": "melhor", "visibilidade": true}
 ]
