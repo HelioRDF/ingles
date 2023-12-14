@@ -192,7 +192,6 @@ resposta.addEventListener("keyup", function (event) {
 });
 
 const palavras_aprendendo = [
- 
     { "ingles": "barely", "portugues": "mal", "visibilidade": true },
     { "ingles": "barrel", "portugues": "barril", "visibilidade": true },
     { "ingles": "barrier", "portugues": "barreira", "visibilidade": true },
