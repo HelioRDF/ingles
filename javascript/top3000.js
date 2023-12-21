@@ -139,19 +139,19 @@ const palavras_aprendendo = [
     { "ingles": "belong", "portugues": "pertencer", "visibilidade": true },
     {"ingles": "below", "portugues": "abaixo", "visibilidade": true},
     {"ingles": "belt", "portugues": "cinto", "visibilidade": true},
-    {"ingles": "bench", "portugues": "banco", "visibilidade": true},
     {"ingles": "bend", "portugues": "curva", "visibilidade": true},
-    {"ingles": "beneath", "portugues": "abaixo", "visibilidade": true},
-    {"ingles": "benefit", "portugues": "benefício", "visibilidade": true},
-    {"ingles": "beside", "portugues": "ao lado de", "visibilidade": true},
-    {"ingles": "besides", "portugues": "além de", "visibilidade": true},
-    {"ingles": "best", "portugues": "melhor", "visibilidade": true}
+    {"ingles": "beneath", "portugues": "abaixo", "visibilidade": true}
 ]
 
 const palavras_aprendidas = [
-    { "ingles": "belief", "portugues": "crença", "visibilidade": true },
-    { "ingles": "believe", "portugues": "acreditar", "visibilidade": true },
-    { "ingles": "bell", "portugues": "sino", "visibilidade": true },
+    {"ingles": "benefit", "portugues": "benefício", "visibilidade": false},
+    {"ingles": "besides", "portugues": "além de", "visibilidade": false},
+    {"ingles": "bench", "portugues": "banco", "visibilidade": false},
+    {"ingles": "beside", "portugues": "ao lado de", "visibilidade": false},
+    {"ingles": "best", "portugues": "melhor", "visibilidade": false},
+    { "ingles": "belief", "portugues": "crença", "visibilidade": false },
+    { "ingles": "believe", "portugues": "acreditar", "visibilidade": false },
+    { "ingles": "bell", "portugues": "sino", "visibilidade": false },
     { "ingles": "begin", "portugues": "começar", "visibilidade": false },
     { "ingles": "beginning", "portugues": "começo", "visibilidade": false },
     { "ingles": "bed", "portugues": "cama", "visibilidade": false },
